@@ -1,0 +1,92 @@
+# SALTY Retreats — Brand Website
+# Cursor Rules — Last updated: 2026-02-21
+
+## PROJECT STATUS: FRESH START
+This project was wiped clean on 2026-02-21. All previous experimental code has been deleted.
+DO NOT reference, recreate, or build upon any old components, pages, or patterns.
+This is a blank Next.js scaffold. Everything is built from scratch following the design system.
+
+## Source of Truth
+- **Design tokens & component rules:** `DESIGN-SYSTEM-RULES.md` in this repo — READ IT BEFORE WRITING ANY CODE
+- **Information Architecture:** `../../SALTY-INFORMATION-ARCHITECTURE.md` (in parent /Desktop/Claude/ folder)
+- **Brand Guidelines:** `/Users/nathanielbehar/Desktop/SALTY Retreats/SALTY Brand Guidelines.pdf`
+
+## Tech Stack
+- **Framework:** Next.js 15 (App Router)
+- **Styling:** Tailwind CSS v4 with `@tailwindcss/postcss` plugin
+- **Animation:** Framer Motion
+- **CMS:** Sanity (headless — content editing only, not visual)
+- **Hosting:** Vercel
+- **TypeScript:** Strict mode
+
+## Brand Colors (from official Brand Guidelines — these are NON-NEGOTIABLE)
+### Primary
+- Dark Teal: #0E3A2D (primary backgrounds, text on light)
+- Sand: #E7D7C0 (warm backgrounds)
+- Paper White: #F7F4ED (page backgrounds)
+- Sky Blue: #B6D4EA (accents, highlights)
+- Warm Coral: #F75A3D (CTAs, primary buttons)
+- Golden Sun: #FED260 (highlights, badges)
+
+### Secondary
+- Palm Green: #3A6B35
+- Aquamarine: #A4E5D9
+- Rust Red: #C74235
+- Rose Stone: #CCB4B3
+- Bright Coral: #FF7E70
+- Slate Grey: #4A4E58
+
+### DO NOT USE THESE OLD INCORRECT VALUES:
+- ❌ #E8836B (was incorrectly used as "coral")
+- ❌ #1A3C34 (was incorrectly used as "teal")
+- ❌ #F5F0E8 (was incorrectly used as "sand")
+- ❌ #FAFAF5 (was incorrectly used as "cream")
+- ❌ #F2C94C (was incorrectly used as "gold")
+
+## Typography
+- **Display:** TAN Headline — ALWAYS uppercase, letter-spacing: -0.03em (kernel -30)
+- **Body:** Roca One Light
+- Font files go in `public/fonts/`
+
+## Architecture
+- Two separate apps share the same brand system:
+  1. **Brand site** (this repo): getsaltyretreats.com
+  2. **Lead magnet app** (separate repo): explore.getsaltyretreats.com
+- Sanity CMS for all editable content (Erin manages content, Nate manages code)
+- GHL/Stripe for booking (embedded, managed by Sabhi)
+
+## Brand Voice
+- Positioning: "Fitness Retreats for Fun-Loving People"
+- Tagline: "Make fun of wellness"
+- Tone: energetic, grounded, human, funny, inclusive
+- Anti: woo, corporate, template-y, influencer
+
+## Key Patterns
+- Use `@theme inline` directive in globals.css for Tailwind v4 custom properties
+- Prefer `const` over `let` (ESLint prefer-const)
+- Use semantic color tokens from DESIGN-SYSTEM-RULES.md, not raw hex values
+- All components should support Framer Motion animations
+- Mobile-first responsive design
+- Organic, warm feel — rounded corners (16px default), no sharp edges
+
+## External Integrations
+- WhatsApp: +1 431-829-1135
+- Instagram: @salty.retreats
+- Email: hello@getsaltyretreats.com
+- Booking: GHL/Stripe (embedded checkout)
+
+## File Structure
+```
+src/
+  app/           → Pages (App Router)
+  components/    → React components
+    layout/      → Navbar, Footer, etc.
+    shared/      → Reusable (Button, Card, etc.)
+    sections/    → Page sections (Hero, CTA, etc.)
+  lib/           → Utilities, helpers
+  types/         → TypeScript types
+  sanity/        → Sanity schemas & client
+public/
+  fonts/         → TAN Headline, Roca
+  images/        → Static images
+```

@@ -1,10 +1,5 @@
 @import "tailwindcss";
 
-/* ========================================
-   SALTY RETREATS — Design System Tokens
-   Source: Brand Guidelines 2025 + DESIGN-SYSTEM-RULES.md
-   ======================================== */
-
 @font-face {
   font-family: 'TAN Headline';
   src: url('/fonts/TanHeadline/TANHEADLINE-Regular.ttf') format('truetype');
@@ -38,7 +33,6 @@
 }
 
 @theme inline {
-  /* ── Primary Brand Colors ── */
   --color-teal: #0E3A2D;
   --color-sand: #E7D7C0;
   --color-paper-white: #F7F4ED;
@@ -46,7 +40,6 @@
   --color-coral: #F75A3D;
   --color-golden: #FED260;
 
-  /* ── Secondary Brand Colors ── */
   --color-palm-green: #3A6B35;
   --color-aquamarine: #A4E5D9;
   --color-rust-red: #C74235;
@@ -54,7 +47,6 @@
   --color-bright-coral: #FF7E70;
   --color-slate-grey: #4A4E58;
 
-  /* ── Surface Tokens ── */
   --color-surface-base: #F7F4ED;
   --color-surface-warm-light: #F0E8DB;
   --color-surface-warm: #E7D7C0;
@@ -62,7 +54,6 @@
   --color-surface-dark-raised: #1F4638;
   --color-surface-dark-deep: #0B3126;
 
-  /* ── Backward Compatibility (existing components) ── */
   --color-salty-teal: #0E3A2D;
   --color-salty-teal-light: #1F4638;
   --color-salty-teal-dark: #0B3126;
@@ -78,7 +69,6 @@
   --color-salty-rust: #C74235;
   --color-salty-olive: #3A6B35;
 
-  /* ── Fonts ── */
   --font-display: 'TAN Headline', Georgia, 'Times New Roman', serif;
   --font-body: 'Roca', system-ui, -apple-system, sans-serif;
 }
@@ -87,7 +77,6 @@
   --shadow-sm: 0 1px 3px rgba(30,25,20,0.06), 0 1px 2px rgba(30,25,20,0.04);
   --shadow-md: 0 4px 12px rgba(30,25,20,0.08), 0 2px 4px rgba(30,25,20,0.04);
   --shadow-lg: 0 12px 32px rgba(30,25,20,0.12), 0 4px 8px rgba(30,25,20,0.06);
-
   --duration-instant: 100ms;
   --duration-fast: 200ms;
   --duration-base: 250ms;
@@ -98,9 +87,7 @@
   --ease-exit: cubic-bezier(0.4, 0.0, 1.0, 1.0);
 }
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
   font-family: var(--font-body);
@@ -110,51 +97,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-::selection {
-  background-color: var(--color-coral);
-  color: white;
-}
+::selection { background-color: var(--color-coral); color: white; }
 
-::-webkit-scrollbar {
-  width: 8px;
-}
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--color-sand); }
+::-webkit-scrollbar-thumb { background: var(--color-teal); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-surface-dark-raised); }
 
-::-webkit-scrollbar-track {
-  background: var(--color-sand);
-}
+h1, h2, h3, h4, h5 { font-family: var(--font-display); }
 
-::-webkit-scrollbar-thumb {
-  background: var(--color-teal);
-  border-radius: 4px;
-}
+.text-hero { font-size: clamp(2.5rem, 7vw, 4.5rem); line-height: 1.1; }
+.text-section { font-size: clamp(1.75rem, 4vw, 3rem); line-height: 1.25; }
 
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-surface-dark-raised);
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: var(--font-display);
-}
-
-.text-hero {
-  font-size: clamp(2.5rem, 7vw, 4.5rem);
-  line-height: 1.1;
-}
-
-.text-section {
-  font-size: clamp(1.75rem, 4vw, 3rem);
-  line-height: 1.25;
-}
-
-.swiper-pagination-bullet {
-  background: var(--color-teal) !important;
-  opacity: 0.3 !important;
-}
-
-.swiper-pagination-bullet-active {
-  opacity: 1 !important;
-  background: var(--color-coral) !important;
-}
+.swiper-pagination-bullet { background: var(--color-teal) !important; opacity: 0.3 !important; }
+.swiper-pagination-bullet-active { opacity: 1 !important; background: var(--color-coral) !important; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
