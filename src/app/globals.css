@@ -1,26 +1,165 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ========================================
+   SALTY RETREATS — Design System Tokens
+   Source: Brand Guidelines 2025 + DESIGN-SYSTEM-RULES.md
+   ======================================== */
+
+@font-face {
+  font-family: 'TAN Headline';
+  src: url('/fonts/TanHeadline/TANHEADLINE-Regular.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roca';
+  src: url('/fonts/Roca/Roca Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roca';
+  src: url('/fonts/Roca/Roca Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roca';
+  src: url('/fonts/Roca/Roca Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* ── Primary Brand Colors ── */
+  --color-teal: #0E3A2D;
+  --color-sand: #E7D7C0;
+  --color-paper-white: #F7F4ED;
+  --color-sky: #B6D4EA;
+  --color-coral: #F75A3D;
+  --color-golden: #FED260;
+
+  /* ── Secondary Brand Colors ── */
+  --color-palm-green: #3A6B35;
+  --color-aquamarine: #A4E5D9;
+  --color-rust-red: #C74235;
+  --color-rose-stone: #CCB4B3;
+  --color-bright-coral: #FF7E70;
+  --color-slate-grey: #4A4E58;
+
+  /* ── Surface Tokens ── */
+  --color-surface-base: #F7F4ED;
+  --color-surface-warm-light: #F0E8DB;
+  --color-surface-warm: #E7D7C0;
+  --color-surface-dark: #0E3A2D;
+  --color-surface-dark-raised: #1F4638;
+  --color-surface-dark-deep: #0B3126;
+
+  /* ── Backward Compatibility (existing components) ── */
+  --color-salty-teal: #0E3A2D;
+  --color-salty-teal-light: #1F4638;
+  --color-salty-teal-dark: #0B3126;
+  --color-salty-sand: #E7D7C0;
+  --color-salty-sand-dark: #D4C9B0;
+  --color-salty-cream: #F7F4ED;
+  --color-salty-coral: #F75A3D;
+  --color-salty-coral-dark: #C74235;
+  --color-salty-gold: #FED260;
+  --color-salty-gold-dark: #E5BD50;
+  --color-salty-sky: #B6D4EA;
+  --color-salty-sky-dark: #94BDCF;
+  --color-salty-rust: #C74235;
+  --color-salty-olive: #3A6B35;
+
+  /* ── Fonts ── */
+  --font-display: 'TAN Headline', Georgia, 'Times New Roman', serif;
+  --font-body: 'Roca', system-ui, -apple-system, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --shadow-sm: 0 1px 3px rgba(30,25,20,0.06), 0 1px 2px rgba(30,25,20,0.04);
+  --shadow-md: 0 4px 12px rgba(30,25,20,0.08), 0 2px 4px rgba(30,25,20,0.04);
+  --shadow-lg: 0 12px 32px rgba(30,25,20,0.12), 0 4px 8px rgba(30,25,20,0.06);
+
+  --duration-instant: 100ms;
+  --duration-fast: 200ms;
+  --duration-base: 250ms;
+  --duration-moderate: 300ms;
+  --duration-slow: 400ms;
+  --ease-default: cubic-bezier(0.25, 0.1, 0.25, 1.0);
+  --ease-enter: cubic-bezier(0.0, 0.0, 0.2, 1.0);
+  --ease-exit: cubic-bezier(0.4, 0.0, 1.0, 1.0);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  background-color: var(--color-surface-base);
+  color: var(--color-teal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-coral);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-sand);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-teal);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-surface-dark-raised);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-display);
+}
+
+.text-hero {
+  font-size: clamp(2.5rem, 7vw, 4.5rem);
+  line-height: 1.1;
+}
+
+.text-section {
+  font-size: clamp(1.75rem, 4vw, 3rem);
+  line-height: 1.25;
+}
+
+.swiper-pagination-bullet {
+  background: var(--color-teal) !important;
+  opacity: 0.3 !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background: var(--color-coral) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
