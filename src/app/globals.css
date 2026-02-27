@@ -1,0 +1,286 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'TAN Headline';
+  src: url('/fonts/TanHeadline/TANHEADLINE-Regular.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roca';
+  src: url('/fonts/Roca/Roca Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roca';
+  src: url('/fonts/Roca/Roca Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roca';
+  src: url('/fonts/Roca/Roca Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roca';
+  src: url('/fonts/Roca/Roca Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme inline {
+  /* Primary brand colors */
+  --color-teal: #0E3A2D;
+  --color-sand: #E7D7C0;
+  --color-paper-white: #F7F4ED;
+  --color-sky: #B6D4EA;
+  --color-coral: #F75A3D;
+  --color-golden: #FED260;
+
+  /* Secondary brand colors */
+  --color-palm-green: #3A6B35;
+  --color-aquamarine: #A4E5D9;
+  --color-rust-red: #C74235;
+  --color-rust-dark: #A7372C;
+  --color-rose-stone: #CCB4B3;
+  --color-bright-coral: #FF7E70;
+  --color-slate-grey: #4A4E58;
+
+  /* Surface tokens */
+  --color-surface-base: #F7F4ED;
+  --color-surface-warm-light: #F0E8DB;
+  --color-surface-warm: #E7D7C0;
+  --color-surface-dark: #0E3A2D;
+  --color-surface-dark-raised: #1F4638;
+  --color-surface-dark-deep: #0B3126;
+
+  /* Retreat theme overrides (set per retreat via data-retreat; defaults to Sri Lanka) */
+  --retreat-primary: #0E3A2D;
+  --retreat-secondary: #FF7E70;
+  --retreat-accent: #F75A3D;
+  --retreat-surface: #E4E5DD;
+  --retreat-dark: #0E3A2D;
+  --retreat-text-on-primary: #F7F4ED;
+  --retreat-ticket-text: #FF7E70;
+
+  --font-display: 'TAN Headline', Georgia, 'Times New Roman', serif;
+  --font-body: 'Roca', system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  /* Spacing — primitive scale (4px base) */
+  --space-px: 1px;
+  --space-0-5: 2px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* Semantic spacing */
+  --space-section-y: clamp(48px, 8vw, 96px);
+  --space-section-x: clamp(16px, 5vw, 80px);
+  --space-container-max: 1200px;
+  --space-component-y: clamp(16px, 3vw, 32px);
+  --space-component-x: clamp(16px, 3vw, 32px);
+  --space-card-padding: clamp(16px, 2vw, 24px);
+  --space-stack-sm: clamp(8px, 1.5vw, 12px);
+  --space-stack-md: clamp(16px, 2vw, 24px);
+  --space-stack-lg: clamp(24px, 4vw, 48px);
+  --space-inline-sm: 8px;
+  --space-inline-md: 16px;
+  --space-grid-gap: clamp(16px, 2vw, 24px);
+
+  /* Border radius */
+  --radius-button: 9999px;
+  --radius-card: 16px;
+  --radius-input: 8px;
+  --radius-badge: 9999px;
+  --radius-modal: 24px;
+  --radius-tag: 9999px;
+
+  /* Border width */
+  --border-thin: 1px;
+  --border-base: 2px;
+  --border-thick: 3px;
+  --border-photo-frame: 4px;
+  --border-coach-frame: 6px;
+
+  /* Typography scale */
+  --type-display: clamp(2.5rem, 6vw, 4.5rem);
+  --type-h1: clamp(2.25rem, 5vw, 3.75rem);
+  --type-h2: clamp(1.75rem, 4vw, 3rem);
+  --type-h3: clamp(1.375rem, 2.5vw, 2rem);
+  --type-h4: clamp(1.125rem, 1.5vw, 1.375rem);
+  --type-h5: clamp(1rem, 1.2vw, 1.125rem);
+  --type-body-lg: clamp(1rem, 1.2vw, 1.125rem);
+  --type-body-base: clamp(0.875rem, 1vw, 1rem);
+  --type-body-sm: clamp(0.75rem, 0.9vw, 0.875rem);
+  --type-label: clamp(0.75rem, 0.9vw, 0.875rem);
+  --type-button: clamp(1rem, 1.2vw, 1.125rem);
+  --type-caption: clamp(0.6875rem, 0.8vw, 0.75rem);
+
+  /* Z-index */
+  --z-base: 1;
+  --z-card-overlay: 50;
+  --z-sticky: 100;
+  --z-drawer: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+
+  /* Base shadows */
+  --shadow-sm: 0 1px 3px rgba(30,25,20,0.06), 0 1px 2px rgba(30,25,20,0.04);
+  --shadow-md: 0 4px 12px rgba(30,25,20,0.08), 0 2px 4px rgba(30,25,20,0.04);
+  --shadow-lg: 0 12px 32px rgba(30,25,20,0.12), 0 4px 8px rgba(30,25,20,0.06);
+
+  /* Card shadows */
+  --shadow-topcard-resting: 0 4px 6px 10px rgba(30,25,20,0.04);
+  --shadow-bottomcard-resting: 0 6px 6px 10px rgba(30,25,20,0.06);
+  --shadow-card-resting: 0 2px 6px rgba(30,25,20,0.06), 0 8px 24px rgba(30,25,20,0.10);
+  --shadow-topcard-hover: 0 4px 10px 8px rgba(30,25,20,0.06);
+  --shadow-bottomcard-hover: 0 5px 6px 20px rgba(30,25,20,0.06);
+  --shadow-card-hover: 4px 10px 10px rgba(247,90,61,0.12), 2px 18px 48px rgba(247,90,61,0.20);
+
+  /* Button hover shadows */
+  --shadow-btn-primary-hover: 1px 3px 6px 2px rgba(14,58,45,0.12);
+  --shadow-btn-secondary-hover: 2px 4px 6px 1px rgba(182,212,234,0.40);
+
+  /* Opacity variants */
+  --color-sand-60: rgba(231, 215, 192, 0.6);
+  --color-whatsapp: #25D366;
+  --color-paper-white-10: rgba(247, 244, 237, 0.1);
+
+  /* Motion */
+  --duration-instant: 100ms;
+  --duration-fast: 200ms;
+  --duration-base: 250ms;
+  --duration-moderate: 300ms;
+  --duration-slow: 400ms;
+  --ease-default: cubic-bezier(0.25, 0.1, 0.25, 1.0);
+  --ease-enter: cubic-bezier(0.0, 0.0, 0.2, 1.0);
+  --ease-exit: cubic-bezier(0.4, 0.0, 1.0, 1.0);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-surface-base);
+  color: var(--color-teal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection { background-color: var(--color-coral); color: white; }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--color-sand); }
+::-webkit-scrollbar-thumb { background: var(--color-teal); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-surface-dark-raised); }
+
+h1, h2, h3, h4, h5 { font-family: var(--font-display); }
+
+.text-hero { font-size: clamp(2.5rem, 7vw, 4.5rem); line-height: 1.1; }
+.text-section { font-size: clamp(1.75rem, 4vw, 3rem); line-height: 1.25; }
+
+.swiper-pagination-bullet { background: var(--color-teal) !important; opacity: 0.3 !important; }
+.swiper-pagination-bullet-active { opacity: 1 !important; background: var(--color-coral) !important; }
+
+/* Retreat theme overrides — each retreat sets its palette via data-retreat */
+[data-retreat="sri-lanka"] {
+  --retreat-primary: #0E3A2D;
+  --retreat-secondary: #FF7E70;
+  --retreat-accent: #F75A3D;
+  --retreat-surface: #E4E5DD;
+  --retreat-dark: #0E3A2D;
+  --retreat-text-on-primary: #F7F4ED;
+  --retreat-ticket-text: #FF7E70;
+}
+[data-retreat="panama"] {
+  --retreat-primary: #3A6B35;
+  --retreat-secondary: #B6D4EA;
+  --retreat-accent: #C74235;
+  --retreat-surface: #E7E9DE;
+  --retreat-dark: #3A6B35;
+  --retreat-text-on-primary: #F7F4ED;
+  --retreat-ticket-text: #F7F4ED;
+}
+[data-retreat="morocco"] {
+  --retreat-primary: #C74235;
+  --retreat-secondary: #E7D7C0;
+  --retreat-accent: #F75A3D;
+  --retreat-surface: #F3E5DE;
+  --retreat-dark: #A7372C;
+  --retreat-text-on-primary: #F7F4ED;
+  --retreat-ticket-text: #E7D7C0;
+}
+[data-retreat="sicily"] {
+  --retreat-primary: #FED260;
+  --retreat-secondary: #B6D4EA;
+  --retreat-accent: #C74235;
+  --retreat-surface: #F7F1E1;
+  --retreat-dark: #A7372C;
+  --retreat-text-on-primary: #F7F4ED;
+  --retreat-ticket-text: #0E3A2D;
+}
+[data-retreat="el-salvador"] {
+  --retreat-primary: #4A4E58;
+  --retreat-secondary: #CCB4B3;
+  --retreat-accent: #A4E5D9;
+  --retreat-surface: #E9E6E1;
+  --retreat-dark: #4A4E58;
+  --retreat-text-on-primary: #F7F4ED;
+  --retreat-ticket-text: #A4E5D9;
+}
+[data-retreat="costa-rica"] {
+  --retreat-primary: #3A6B35;
+  --retreat-secondary: #0E3A2D;
+  --retreat-accent: #B6D4EA;
+  --retreat-surface: #E7E9DE;
+  --retreat-dark: #0E3A2D;
+  --retreat-text-on-primary: #F7F4ED;
+  --retreat-ticket-text: #B6D4EA;
+}
+[data-retreat="nicaragua"] {
+  --retreat-primary: #B6D4EA;
+  --retreat-secondary: #3A6B35;
+  --retreat-accent: #FED260;
+  --retreat-surface: #F1F1EC;
+  --retreat-dark: #3A6B35;
+  --retreat-text-on-primary: #F7F4ED;
+  --retreat-ticket-text: #FED260;
+}
+
+/* Marquee fallback for no-JS / reduced-motion */
+@keyframes salty-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
