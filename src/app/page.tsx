@@ -1,10 +1,19 @@
-export default function Home() {
+import { client } from '@/lib/sanity/client';
+import { allRetreatsQuery, featuredTestimonialsQuery, siteSettingsQuery } from '@/lib/sanity/queries';
+import HomepageClient from './HomepageClient';
+
+export default async function Home() {
+  const [retreats, testimonials, settings] = await Promise.all([
+    client.fetch(allRetreatsQuery).catch(() => []),
+    client.fetch(featuredTestimonialsQuery).catch(() => []),
+    client.fetch(siteSettingsQuery).catch(() => null),
+  ]);
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
-      <h1 className="text-4xl font-bold">SALTY Retreats</h1>
-      <p className="mt-4 text-lg text-gray-600">
-        Fitness Retreats for Fun-Loving People
-      </p>
-    </main>
+    <HomepageClient
+      retreats={retreats}
+      testimonials={testimonials}
+      settings={settings}
+    />
   );
 }

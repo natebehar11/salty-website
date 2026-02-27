@@ -8,6 +8,7 @@ interface EmailSignupProps {
   onDark?: boolean;
   placeholder?: string;
   buttonText?: string;
+  source?: string;
 }
 
 export default function EmailSignup({
@@ -15,6 +16,7 @@ export default function EmailSignup({
   onDark = false,
   placeholder = 'Your email address',
   buttonText = 'Join the Community',
+  source,
 }: EmailSignupProps) {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');

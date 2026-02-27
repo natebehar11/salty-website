@@ -12,6 +12,7 @@ interface FAQAccordionProps {
   items: FAQItem[];
   className?: string;
   onDark?: boolean;
+  withSchema?: boolean;
 }
 
 function ChevronIcon({ open }: { open: boolean }) {
@@ -35,7 +36,7 @@ function ChevronIcon({ open }: { open: boolean }) {
   );
 }
 
-export default function FAQAccordion({ items, className = '', onDark = false }: FAQAccordionProps) {
+export default function FAQAccordion({ items, className = '', onDark = false, withSchema = false }: FAQAccordionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const shouldReduceMotion = useReducedMotion();
 
@@ -45,6 +46,25 @@ export default function FAQAccordion({ items, className = '', onDark = false }: 
 
   return (
     <div className={`divide-y ${className}`} style={{ borderColor }}>
+      {withSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: items.map((item) => ({
+                '@type': 'Question',
+                name: item.question,
+                acceptedAnswer: {
+                  '@type': 'Answer',
+                  text: item.answer,
+                },
+              })),
+            }),
+          }}
+        />
+      )}
       {items.map((item, i) => {
         const isOpen = openIndex === i;
 

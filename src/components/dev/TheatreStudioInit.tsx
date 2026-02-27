@@ -12,6 +12,7 @@ export default function TheatreStudioInit() {
     if (process.env.NODE_ENV !== 'development') return;
     // Theatre.js Studio — visual timeline editor for animation experimentation
     // Only loads in development; zero production bundle impact
+    // @ts-expect-error — optional dev dependency, not always installed
     import('@theatre/studio')
       .then((studio) => studio.default.initialize())
       .catch(() => { /* Optional: studio not installed */ });

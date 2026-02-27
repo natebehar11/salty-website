@@ -12,9 +12,12 @@
     "@sanity/client": "^7.16.0",
     "framer-motion": "^12.0.0",
     "next": "^15.1.0",
+    "next-sanity": "^12.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "sharp": "^0.34.5"
+    "sanity": "^3.75.0",
+    "sharp": "^0.34.5",
+    "styled-components": "^6.3.11"
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.39.0",

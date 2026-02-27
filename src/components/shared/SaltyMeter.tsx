@@ -14,6 +14,7 @@ interface SaltyMeterProps {
   accentColor?: string;
   onClose?: () => void;
   className?: string;
+  onDark?: boolean;
 }
 
 const DIMENSIONS: { key: Dimension; label: string; legacyKey?: string }[] = [
