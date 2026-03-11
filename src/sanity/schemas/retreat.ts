@@ -1,4 +1,4 @@
-import { defineField, defineType } from 'sanity';
+import { defineField, defineType, defineArrayMember } from 'sanity';
 
 export const roomTier = defineType({
   name: 'roomTier',
@@ -8,8 +8,8 @@ export const roomTier = defineType({
     defineField({ name: 'type', title: 'Room Type', type: 'string' }),
     defineField({ name: 'priceUSD', title: 'Price (USD)', type: 'number' }),
     defineField({ name: 'description', title: 'Description', type: 'text', rows: 2 }),
-    defineField({ name: 'highlights', title: 'Highlights', type: 'array', of: [{ type: 'string' }] }),
-    defineField({ name: 'photos', title: 'Room Photos', type: 'array', of: [{ type: 'image', options: { hotspot: true } }] }),
+    defineField({ name: 'highlights', title: 'Highlights', type: 'array', of: [defineArrayMember({ type: 'string' })] }),
+    defineField({ name: 'photos', title: 'Room Photos', type: 'array', of: [defineArrayMember({ type: 'image', options: { hotspot: true } })] }),
   ],
   preview: {
     select: { title: 'type', subtitle: 'priceUSD' },
@@ -27,15 +27,30 @@ export const itineraryDay = defineType({
   fields: [
     defineField({ name: 'dayNumber', title: 'Day Number', type: 'number', validation: (rule) => rule.required().min(1) }),
     defineField({ name: 'title', title: 'Day Title', type: 'string' }),
-    defineField({ name: 'description', title: 'Description', type: 'text', rows: 4 }),
+    defineField({ name: 'location', title: 'Location', type: 'string', description: 'e.g., "Panama City" or "Santa Catalina"' }),
+    defineField({ name: 'summary', title: 'Summary', type: 'string', description: 'Short one-line summary for collapsed view' }),
+    defineField({ name: 'description', title: 'Full Description', type: 'text', rows: 4 }),
     defineField({ name: 'photo', title: 'Day Photo', type: 'image', options: { hotspot: true } }),
-    defineField({ name: 'mealsIncluded', title: 'Meals Included', type: 'array', of: [{ type: 'string' }], options: { list: [{ title: 'Breakfast', value: 'breakfast' }, { title: 'Lunch', value: 'lunch' }, { title: 'Dinner', value: 'dinner' }] } }),
+    defineField({
+      name: 'mealsIncluded',
+      title: 'Meals Included',
+      type: 'array',
+      of: [defineArrayMember({ type: 'string' })],
+      options: {
+        list: [
+          { title: 'Breakfast', value: 'breakfast' },
+          { title: 'Lunch', value: 'lunch' },
+          { title: 'Dinner', value: 'dinner' },
+        ],
+      },
+    }),
     defineField({ name: 'accommodation', title: 'Accommodation Note', type: 'string' }),
   ],
   preview: {
-    select: { dayNumber: 'dayNumber', title: 'title' },
-    prepare: ({ dayNumber, title }) => ({
+    select: { dayNumber: 'dayNumber', title: 'title', location: 'location' },
+    prepare: ({ dayNumber, title, location }) => ({
       title: `Day ${dayNumber}: ${title || 'Untitled'}`,
+      subtitle: location || '',
     }),
   },
 });
@@ -48,6 +63,10 @@ export const activitySection = defineType({
     defineField({ name: 'name', title: 'Activity Name', type: 'string' }),
     defineField({ name: 'description', title: 'Description', type: 'text', rows: 3 }),
     defineField({ name: 'icon', title: 'Icon', type: 'string', description: 'Activity icon identifier (e.g., sweat, surf, yoga, explore, rest)' }),
+    defineField({ name: 'image', title: 'Activity Image', type: 'image', options: { hotspot: true } }),
+    defineField({ name: 'frequency', title: 'Frequency', type: 'string', description: 'e.g., "Daily", "3x per week", "2 sessions"' }),
+    defineField({ name: 'videoPlaceholderId', title: 'YouTube Video ID', type: 'string', description: 'YouTube video ID for activity preview' }),
+    defineField({ name: 'modalDetails', title: 'Expanded Details', type: 'text', rows: 4, description: 'Longer description shown in the activity detail modal' }),
   ],
 });
 
@@ -61,7 +80,48 @@ export const saltyMeterScores = defineType({
     defineField({ name: 'party', title: 'Party', type: 'number', validation: (rule) => rule.required().min(1).max(10) }),
     defineField({ name: 'sweat', title: 'Sweat', type: 'number', validation: (rule) => rule.required().min(1).max(10) }),
     defineField({ name: 'rest', title: 'Rest', type: 'number', validation: (rule) => rule.required().min(1).max(10) }),
+    defineField({ name: 'groupSize', title: 'Group Size Scale', type: 'number', description: '1 = ~6 guests, 10 = 60+ guests', validation: (rule) => rule.min(1).max(10) }),
   ],
+});
+
+export const videoTestimonial = defineType({
+  name: 'videoTestimonial',
+  title: 'Video Testimonial',
+  type: 'object',
+  fields: [
+    defineField({ name: 'videoId', title: 'YouTube Video ID', type: 'string', validation: (rule) => rule.required() }),
+    defineField({ name: 'guestName', title: 'Guest Name', type: 'string' }),
+    defineField({ name: 'label', title: 'Label', type: 'string', description: 'e.g., "Panama 2024 Guest"' }),
+  ],
+  preview: {
+    select: { title: 'guestName', subtitle: 'label' },
+  },
+});
+
+export const sampleDayEntry = defineType({
+  name: 'sampleDayEntry',
+  title: 'Sample Day Entry',
+  type: 'object',
+  fields: [
+    defineField({ name: 'time', title: 'Time', type: 'string', description: 'e.g., "6:30 AM"' }),
+    defineField({ name: 'activity', title: 'Activity', type: 'string', description: 'e.g., "Sunrise yoga on the beach"' }),
+  ],
+  preview: {
+    select: { title: 'time', subtitle: 'activity' },
+  },
+});
+
+export const quickFact = defineType({
+  name: 'quickFact',
+  title: 'Quick Fact',
+  type: 'object',
+  fields: [
+    defineField({ name: 'label', title: 'Label', type: 'string', description: 'e.g., "Duration", "Group Size"' }),
+    defineField({ name: 'value', title: 'Value', type: 'string', description: 'e.g., "8 days / 7 nights", "35-45 guests"' }),
+  ],
+  preview: {
+    select: { title: 'label', subtitle: 'value' },
+  },
 });
 
 export const retreatColorTheme = defineType({
@@ -89,6 +149,7 @@ export const retreat = defineType({
     { name: 'pricing', title: 'Pricing & Booking' },
     { name: 'activities', title: 'Activities & Itinerary' },
     { name: 'accommodation', title: 'Accommodation' },
+    { name: 'media', title: 'Media & Gallery' },
     { name: 'people', title: 'Coaches & Testimonials' },
     { name: 'seo', title: 'SEO & Meta' },
     { name: 'theme', title: 'Color Theme' },
@@ -154,6 +215,13 @@ export const retreat = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
+      name: 'dateDisplay',
+      title: 'Date Display Override',
+      type: 'string',
+      group: 'basic',
+      description: 'Optional. e.g., "Feb 22 – Mar 1, 2026". Auto-generated from dates if empty.',
+    }),
+    defineField({
       name: 'totalDays',
       title: 'Total Days',
       type: 'number',
@@ -211,6 +279,26 @@ export const retreat = defineType({
       group: 'basic',
       description: 'Manual override. Leave empty to hide.',
     }),
+    defineField({
+      name: 'quickFacts',
+      title: 'Quick Facts',
+      type: 'array',
+      group: 'basic',
+      of: [defineArrayMember({ type: 'quickFact' })],
+      description: 'Key-value pairs shown as quick reference (Duration, Per Day, etc.)',
+    }),
+    defineField({
+      name: 'coBrand',
+      title: 'Co-Brand Partner',
+      type: 'object',
+      group: 'basic',
+      description: 'Optional partner for co-branded retreats (e.g., Hustl+Flow, Synergy Physio)',
+      fields: [
+        defineField({ name: 'name', title: 'Partner Name', type: 'string' }),
+        defineField({ name: 'logo', title: 'Partner Logo', type: 'image' }),
+        defineField({ name: 'logoUrl', title: 'Partner Logo URL (fallback)', type: 'url', description: 'External logo URL if not uploaded' }),
+      ],
+    }),
 
     // ── Content ──
     defineField({
@@ -228,6 +316,13 @@ export const retreat = defineType({
       description: 'One compelling sensory line below the destination name',
     }),
     defineField({
+      name: 'heroVideoUrl',
+      title: 'Hero Video URL',
+      type: 'url',
+      group: 'content',
+      description: 'Optional background video for the hero section',
+    }),
+    defineField({
       name: 'geoDefinition',
       title: 'GEO Definition Block',
       type: 'text',
@@ -240,29 +335,46 @@ export const retreat = defineType({
       title: 'Experience Narrative',
       type: 'array',
       group: 'content',
-      of: [{ type: 'block' }],
+      of: [defineArrayMember({ type: 'block' })],
       description: '2-3 paragraphs: sensory details, daily rhythm, transformation',
+    }),
+    defineField({
+      name: 'experienceImage',
+      title: 'Experience Section Image',
+      type: 'image',
+      group: 'content',
+      options: { hotspot: true },
+      description: 'Hero image for the experience narrative section',
+    }),
+    defineField({
+      name: 'experienceImageUrl',
+      title: 'Experience Image URL (fallback)',
+      type: 'url',
+      group: 'content',
+      description: 'External image URL if not uploaded to Sanity',
     }),
     defineField({
       name: 'forYouIf',
       title: '"This retreat is for you if..." Checklist',
       type: 'array',
       group: 'content',
-      of: [{ type: 'string' }],
+      of: [defineArrayMember({ type: 'string' })],
     }),
     defineField({
       name: 'bestFor',
       title: 'Best For',
-      type: 'string',
+      type: 'array',
       group: 'content',
-      description: 'e.g., "Solo travelers who want surf + social + adventure"',
+      of: [defineArrayMember({ type: 'string' })],
+      description: 'Array of bullet points. e.g., "Solo travelers who want surf + social"',
     }),
     defineField({
       name: 'maybeNotFor',
       title: 'Maybe Not For',
-      type: 'string',
+      type: 'array',
       group: 'content',
-      description: 'Honest self-selection. e.g., "Those seeking silence-only or luxury-resort vibes"',
+      of: [defineArrayMember({ type: 'string' })],
+      description: 'Honest self-selection bullets. e.g., "Those seeking silence-only vibes"',
     }),
     defineField({
       name: 'dailyRhythm',
@@ -283,7 +395,7 @@ export const retreat = defineType({
       title: 'Room Pricing Tiers',
       type: 'array',
       group: 'pricing',
-      of: [{ type: 'roomTier' }],
+      of: [defineArrayMember({ type: 'roomTier' })],
     }),
     defineField({
       name: 'lowestPrice',
@@ -328,20 +440,36 @@ export const retreat = defineType({
       title: 'Activities',
       type: 'array',
       group: 'activities',
-      of: [{ type: 'activitySection' }],
+      of: [defineArrayMember({ type: 'activitySection' })],
     }),
     defineField({
       name: 'itinerary',
       title: 'Day-by-Day Itinerary',
       type: 'array',
       group: 'activities',
-      of: [{ type: 'itineraryDay' }],
+      of: [defineArrayMember({ type: 'itineraryDay' })],
     }),
     defineField({
       name: 'saltyMeter',
       title: 'SALTY Meter Scores',
       type: 'saltyMeterScores',
       group: 'activities',
+    }),
+    defineField({
+      name: 'saltyMeterBlurb',
+      title: 'SALTY Meter Blurb',
+      type: 'text',
+      group: 'activities',
+      rows: 3,
+      description: 'Plain-English narrative explaining the SALTY Meter scores for this retreat',
+    }),
+    defineField({
+      name: 'sampleDay',
+      title: 'Sample Day Timeline',
+      type: 'array',
+      group: 'activities',
+      of: [defineArrayMember({ type: 'sampleDayEntry' })],
+      description: 'Hour-by-hour breakdown of a typical day',
     }),
 
     // ── Accommodation ──
@@ -363,14 +491,63 @@ export const retreat = defineType({
       title: 'Property Features',
       type: 'array',
       group: 'accommodation',
-      of: [{ type: 'string' }],
+      of: [defineArrayMember({ type: 'string' })],
     }),
     defineField({
       name: 'accommodationPhotos',
       title: 'Property Photos',
       type: 'array',
       group: 'accommodation',
-      of: [{ type: 'image', options: { hotspot: true } }],
+      of: [defineArrayMember({ type: 'image', options: { hotspot: true } })],
+    }),
+
+    // ── Media & Gallery ──
+    defineField({
+      name: 'youtubeVideoIds',
+      title: 'YouTube Video IDs',
+      type: 'array',
+      group: 'media',
+      of: [defineArrayMember({ type: 'string' })],
+      description: 'YouTube video IDs for the retreat video gallery',
+    }),
+    defineField({
+      name: 'videoTestimonials',
+      title: 'Video Testimonials',
+      type: 'array',
+      group: 'media',
+      of: [defineArrayMember({ type: 'videoTestimonial' })],
+    }),
+    defineField({
+      name: 'photoStripImages',
+      title: 'Photo Strip Images',
+      type: 'array',
+      group: 'media',
+      of: [defineArrayMember({ type: 'image', options: { hotspot: true } })],
+      description: 'Horizontal scrolling photo strip images',
+    }),
+    defineField({
+      name: 'photoStripUrls',
+      title: 'Photo Strip URLs (fallback)',
+      type: 'array',
+      group: 'media',
+      of: [defineArrayMember({ type: 'url' })],
+      description: 'External image URLs if not uploaded to Sanity CDN',
+    }),
+    defineField({
+      name: 'villaPhotos',
+      title: 'Villa/Property Gallery',
+      type: 'array',
+      group: 'media',
+      of: [defineArrayMember({ type: 'image', options: { hotspot: true } })],
+      description: 'Additional property photos for the gallery section',
+    }),
+    defineField({
+      name: 'villaPhotoUrls',
+      title: 'Villa Photo URLs (fallback)',
+      type: 'array',
+      group: 'media',
+      of: [defineArrayMember({ type: 'url' })],
+      description: 'External villa photo URLs if not uploaded to Sanity CDN',
     }),
 
     // ── Inclusions ──
@@ -379,14 +556,14 @@ export const retreat = defineType({
       title: "What's Included",
       type: 'array',
       group: 'content',
-      of: [{ type: 'string' }],
+      of: [defineArrayMember({ type: 'string' })],
     }),
     defineField({
       name: 'notIncluded',
       title: "What's Not Included",
       type: 'array',
       group: 'content',
-      of: [{ type: 'string' }],
+      of: [defineArrayMember({ type: 'string' })],
     }),
 
     // ── People ──
@@ -395,14 +572,14 @@ export const retreat = defineType({
       title: 'Coaches',
       type: 'array',
       group: 'people',
-      of: [{ type: 'reference', to: [{ type: 'coach' }] }],
+      of: [defineArrayMember({ type: 'reference', to: [{ type: 'coach' }] })],
     }),
     defineField({
       name: 'testimonials',
       title: 'Testimonials',
       type: 'array',
       group: 'people',
-      of: [{ type: 'reference', to: [{ type: 'testimonial' }] }],
+      of: [defineArrayMember({ type: 'reference', to: [{ type: 'testimonial' }] })],
     }),
 
     // ── FAQ ──
@@ -411,7 +588,7 @@ export const retreat = defineType({
       title: 'Retreat FAQs',
       type: 'array',
       group: 'content',
-      of: [{
+      of: [defineArrayMember({
         type: 'object',
         fields: [
           defineField({ name: 'question', title: 'Question', type: 'string' }),
@@ -420,7 +597,7 @@ export const retreat = defineType({
         preview: {
           select: { title: 'question' },
         },
-      }],
+      })],
     }),
 
     // ── Color Theme ──

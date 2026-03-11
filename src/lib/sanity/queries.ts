@@ -45,12 +45,17 @@ export const retreatBySlugQuery = groq`
 
     heroImage,
     heroHeadline,
+    heroVideoUrl,
     geoDefinition,
     experienceNarrative,
+    experienceImage,
+    experienceImageUrl,
     forYouIf,
     bestFor,
     maybeNotFor,
     dailyRhythm,
+    dateDisplay,
+    coBrand,
 
     roomTiers,
     lowestPrice,
@@ -81,6 +86,8 @@ export const retreatBySlugQuery = groq`
       specialties,
       personality,
       cardColor,
+      starColor,
+      textColor,
       isFounder
     },
 
@@ -99,6 +106,19 @@ export const retreatBySlugQuery = groq`
 
     faqs,
     colorTheme,
+
+    // Media
+    youtubeVideoIds,
+    videoTestimonials,
+    photoStripImages,
+    photoStripUrls,
+    villaPhotos,
+    villaPhotoUrls,
+
+    // Extra content
+    quickFacts,
+    saltyMeterBlurb,
+    sampleDay,
 
     seoTitle,
     seoDescription,
@@ -137,6 +157,8 @@ export const allCoachesQuery = groq`
     specialties,
     personality,
     cardColor,
+    starColor,
+    textColor,
     isFounder,
     founderBio
   }

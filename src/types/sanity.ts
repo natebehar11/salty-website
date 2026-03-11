@@ -35,12 +35,18 @@ export type ItineraryDay = {
   photo?: SanityImage;
   mealsIncluded: ('breakfast' | 'lunch' | 'dinner')[];
   accommodation?: string;
+  location?: string;
+  summary?: string;
 };
 
 export type ActivitySection = {
   name: string;
   description: string;
   icon?: string;
+  image?: SanityImage;
+  frequency?: string;
+  videoPlaceholderId?: string;
+  modalDetails?: string;
 };
 
 export type SaltyMeterScores = {
@@ -49,6 +55,28 @@ export type SaltyMeterScores = {
   party: number;
   sweat: number;
   rest: number;
+};
+
+export type VideoTestimonial = {
+  videoId: string;
+  name: string;
+  label?: string;
+};
+
+export type SampleDayEntry = {
+  time: string;
+  activity: string;
+};
+
+export type QuickFact = {
+  label: string;
+  value: string;
+  icon?: string;
+};
+
+export type CoBrand = {
+  name: string;
+  logo?: SanityImage;
 };
 
 export type RetreatColorTheme = {
@@ -92,12 +120,17 @@ export type Retreat = {
 
   heroImage: SanityImage;
   heroHeadline: string;
+  heroVideoUrl?: string;
   geoDefinition: string;
   experienceNarrative: PortableTextBlock[];
+  experienceImage?: SanityImage;
+  experienceImageUrl?: string;
   forYouIf: string[];
-  bestFor: string;
-  maybeNotFor: string;
+  bestFor: string[];
+  maybeNotFor: string[];
   dailyRhythm: DailyRhythm;
+  dateDisplay?: string;
+  coBrand?: CoBrand;
 
   roomTiers: RoomTier[];
   lowestPrice: number;
@@ -123,6 +156,19 @@ export type Retreat = {
   faqs: RetreatFAQ[];
 
   colorTheme: RetreatColorTheme;
+
+  // Media
+  youtubeVideoIds?: string[];
+  videoTestimonials?: VideoTestimonial[];
+  photoStripImages?: SanityImage[];
+  photoStripUrls?: string[];
+  villaPhotos?: SanityImage[];
+  villaPhotoUrls?: string[];
+
+  // Extra content
+  quickFacts?: QuickFact[];
+  saltyMeterBlurb?: string;
+  sampleDay?: SampleDayEntry[];
 
   seoTitle: string;
   seoDescription: string;
@@ -163,6 +209,8 @@ export type Coach = {
   specialties: string[];
   personality: string;
   cardColor: string;
+  starColor?: string;
+  textColor?: string;
   isFounder: boolean;
   founderBio?: PortableTextBlock[];
 };

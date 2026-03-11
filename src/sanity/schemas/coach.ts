@@ -59,6 +59,20 @@ export const coach = defineType({
       validation: (rule) => rule.regex(/^#[0-9A-Fa-f]{6}$/, { name: 'hex color' }),
     }),
     defineField({
+      name: 'starColor',
+      title: 'Star Color',
+      type: 'string',
+      description: 'Hex color for rating stars on this coach\'s card.',
+      validation: (rule) => rule.regex(/^#[0-9A-Fa-f]{6}$/, { name: 'hex color' }),
+    }),
+    defineField({
+      name: 'textColor',
+      title: 'Text Color',
+      type: 'string',
+      description: 'Hex color for text on this coach\'s card (defaults to white if not set).',
+      validation: (rule) => rule.regex(/^#[0-9A-Fa-f]{6}$/, { name: 'hex color' }),
+    }),
+    defineField({
       name: 'isFounder',
       title: 'Is Founder?',
       type: 'boolean',

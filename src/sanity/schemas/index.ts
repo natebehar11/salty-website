@@ -1,4 +1,4 @@
-import { retreat, roomTier, itineraryDay, activitySection, saltyMeterScores, retreatColorTheme } from './retreat';
+import { retreat, roomTier, itineraryDay, activitySection, saltyMeterScores, retreatColorTheme, videoTestimonial, sampleDayEntry, quickFact } from './retreat';
 import { coach } from './coach';
 import { testimonial } from './testimonial';
 import { faqCategory } from './faqCategory';
@@ -26,5 +26,8 @@ export const schemaTypes = [
   activitySection,
   saltyMeterScores,
   retreatColorTheme,
+  videoTestimonial,
+  sampleDayEntry,
+  quickFact,
   socialVideo,
 ];

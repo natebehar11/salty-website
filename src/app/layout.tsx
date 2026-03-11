@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { client } from '@/lib/sanity/client';
+import { navRetreatsQuery } from '@/lib/sanity/queries';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import WhatsAppButton from '@/components/shared/WhatsAppButton';
@@ -29,7 +31,7 @@ export const metadata: Metadata = {
   },
 };
 
-const STATIC_RETREATS = [
+const FALLBACK_RETREATS = [
   { name: 'Panama', officialName: 'City to Sea', slug: 'panama-fitness-retreat' },
   { name: 'Morocco', officialName: 'Atlas to Atlantic', slug: 'morocco-fitness-retreat' },
   { name: 'Sicily', officialName: 'Limone', slug: 'sicily-fitness-retreat' },
@@ -37,12 +39,16 @@ const STATIC_RETREATS = [
   { name: 'Costa Rica', officialName: 'Surf Sweat Flow', slug: 'costa-rica-fitness-retreat' },
 ];
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
+
+  const retreats = await client
+    .fetch<{ name: string; officialName: string; slug: string }[]>(navRetreatsQuery)
+    .catch(() => FALLBACK_RETREATS);
 
   return (
     <html lang="en">
@@ -100,10 +106,10 @@ export default function RootLayout({
           </noscript>
         )}
 
-        <Navbar retreats={STATIC_RETREATS} />
+        <Navbar retreats={retreats} />
         <main className="min-h-screen">{children}</main>
         <Footer
-          retreats={STATIC_RETREATS.map((r) => ({ name: r.name, slug: r.slug }))}
+          retreats={retreats.map((r) => ({ name: r.name, slug: r.slug }))}
           instagram="https://www.instagram.com/getsaltyretreats"
           tiktok="https://www.tiktok.com/@getsaltyretreats"
         />

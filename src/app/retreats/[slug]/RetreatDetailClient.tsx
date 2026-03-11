@@ -1,6 +1,6 @@
 'use client';
 
-import { RETREATS } from '@/components/retreat/retreat-data';
+import type { RetreatData } from '@/components/retreat/retreat-data';
 import CinematicHero from '@/components/retreat/CinematicHero';
 import MarqueeTicker from '@/components/retreat/MarqueeTicker';
 import ParallaxVideoBreak from '@/components/retreat/ParallaxVideoBreak';
@@ -24,28 +24,11 @@ import { DestinationExplorer } from '@/components/shared/DestinationExplorer';
 import type { SaltyLandmark } from '@/types/landmark';
 
 interface RetreatDetailProps {
-  slug: string;
+  retreat: RetreatData;
   landmarks?: SaltyLandmark[];
 }
 
-export default function RetreatDetailClient({ slug, landmarks = [] }: RetreatDetailProps) {
-  const retreat = RETREATS[slug];
-
-  if (!retreat) {
-    return (
-      <main className="flex items-center justify-center" style={{ minHeight: '60vh', backgroundColor: 'var(--color-surface-base)' }}>
-        <div className="text-center px-6">
-          <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--type-h2)', color: 'var(--color-teal)', textTransform: 'uppercase' }}>
-            Retreat Not Found
-          </h1>
-          <p style={{ fontFamily: 'var(--font-body)', fontSize: 'var(--type-body-lg)', color: 'var(--color-slate-grey)', marginTop: 12 }}>
-            We couldn&apos;t find a retreat with that URL. Check out our{' '}
-            <a href="/retreats" style={{ color: 'var(--color-coral)', textDecoration: 'underline', textUnderlineOffset: 3 }}>upcoming retreats</a>.
-          </p>
-        </div>
-      </main>
-    );
-  }
+export default function RetreatDetailClient({ retreat, landmarks = [] }: RetreatDetailProps) {
 
   const handleBookNow = () => {
     if (retreat.bookingUrl) {

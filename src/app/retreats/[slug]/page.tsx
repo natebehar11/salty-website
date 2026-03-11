@@ -1,41 +1,65 @@
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { client } from '@/lib/sanity/client';
-import { landmarksByRetreatSlugQuery } from '@/lib/sanity/queries';
+import {
+  retreatBySlugQuery,
+  retreatSlugsQuery,
+  landmarksByRetreatSlugQuery,
+} from '@/lib/sanity/queries';
+import type { Retreat } from '@/types/sanity';
 import type { SaltyLandmark } from '@/types/landmark';
+import { sanityRetreatToRetreatData } from '@/lib/retreat-adapter';
 import RetreatDetailClient from './RetreatDetailClient';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+export async function generateStaticParams() {
+  const slugs = await client.fetch<string[]>(retreatSlugsQuery).catch(() => []);
+  return slugs.map((slug) => ({ slug }));
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
+  const retreat = await client.fetch<Retreat | null>(retreatBySlugQuery, { slug }).catch(() => null);
 
-  const titles: Record<string, string> = {
-    'panama-fitness-retreat': 'Panama Fitness Retreat 2026 | 9-Day City to Sea Adventure | SALTY',
-  };
-
-  const descriptions: Record<string, string> = {
-    'panama-fitness-retreat':
-      'Join SALTY\'s 9-day Panama fitness retreat. Surf, daily workouts, yoga, and coastal exploration from Panama City to Santa Catalina. March 8–16, 2026.',
-  };
+  if (!retreat) {
+    return {
+      title: 'Fitness Retreat | SALTY Retreats',
+      description:
+        'Join a SALTY fitness retreat. Surf, yoga, daily workouts, and adventure travel with a group of fun-loving people.',
+    };
+  }
 
   return {
-    title: titles[slug] || 'Fitness Retreat | SALTY Retreats',
+    title: retreat.seoTitle || `${retreat.name} Fitness Retreat | SALTY Retreats`,
     description:
-      descriptions[slug] ||
-      'Join a SALTY fitness retreat. Surf, yoga, daily workouts, and adventure travel with a group of fun-loving people.',
+      retreat.seoDescription ||
+      `Join SALTY's ${retreat.totalDays}-day ${retreat.name} fitness retreat. ${retreat.geoDefinition}`,
+    openGraph: {
+      images: retreat.ogImage
+        ? [{ url: retreat.ogImage.asset._ref }]
+        : retreat.heroImage
+          ? [{ url: retreat.heroImage.asset._ref }]
+          : undefined,
+    },
   };
 }
 
 export default async function RetreatDetailPage({ params }: PageProps) {
   const { slug } = await params;
 
-  // Fetch landmarks from Sanity (server-side, cached via CDN)
-  const landmarks = await client.fetch<SaltyLandmark[]>(
-    landmarksByRetreatSlugQuery,
-    { slug },
-  ).catch(() => [] as SaltyLandmark[]);
+  const [sanityRetreat, landmarks] = await Promise.all([
+    client.fetch<Retreat | null>(retreatBySlugQuery, { slug }).catch(() => null),
+    client.fetch<SaltyLandmark[]>(landmarksByRetreatSlugQuery, { slug }).catch(() => [] as SaltyLandmark[]),
+  ]);
 
-  return <RetreatDetailClient slug={slug} landmarks={landmarks} />;
+  if (!sanityRetreat) {
+    notFound();
+  }
+
+  const retreat = sanityRetreatToRetreatData(sanityRetreat);
+
+  return <RetreatDetailClient retreat={retreat} landmarks={landmarks} />;
 }
