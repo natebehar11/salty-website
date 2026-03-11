@@ -5,6 +5,7 @@ import Button from '@/components/shared/Button';
 import ScrollReveal from '@/components/shared/ScrollReveal';
 import StatusBadge from '@/components/shared/StatusBadge';
 import LoadingSkeleton from '@/components/shared/LoadingSkeleton';
+import LoadingSpinner from '@/components/shared/LoadingSpinner';
 import Modal from '@/components/shared/Modal';
 import FAQAccordion from '@/components/shared/FAQAccordion';
 import StatBar from '@/components/shared/StatBar';
@@ -13,6 +14,10 @@ import PriceDisplay from '@/components/shared/PriceDisplay';
 import EmailSignup from '@/components/shared/EmailSignup';
 import Carousel from '@/components/shared/Carousel';
 import VideoEmbed from '@/components/shared/VideoEmbed';
+import RetreatCard from '@/components/shared/RetreatCard';
+import CoachCard from '@/components/shared/CoachCard';
+import TestimonialCard from '@/components/shared/TestimonialCard';
+import SaltyMeter from '@/components/shared/SaltyMeter';
 import SwoopDivider from '@/components/layout/SwoopDivider';
 import WaveDivider from '@/components/layout/WaveDivider';
 import DoubleLineDivider from '@/components/layout/DoubleLineDivider';
@@ -23,6 +28,7 @@ import InclusionsSection from '@/components/retreat/InclusionsSection';
    ═══════════════════════════════════════════ */
 
 const NAV_SECTIONS = [
+  { id: 'inventory', label: 'Component Inventory' },
   { id: 'colors', label: 'Colors' },
   { id: 'surfaces', label: 'Surfaces' },
   { id: 'retreats', label: 'Retreat Palettes' },
@@ -33,7 +39,7 @@ const NAV_SECTIONS = [
   { id: 'dark', label: 'Dark Sections' },
   { id: 'motion', label: 'Motion' },
   { id: 'zindex', label: 'Z-Index' },
-  { id: 'figma', label: 'Figma-First' },
+  { id: 'inventory-full', label: 'All 50 Components' },
 ];
 
 const PRIMARY_COLORS = [
@@ -174,9 +180,10 @@ export default function DesignSystemPage() {
           <h1 className="text-5xl lg:text-7xl font-bold uppercase tracking-wide" style={{ fontFamily: 'var(--font-display)', color: '#F7F4ED' }}>SALTY<br />Design System</h1>
           <p className="mt-6 text-lg max-w-2xl" style={{ color: '#E7D7C0' }}>Tokens, typography, components, and patterns for getsaltyretreats.com + explore.getsaltyretreats.com.</p>
           <div className="mt-6 flex gap-3 text-sm font-mono" style={{ color: '#A4E5D9' }}>
-            <span>19 code-first components</span><span style={{ color: '#4A4E58' }}>/</span>
-            <span>12 Figma-first (pending)</span><span style={{ color: '#4A4E58' }}>/</span>
-            <span>30 total</span>
+            <span>23 built &amp; showcased</span><span style={{ color: '#4A4E58' }}>/</span>
+            <span>6 spec&apos;d (pending build)</span><span style={{ color: '#4A4E58' }}>/</span>
+            <span>13 pending design</span><span style={{ color: '#4A4E58' }}>/</span>
+            <span>50 total</span>
           </div>
         </div>
       </section>
@@ -191,6 +198,28 @@ export default function DesignSystemPage() {
       </nav>
 
       <div className="max-w-[1200px] mx-auto px-6 lg:px-20 pb-32">
+
+        {/* ════════ COMPONENT INVENTORY ════════ */}
+        <SectionHeader id="inventory" title="Component Inventory" subtitle="50 components from Component Gallery + SALTY handover. Tier 1 = art-directed (full specs). Tier 2 = brand-tinted (token rules)." />
+        <div className="grid md:grid-cols-2 gap-4 mb-12">
+          <div className="p-6 rounded-2xl" style={{ backgroundColor: '#F0E8DB' }}>
+            <p className="text-sm font-bold uppercase tracking-wider mb-3" style={{ color: '#4A4E58' }}>Summary</p>
+            <div className="space-y-2 text-sm">
+              <p><strong style={{ color: '#0E3A2D' }}>23</strong> built &amp; showcased</p>
+              <p><strong style={{ color: '#0E3A2D' }}>8</strong> built, needs showcase integration</p>
+              <p><strong style={{ color: '#0E3A2D' }}>6</strong> spec&apos;d (Figma/DESIGN-SYSTEM-RULES)</p>
+              <p><strong style={{ color: '#0E3A2D' }}>13</strong> pending design or spec</p>
+            </div>
+            <p className="text-xs mt-4" style={{ color: '#4A4E58' }}>See docs/COMPONENT-INVENTORY.md for full mapping.</p>
+          </div>
+          <div className="p-6 rounded-2xl" style={{ backgroundColor: '#F0E8DB' }}>
+            <p className="text-sm font-bold uppercase tracking-wider mb-3" style={{ color: '#4A4E58' }}>Tier Legend</p>
+            <div className="space-y-2 text-sm">
+              <p><span className="inline-block w-3 h-3 rounded-full mr-2" style={{ backgroundColor: '#F75A3D' }} /> Tier 1 — Art-directed (hero, cards, dividers, bespoke)</p>
+              <p><span className="inline-block w-3 h-3 rounded-full mr-2" style={{ backgroundColor: '#B6D4EA' }} /> Tier 2 — Brand-tinted (inputs, toasts, states, token rules)</p>
+            </div>
+          </div>
+        </div>
 
         {/* ════════ COLORS ════════ */}
         <SectionHeader id="colors" title="Color System" subtitle="12 brand colors: 6 primary + 6 secondary. Click any swatch to copy hex." />
@@ -258,7 +287,7 @@ export default function DesignSystemPage() {
         </div>
 
         {/* ════════ COMPONENTS ════════ */}
-        <SectionHeader id="components" title="Components" subtitle="19 code-first components built. 12 Figma-first components pending design." />
+        <SectionHeader id="components" title="Components" subtitle="23 components built and showcased. Scroll to All 50 Components for full inventory." />
 
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <ComponentCard title="Button — 3 Variants">
@@ -403,6 +432,43 @@ export default function DesignSystemPage() {
           </ComponentCard>
         </div>
 
+        <div className="mt-6 grid md:grid-cols-2 gap-6">
+          <ComponentCard title="RetreatCard — Large (Panama)">
+            <div className="max-w-[280px]">
+              <RetreatCard retreat="panama" dates="Mar 14–22, 2026" price={2249} totalDays={9} size="large" badge="selling-fast" showMeter saltyMeterScores={{ sweat: 7, adventure: 7, culture: 8, party: 7, rest: 6 }} />
+            </div>
+          </ComponentCard>
+          <ComponentCard title="RetreatCard — Small (Morocco)">
+            <div className="max-w-[200px]">
+              <RetreatCard retreat="morocco" dates="May 16–23, 2026" price={2499} totalDays={8} size="small" badge="early-bird" discountPrice={1999} />
+            </div>
+          </ComponentCard>
+        </div>
+
+        <div className="mt-6 grid md:grid-cols-2 gap-6">
+          <ComponentCard title="CoachCard — Large">
+            <div className="max-w-[364px]">
+              <CoachCard name="Erin Harris" bio="Co-Founder, Creative & Guest Experience. CPT, RYT-200. Loves sunrise yoga and making everyone feel at home." cardColor="#3A6B35" specialties={['Yoga', 'Guest Experience']} personality="Warm, inclusive" />
+            </div>
+          </ComponentCard>
+          <ComponentCard title="TestimonialCard — Base Surface">
+            <div className="max-w-[360px]">
+              <TestimonialCard guestName="Sarah M." quote="Best week of my life. I came solo, left with 30 new friends. The energy was incredible." retreatLabel="Morocco 2025" rating={5} surface="base" />
+            </div>
+          </ComponentCard>
+        </div>
+
+        <div className="mt-6 grid md:grid-cols-2 gap-6">
+          <ComponentCard title="SaltyMeter — Radar Chart">
+            <div className="flex justify-center p-4">
+              <SaltyMeter scores={{ sweat: 7, adventure: 7, culture: 8, party: 7, rest: 6 }} fillColor="#F75A3D" />
+            </div>
+          </ComponentCard>
+          <ComponentCard title="LoadingSpinner">
+            <LoadingSpinner />
+          </ComponentCard>
+        </div>
+
         {/* ════════ DIVIDERS ════════ */}
         <SectionHeader id="dividers" title="Dividers" subtitle="Swoop (major transitions), Wave (subtle shifts), Double Lines (accent punctuation)." />
 
@@ -489,31 +555,111 @@ export default function DesignSystemPage() {
           ))}
         </div>
 
-        {/* ════════ FIGMA-FIRST ════════ */}
-        <SectionHeader id="figma" title="Figma-First Components" subtitle="12 components pending design. Design one template in Figma, share the URL, and it gets built + all variants generated." />
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
-          {[
-            { name: 'RetreatCard', tier: 2, status: 'Design needed' },
-            { name: 'CoachCard', tier: 2, status: 'Design needed' },
-            { name: 'TestimonialCard', tier: 2, status: 'Design needed' },
-            { name: 'Navbar', tier: 1, status: 'Design needed' },
-            { name: 'Footer', tier: 1, status: 'Design needed' },
-            { name: 'RetreatHero', tier: 3, status: 'Design needed' },
-            { name: 'RetreatTicket', tier: 3, status: 'Design needed (per-retreat SVG)' },
-            { name: 'HomepageHero', tier: 3, status: 'Design needed' },
-            { name: 'AccommodationSection', tier: 3, status: 'Design needed' },
-            { name: 'ItineraryCard', tier: 3, status: 'Design needed' },
-            { name: 'SaltyMeter', tier: 3, status: 'Design needed' },
-          ].map((c) => (
-            <div key={c.name} className="p-4 rounded-xl border-2 border-dashed flex flex-col gap-2" style={{ borderColor: '#E7D7C0' }}>
-              <p className="font-bold text-sm" style={{ color: '#0E3A2D' }}>{c.name}</p>
-              <div className="flex gap-2">
-                <span className="text-[10px] px-2 py-0.5 rounded-full font-bold" style={{ backgroundColor: '#FED260', color: '#0E3A2D' }}>Tier {c.tier}</span>
-                <span className="text-[10px] px-2 py-0.5 rounded-full font-bold" style={{ backgroundColor: '#B6D4EA', color: '#0E3A2D' }}>Figma-first</span>
-              </div>
-              <p className="text-xs" style={{ color: '#4A4E58' }}>{c.status}</p>
-            </div>
-          ))}
+        {/* ════════ ALL 50 COMPONENTS ════════ */}
+        <SectionHeader id="inventory-full" title="All 50 Components" subtitle="Tier 1 = art-directed. Tier 2 = brand-tinted. Built = in codebase. Spec'd = designed, pending build. Pending = needs design/spec." />
+
+        <h3 className="text-xl font-bold uppercase mb-4 mt-8" style={{ fontFamily: 'var(--font-display)' }}>Tier 1 — Art-Directed (27)</h3>
+        <div className="overflow-x-auto mb-8">
+          <table className="w-full text-sm border-collapse" style={{ borderColor: '#E7D7C0' }}>
+            <thead>
+              <tr style={{ backgroundColor: '#F0E8DB' }}>
+                <th className="text-left p-3 border-b" style={{ borderColor: '#E7D7C0', color: '#0E3A2D' }}>#</th>
+                <th className="text-left p-3 border-b" style={{ borderColor: '#E7D7C0', color: '#0E3A2D' }}>Component</th>
+                <th className="text-left p-3 border-b" style={{ borderColor: '#E7D7C0', color: '#0E3A2D' }}>Status</th>
+                <th className="text-left p-3 border-b" style={{ borderColor: '#E7D7C0', color: '#0E3A2D' }}>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                [1, 'Hero — Video', 'Built', 'VideoHero, CinematicHero, HomepageHero'],
+                [2, 'Hero — Image (Retreat)', 'Built', 'RetreatHero'],
+                [3, 'Navigation / Header', 'Built', 'Navbar + MobileMenu'],
+                [4, 'Footer', 'Built', 'Footer'],
+                [5, 'Retreat Card — Large', 'Built', 'RetreatCard size=large'],
+                [6, 'Retreat Card — Medium', 'Built', 'RetreatCard size=medium'],
+                [7, 'Retreat Card — Small', 'Built', 'RetreatCard size=small'],
+                [8, 'Coach Card', 'Built', 'CoachCard'],
+                [9, 'Testimonial Card / Quote', 'Built', 'TestimonialCard'],
+                [10, 'Accommodation Card (Tabbed)', 'Built', 'AccommodationTabs, AccommodationBrowser'],
+                [11, 'Interactive Daily Itinerary', 'Built', 'ItineraryScroll'],
+                [12, 'SALTY Meter', 'Built', 'SaltyMeter'],
+                [13, 'Button', 'Built', 'Button'],
+                [14, 'Badge / Status Tag', 'Built', 'StatusBadge'],
+                [15, 'Divider — Swoop', 'Built', 'SwoopDivider'],
+                [16, 'Divider — Wave', 'Built', 'WaveDivider'],
+                [17, 'Divider — Double Lines', 'Built', 'DoubleLineDivider'],
+                [18, 'Divider — Angle', 'Pending', 'Full-width linear diagonal'],
+                [19, 'Carousel', 'Built', 'Carousel'],
+                [20, 'Inclusions Section', 'Built', 'InclusionsSection'],
+                [21, 'Section Wrapper', 'Partial', 'Layout pattern, no component'],
+                [22, 'Photo Frame / Bordered Image', 'Partial', 'In cards, no standalone'],
+                [23, 'FAQ / Accordion', 'Built', 'FAQAccordion'],
+                [24, 'Stat / Counter Block', 'Built', 'StatBar, CounterStats'],
+                [25, 'Marquee Ticker', 'Built', 'MarqueeTicker'],
+                [26, 'Starburst Badge', 'Partial', 'In CoachCard, needs standalone'],
+                [27, 'Boarding Pass / Ticket Card', 'Built', 'RetreatTicket'],
+              ].map(([n, name, status, notes]) => (
+                <tr key={String(n)} className="border-b" style={{ borderColor: '#E7D7C0' }}>
+                  <td className="p-3" style={{ color: '#4A4E58' }}>{n}</td>
+                  <td className="p-3 font-medium" style={{ color: '#0E3A2D' }}>{name}</td>
+                  <td className="p-3">
+                    <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold ${status === 'Built' ? '' : status === 'Partial' ? '' : ''}`} style={{ backgroundColor: status === 'Built' ? '#A4E5D9' : status === 'Partial' ? '#FED260' : '#B6D4EA', color: '#0E3A2D' }}>{status}</span>
+                  </td>
+                  <td className="p-3 text-xs" style={{ color: '#4A4E58' }}>{notes}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <h3 className="text-xl font-bold uppercase mb-4 mt-8" style={{ fontFamily: 'var(--font-display)' }}>Tier 2 — Brand-Tinted (23)</h3>
+        <div className="overflow-x-auto mb-12">
+          <table className="w-full text-sm border-collapse" style={{ borderColor: '#E7D7C0' }}>
+            <thead>
+              <tr style={{ backgroundColor: '#F0E8DB' }}>
+                <th className="text-left p-3 border-b" style={{ borderColor: '#E7D7C0', color: '#0E3A2D' }}>#</th>
+                <th className="text-left p-3 border-b" style={{ borderColor: '#E7D7C0', color: '#0E3A2D' }}>Component</th>
+                <th className="text-left p-3 border-b" style={{ borderColor: '#E7D7C0', color: '#0E3A2D' }}>Status</th>
+                <th className="text-left p-3 border-b" style={{ borderColor: '#E7D7C0', color: '#0E3A2D' }}>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                [28, 'Icon / Activity Tag Pill', 'Pending', 'Pill + icon + label'],
+                [29, 'Avatar', 'Pending', 'Circle crop, 3 sizes'],
+                [30, 'Input Field', 'Pending', 'All states'],
+                [31, 'Tooltip', 'Built', 'Tooltip'],
+                [32, 'Modal / Dialog', 'Built', 'Modal'],
+                [33, 'Toast Notification', 'Pending', '4 variants'],
+                [34, 'Drawer / Tray', 'Built', 'MobileMenu'],
+                [35, 'Empty State', 'Pending', ''],
+                [36, 'Error State', 'Pending', ''],
+                [37, 'Success State', 'Pending', ''],
+                [38, 'Loading / Skeleton', 'Built', 'LoadingSkeleton'],
+                [39, 'Sold Out State', 'Built', 'StatusBadge variant'],
+                [40, 'Spinner / Loader', 'Built', 'LoadingSpinner'],
+                [41, 'Inclusions / Exclusions Accordion', 'Built', 'InclusionsSection'],
+                [42, 'Price Comparison Row', 'Built', 'CostOfStayingHome'],
+                [43, 'Iconography Library', 'Partial', 'In InclusionsSection'],
+                [44, 'Separator / Horizontal Rule', 'Pending', ''],
+                [45, 'Link', 'Partial', 'In use, no component'],
+                [46, 'Heading', 'Partial', 'Typography wrappers'],
+                [47, 'Popover', 'Pending', ''],
+                [48, 'Tabs', 'Built', 'AccommodationTabs'],
+                [49, 'Search Input', 'Pending', ''],
+                [50, 'Pagination', 'Pending', ''],
+              ].map(([n, name, status, notes]) => (
+                <tr key={String(n)} className="border-b" style={{ borderColor: '#E7D7C0' }}>
+                  <td className="p-3" style={{ color: '#4A4E58' }}>{n}</td>
+                  <td className="p-3 font-medium" style={{ color: '#0E3A2D' }}>{name}</td>
+                  <td className="p-3">
+                    <span className="text-[10px] px-2 py-0.5 rounded-full font-bold" style={{ backgroundColor: status === 'Built' ? '#A4E5D9' : status === 'Partial' ? '#FED260' : '#B6D4EA', color: '#0E3A2D' }}>{status}</span>
+                  </td>
+                  <td className="p-3 text-xs" style={{ color: '#4A4E58' }}>{notes}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
 
         {/* Footer */}

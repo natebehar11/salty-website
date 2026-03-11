@@ -1,94 +1,62 @@
 'use client';
 
+import { useState } from 'react';
+import Script from 'next/script';
 import type { Testimonial, SiteSettings } from '@/types/sanity';
-import { urlFor } from '@/lib/sanity/image';
 import ScrollReveal from '@/components/shared/ScrollReveal';
-import TestimonialCard from '@/components/shared/TestimonialCard';
 import Button from '@/components/shared/Button';
 import SwoopDivider from '@/components/layout/SwoopDivider';
 import Link from 'next/link';
 
 interface ReviewsClientProps {
-  testimonials: Testimonial[];
   videoTestimonials: Testimonial[];
   settings: SiteSettings | null;
 }
 
-// Placeholder testimonials when Sanity is empty
-const PLACEHOLDER_TESTIMONIALS: Testimonial[] = [
-  {
-    _id: 'pt1',
-    guestName: 'Sarah M.',
-    city: 'Toronto',
-    year: 2024,
-    quote:
-      'I went solo and came home with 20 new friends. The workouts were tough but fun, the food was incredible, and the vibe was just... electric. Already booked my next one.',
-    rating: 5,
-    isVideo: false,
-    tags: ['featured'],
-    retreatName: 'SALTY Costa Rica',
-  },
-  {
-    _id: 'pt2',
-    guestName: 'James K.',
-    city: 'London',
-    year: 2024,
-    quote:
-      'This was hands down the best trip I\'ve ever taken. The coaches are amazing, the group was incredible, and Panama is paradise. I\'ve already convinced three friends to come next time.',
-    rating: 5,
-    isVideo: false,
-    tags: ['featured'],
-    retreatName: 'SALTY Panama',
-  },
-  {
-    _id: 'pt3',
-    guestName: 'Megan L.',
-    city: 'Austin',
-    year: 2024,
-    quote:
-      'I was nervous about traveling alone, but from the moment I arrived, I felt like part of the crew. The balance of fitness and fun is perfect. Not too intense, not too chill. Just right.',
-    rating: 5,
-    isVideo: false,
-    tags: ['featured'],
-    retreatName: 'SALTY Sicily',
-  },
-  {
-    _id: 'pt4',
-    guestName: 'David R.',
-    city: 'Sydney',
-    year: 2023,
-    quote:
-      'I\'ve done other fitness retreats and they always felt like boot camps. SALTY is the opposite — challenging workouts, sure, but also surfing, exploring, dancing, and actually having fun.',
-    rating: 5,
-    isVideo: false,
-    tags: ['featured'],
-    retreatName: 'SALTY Costa Rica',
-  },
-  {
-    _id: 'pt5',
-    guestName: 'Priya N.',
-    city: 'New York',
-    year: 2024,
-    quote:
-      'The attention to detail blew me away. Every meal, every activity, every sunset spot — all carefully curated. And the WhatsApp group is still going strong months later.',
-    rating: 5,
-    isVideo: false,
-    tags: ['featured'],
-    retreatName: 'SALTY Morocco',
-  },
-  {
-    _id: 'pt6',
-    guestName: 'Alex T.',
-    city: 'Vancouver',
-    year: 2024,
-    quote:
-      'As someone who\'s traveled to 30+ countries, I thought I\'d seen it all. SALTY showed me that how you travel matters just as much as where. The community aspect is what makes it special.',
-    rating: 5,
-    isVideo: false,
-    tags: ['featured'],
-    retreatName: 'SALTY El Salvador',
-  },
-];
+
+function ClickToPlayVideo({ videoId, title }: { videoId: string; title: string }) {
+  const [active, setActive] = useState(false);
+
+  if (active) {
+    return (
+      <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+        <iframe
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+          title={title}
+          className="absolute inset-0 w-full h-full"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </div>
+    );
+  }
+
+  return (
+    <button
+      onClick={() => setActive(true)}
+      className="relative w-full cursor-pointer"
+      style={{ paddingBottom: '56.25%' }}
+      aria-label={`Play ${title}`}
+    >
+      <img
+        src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
+        alt={title}
+        className="absolute inset-0 w-full h-full object-cover"
+        loading="lazy"
+      />
+      <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+        <div
+          className="flex items-center justify-center rounded-full"
+          style={{ width: 56, height: 56, backgroundColor: 'rgba(247,244,237,0.9)' }}
+        >
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="#0E3A2D">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+        </div>
+      </div>
+    </button>
+  );
+}
 
 function StarRating({ rating }: { rating: number }) {
   return (
@@ -109,13 +77,9 @@ function StarRating({ rating }: { rating: number }) {
 }
 
 export default function ReviewsClient({
-  testimonials,
   videoTestimonials,
   settings,
 }: ReviewsClientProps) {
-  const displayTestimonials =
-    testimonials.length > 0 ? testimonials : PLACEHOLDER_TESTIMONIALS;
-
   const totalGuests = settings?.totalGuests || 200;
   const avgRating = settings?.averageRating || 4.9;
 
@@ -180,7 +144,7 @@ export default function ReviewsClient({
                 <span
                   style={{
                     fontFamily: 'var(--font-display)',
-                    fontSize: '48px',
+                    fontSize: 'clamp(32px, 10vw, 48px)',
                     color: '#FED260',
                   }}
                 >
@@ -237,16 +201,10 @@ export default function ReviewsClient({
                       }}
                     >
                       {vt.videoId && (
-                        <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                          <iframe
-                            src={`https://www.youtube.com/embed/${vt.videoId}`}
-                            title={`${vt.guestName} testimonial`}
-                            className="absolute inset-0 w-full h-full"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                            loading="lazy"
-                          />
-                        </div>
+                        <ClickToPlayVideo
+                          videoId={vt.videoId}
+                          title={`${vt.guestName} testimonial`}
+                        />
                       )}
                       <div className="p-4">
                         <p
@@ -279,7 +237,7 @@ export default function ReviewsClient({
         </>
       )}
 
-      {/* ── 3. IN THEIR WORDS — Written Testimonials ── */}
+      {/* ── 3. GOOGLE REVIEWS — Elfsight widget ── */}
       <section
         className="py-12 md:py-24 px-6"
         style={{ backgroundColor: videoTestimonials.length > 0 ? '#E7D7C0' : '#F7F4ED' }}
@@ -298,24 +256,8 @@ export default function ReviewsClient({
             </h2>
           </ScrollReveal>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {displayTestimonials.map((t, i) => (
-              <ScrollReveal key={t._id} delay={i * 0.04}>
-                <TestimonialCard
-                  guestName={t.guestName}
-                  quote={t.quote}
-                  rating={t.rating}
-                  city={t.city}
-                  retreatAttended={t.retreatName}
-                  avatarUrl={
-                    t.avatar
-                      ? urlFor(t.avatar).width(80).height(80).url()
-                      : undefined
-                  }
-                />
-              </ScrollReveal>
-            ))}
-          </div>
+          <div className="elfsight-app-bcb6e237-0108-4ffa-a743-3d801a3b39b2" data-elfsight-app-lazy />
+          <Script src="https://static.elfsight.com/platform/platform.js" strategy="lazyOnload" />
         </div>
       </section>
 
@@ -339,7 +281,7 @@ export default function ReviewsClient({
               className="mb-8"
               style={{
                 fontFamily: 'var(--font-body)',
-                fontSize: '18px',
+                fontSize: 'clamp(16px, 2.5vw, 18px)',
                 color: '#E7D7C0',
                 lineHeight: 1.6,
               }}

@@ -6,6 +6,7 @@ import { blogPost } from './blogPost';
 import { destination } from './destination';
 import { siteSettings } from './siteSettings';
 import { saltyPhoto } from './saltyPhoto';
+import { saltyLandmark, socialVideo } from './saltyLandmark';
 
 export const schemaTypes = [
   // Documents
@@ -17,6 +18,7 @@ export const schemaTypes = [
   destination,
   siteSettings,
   saltyPhoto,
+  saltyLandmark,
 
   // Object types (used within documents)
   roomTier,
@@ -24,4 +26,5 @@ export const schemaTypes = [
   activitySection,
   saltyMeterScores,
   retreatColorTheme,
+  socialVideo,
 ];

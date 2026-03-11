@@ -25,5 +25,5 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
   ],
-  "exclude": ["node_modules", "vitest.config.ts"]
+  "exclude": ["node_modules", "node_modules_broken", "vitest.config.ts", "replit-salty"]
 }

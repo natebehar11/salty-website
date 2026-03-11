@@ -5,13 +5,13 @@ import type { Coach, SiteSettings } from '@/types/sanity';
 import AboutClient from './AboutClient';
 
 export const metadata: Metadata = {
-  title: 'About SALTY | How We Made Fun of Wellness',
+  title: 'About SALTY Retreats | Our Story & Fitness Retreat Team',
   description:
-    'Meet the team behind SALTY Retreats. We started with a simple idea: fitness should be fun, travel should be social, and wellness doesn\'t need to be serious.',
+    'Meet the team behind SALTY Retreats. Founded by Erin & Nate, we\'ve hosted 200+ guests across 7 countries. See why we believe fun is essential to wellness.',
   openGraph: {
-    title: 'About SALTY Retreats',
+    title: 'About SALTY Retreats | Our Story & Fitness Retreat Team',
     description:
-      'Meet the founders and coaches behind SALTY — fitness retreats for fun-loving people.',
+      'Meet the team behind SALTY Retreats. Founded by Erin & Nate, we\'ve hosted 200+ guests across 7 countries. See why we believe fun is essential to wellness.',
     url: '/about',
   },
 };

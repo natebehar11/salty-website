@@ -47,3 +47,9 @@ scripts/.vision-cache.json
 
 # broken node_modules artifact
 node_modules_broken/
+
+# claude code
+.claude/
+
+# data files
+photo-library.json

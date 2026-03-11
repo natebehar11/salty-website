@@ -21,6 +21,13 @@ export const faqCategory = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
+      name: 'description',
+      title: 'Category Description',
+      type: 'text',
+      rows: 2,
+      description: 'Short intro text shown above the category questions (e.g. "Many guests book solo. Here\'s what you need to know.")',
+    }),
+    defineField({
       name: 'order',
       title: 'Tab Order',
       type: 'number',

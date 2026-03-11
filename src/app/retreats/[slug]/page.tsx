@@ -1,4 +1,7 @@
 import type { Metadata } from 'next';
+import { client } from '@/lib/sanity/client';
+import { landmarksByRetreatSlugQuery } from '@/lib/sanity/queries';
+import type { SaltyLandmark } from '@/types/landmark';
 import RetreatDetailClient from './RetreatDetailClient';
 
 interface PageProps {
@@ -28,5 +31,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function RetreatDetailPage({ params }: PageProps) {
   const { slug } = await params;
 
-  return <RetreatDetailClient slug={slug} />;
+  // Fetch landmarks from Sanity (server-side, cached via CDN)
+  const landmarks = await client.fetch<SaltyLandmark[]>(
+    landmarksByRetreatSlugQuery,
+    { slug },
+  ).catch(() => [] as SaltyLandmark[]);
+
+  return <RetreatDetailClient slug={slug} landmarks={landmarks} />;
 }

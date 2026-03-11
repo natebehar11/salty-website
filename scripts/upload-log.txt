@@ -1,0 +1,1494 @@
+
+SALTY Photo Uploader
+──────────────────────────────────────
+Folder:  /tmp/salty-upload
+Dataset: production
+Images:  1072
+Mode:    UPLOAD
+──────────────────────────────────────
+
+[1/1072] costa-rica/6RML0003.jpg … ✓ image-9ea9f26a4f9ef2fc98418401167e71ba7580ac10-3840x5760-jpg
+[2/1072] costa-rica/6RML0023.jpg …   ⚠  vision:6RML0023.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-be657e5e305621fbfa0aab86795f60f7da8c8726-5760x3840-jpg
+[3/1072] costa-rica/6RML0025.jpg … ✓ image-44aa15bd8ec0b9c94126780d87b3de13e2a34299-5760x3840-jpg
+[4/1072] costa-rica/6RML0571.jpg … ✓ image-d49b080dd54f418c306158f83d26d08dbc386fab-5760x3840-jpg
+[5/1072] costa-rica/6RML0575.jpg … ✓ image-f451358891bd4dbb7c4747a5fd6033620ff311c9-5760x3840-jpg
+[6/1072] costa-rica/6RML0624.jpg … ✓ image-5015776930eff0c15badbc9eb7be2822328a980c-3840x5760-jpg
+[7/1072] costa-rica/6RML0625.jpg …   ⚠  vision:6RML0625.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-62568422430214054aaf51df7794b4298ec277fa-3840x5760-jpg
+[8/1072] costa-rica/6RML0665.jpg … ✓ image-28f5639128fc72a6d4f0bfc963397a7f8559b035-5760x3840-jpg
+[9/1072] costa-rica/6RML1831.jpg … ✓ image-aa6966073f941ec8d02a302b5e5c6ac7b8e6f3dc-3840x5760-jpg
+[10/1072] costa-rica/6RML1866.jpg …   ⚠  vision:6RML1866.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-59e2c7c37c692399288a43bd3e8ad3693ceef83e-5760x3840-jpg
+[11/1072] costa-rica/6RML1875.jpg …   ⚠  vision:6RML1875.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-e1897a66c2c832b1b3e00ca556f0de99711a9ed4-5760x3840-jpg
+[12/1072] costa-rica/6RML1932.jpg … ✓ image-65e2dd1878f56826a581c07224f359fac941773b-5760x3840-jpg
+[13/1072] costa-rica/6RML2076.jpg … ✓ image-3de10ac8858a2079de62afa94d4c2deeba45098f-5760x3840-jpg
+[14/1072] costa-rica/6RML2077.jpg …   ⚠  vision:6RML2077.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-6acc09ac3a30e33a0f40ab5f5943f4d0e9f102f9-5760x3840-jpg
+[15/1072] costa-rica/6RML2271.jpg … ✓ image-100a2147d24eb588f35b8a2ac81613251a2ad5b9-5760x3840-jpg
+[16/1072] costa-rica/6RML2343.jpg … ✓ image-7031a3186be09b120679bdee726992cfe0f491bf-5760x3840-jpg
+[17/1072] costa-rica/6RML2358.jpg … ✓ image-e74abc70b4539a0daba462f684eca43b4e54fcb1-3840x5760-jpg
+[18/1072] costa-rica/6RML2371.jpg …   ⚠  vision:6RML2371.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML2371.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 6RML2371.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-69967c9447d3451ba73da63010ec6306a090f59c-3840x5760-jpg
+[19/1072] costa-rica/6RML2391.jpg …   ⚠  vision:6RML2391.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML2391.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 6RML2391.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-d8d77fca27ab22aca8337f1fb6795230c2056e86-5760x3840-jpg
+[20/1072] costa-rica/6RML2399.jpg …   ⚠  vision:6RML2399.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML2399.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 6RML2399.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-2e3457176cb84626227adde21654f427f16b5040-5760x3840-jpg
+[21/1072] costa-rica/6RML2403.jpg …   ⚠  vision:6RML2403.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML2403.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 6RML2403.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-220a008145eab503bfe62a798c94f922006d0f0f-3840x5760-jpg
+[22/1072] costa-rica/6RML2407.jpg … ✓ image-78e23f7ebeb59fca637a1eb73a4f368a622e7c0e-5760x3840-jpg
+[23/1072] costa-rica/6RML2536.jpg … ✓ image-4eb0c9bc8854efa152bee581e9f5d15beb8a7474-3840x5760-jpg
+[24/1072] costa-rica/6RML2560.jpg …   ⚠  vision:6RML2560.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML2560.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 6RML2560.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-35c1bb0fb97bd18ea2241fb2fade7f03493e463f-5760x3840-jpg
+[25/1072] costa-rica/6RML2576.jpg … ✓ image-7a34850f55817da4fc7633e8f6fff328fcd1672c-3840x5760-jpg
+[26/1072] costa-rica/6RML2610.jpg … ✓ image-f7b722600137fa35c27a78924349a024d6ee292a-5760x3840-jpg
+[27/1072] costa-rica/6RML2628.jpg … ✓ image-57a5e5486e199a5919d21d428fb7a9282f62e2c8-5760x3840-jpg
+[28/1072] costa-rica/6RML2644.jpg … ✓ image-19ff002a70a808b96e8fc6d08cd3e8587ef16252-5760x3840-jpg
+[29/1072] costa-rica/6RML2653.jpg … ✓ image-d8126ef809b4c668dcbf5737e3cac9544c4f239d-5760x3840-jpg
+[30/1072] costa-rica/6RML2667.jpg … ✓ image-a37a597ae6f434cbf31b78b9cdbbd0dfca620dbb-5760x3840-jpg
+[31/1072] costa-rica/6RML7381.jpg … ✓ image-ba8f733fe9483b17465ebbafa9b1079ee3f4dd0e-5760x3840-jpg
+[32/1072] costa-rica/6RML7396.jpg … ✓ image-640119f4c8889bb32f148577388b72a04d9de4e9-5760x3840-jpg
+[33/1072] costa-rica/6RML7450.jpg …   ⚠  vision:6RML7450.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-1eb499e3574bf678acb6d32127fe7d206e5b2095-5760x3840-jpg
+[34/1072] costa-rica/6RML7534.jpg … ✓ image-898eaf50503e7513a19945bb3c76e794cde7974d-5760x3840-jpg
+[35/1072] costa-rica/6RML7554.jpg …   ⚠  vision:6RML7554.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-3a3d4d7b8662037470cb7f316ae40e8a26217af2-3840x5760-jpg
+[36/1072] costa-rica/6RML7556.jpg … ✓ image-1ea018c523e02ba994cef60071561889df598e1e-3840x5760-jpg
+[37/1072] costa-rica/6RML7561.jpg …   ⚠  vision:6RML7561.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML7561.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-6fae4db0a373380f8458e88f77185175370bf351-5760x3840-jpg
+[38/1072] costa-rica/6RML7564.jpg …   ⚠  vision:6RML7564.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-8dd59d11e63603b9311dce23278eca376f50b1d8-5760x3840-jpg
+[39/1072] costa-rica/6RML7568.jpg … ✓ image-91e933d66fee78c33af597af0ecd45bf7dd1e9d1-5760x3840-jpg
+[40/1072] costa-rica/6RML7587.jpg … ✓ image-8b2275812e7a03810329a82198f9560dec41801e-3840x5760-jpg
+[41/1072] costa-rica/6RML7592.jpg … ✓ image-48c70b3aa810f497dddb81af583f255ccb993c4a-3840x5760-jpg
+[42/1072] costa-rica/6RML7629.jpg … ✓ image-1297f591d56de831ff5dccd11ff7b9d185cd8a4b-5760x3840-jpg
+[43/1072] costa-rica/6RML7657.jpg … ✓ image-d5016f1d5c7eaee4b9e2439a8464ccf73b1acfc4-5760x3840-jpg
+[44/1072] costa-rica/6RML7673.jpg …   ⚠  vision:6RML7673.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-9cc81bb212121b8361945af756405411f3c86734-5760x3840-jpg
+[45/1072] costa-rica/6RML7694.jpg … ✓ image-c09aeb9a2cb2f12c17da0454d5ec741b2c3b3745-5760x3840-jpg
+[46/1072] costa-rica/6RML7732.jpg … ✓ image-0bb4a041efcda61b9710c7512848364d3793a6ca-4897x3840-jpg
+[47/1072] costa-rica/6RML7747.jpg … ✓ image-2b545fb18e38a41c77f590294c4ab5902e8a6bfd-3840x5760-jpg
+[48/1072] costa-rica/6RML7748.jpg … ✓ image-11ca1686c28496eb50d0874be7616e143ab525e1-3840x5760-jpg
+[49/1072] costa-rica/6RML7755.jpg … ✓ image-74b18b3a5d68c3bea647d507010113c82bb6d401-5760x3840-jpg
+[50/1072] costa-rica/6RML7756.jpg …   ⚠  vision:6RML7756.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML7756.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-4bdca1f7bfdd43d3dd565649f5ceede52410e29c-5760x3840-jpg
+[51/1072] costa-rica/6RML7757.jpg …   ⚠  vision:6RML7757.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-d3efe1681dd576e4ea80e22f083d7d6a2359bbdd-5760x3840-jpg
+[52/1072] costa-rica/6RML7796.jpg …   ⚠  vision:6RML7796.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-16175f44ffa43fbac2f69f1f2b26f5a13e17941c-5760x3840-jpg
+[53/1072] costa-rica/6RML7899.jpg … ✓ image-a382cc04745045c85706172dd24ec6d3894fe0c3-5760x3840-jpg
+[54/1072] costa-rica/6RML7937.jpg … ✓ image-eb5a66cae3695c2a11cdf316670431ecd11cf4e8-3840x5760-jpg
+[55/1072] costa-rica/6RML7963.jpg …   ⚠  vision:6RML7963.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML7963.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-07132b15036c4735d59f43fd9487cd0e4a94e4da-5760x3840-jpg
+[56/1072] costa-rica/6RML7978.jpg … ✓ image-b2df3b815134e4abf9131838f76b172bc7f80838-3840x5760-jpg
+[57/1072] costa-rica/6RML7991.jpg …   ⚠  vision:6RML7991.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-5f01615df0ed519c563fd4bda5366a22a9209b92-3840x5760-jpg
+[58/1072] costa-rica/6RML8004.jpg … ✓ image-e011add6f5e499333cfad59665ad570dd68d32a5-3840x5760-jpg
+[59/1072] costa-rica/6RML8101.jpg … ✓ image-804e2044c04e5d3166fdca28af2d81686a1b34f1-5760x3840-jpg
+[60/1072] costa-rica/6RML8127.jpg … ✓ image-8dbacd71c93d6f5a392efd3400453330930ce0f0-5760x3840-jpg
+[61/1072] costa-rica/6RML8136.jpg … ✓ image-8b068e5b057aa31732aa63fe36cd5106dc29a126-5760x3840-jpg
+[62/1072] costa-rica/6RML8194.jpg … ✓ image-7dcba8b70959a57367569057edb7d5dbc5d35066-5760x3840-jpg
+[63/1072] costa-rica/6RML8203.jpg … ✓ image-63644a78abeaf63c81264f4e192947973dfb48e9-5760x3840-jpg
+[64/1072] costa-rica/6RML8209.jpg … ✓ image-d36afe964ba286198a94ad259ccce1ac3bc745dc-3840x5760-jpg
+[65/1072] costa-rica/6RML8211.jpg … ✓ image-b7efe8e8109866111d70c84a4da95f2fc89602fc-5760x3840-jpg
+[66/1072] costa-rica/6RML8241.jpg …   ⚠  vision:6RML8241.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-c7aded0b765a12d7e42bd95dc1d4bcd5a56a6d1b-5760x3840-jpg
+[67/1072] costa-rica/6RML8246.jpg … ✓ image-8484a88ac41d67cb6c26da8c6293ee673ee490c7-3840x5760-jpg
+[68/1072] costa-rica/6RML8247.jpg … ✓ image-cb1929ad6e0aa3964af6af045e74152f37730d60-3840x5760-jpg
+[69/1072] costa-rica/6RML8285.jpg … ✓ image-63a00c50b89b55e0cad5827f9f2bf77f207f94d4-5760x3840-jpg
+[70/1072] costa-rica/6RML8289.jpg … ✓ image-25a28737e3660bade2fc62f0bee6843f5037a892-5760x3840-jpg
+[71/1072] costa-rica/6RML8335.jpg … ✓ image-7fdcc3fa2fb00425984378816085650047697987-3840x5760-jpg
+[72/1072] costa-rica/6RML8355.jpg … ✓ image-f69e52f1a4931b53d9354f9c191ba1acf6323a03-3840x5760-jpg
+[73/1072] costa-rica/6RML8364.jpg … ✓ image-67a8d009171f3dd9546ba71b3454d45da0b11061-3840x5760-jpg
+[74/1072] costa-rica/6RML8387.jpg … ✓ image-a463c2cd0930c0b28390633c9e34fb773087592a-3840x5760-jpg
+[75/1072] costa-rica/6RML8448.jpg …   ⚠  vision:6RML8448.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-6e03670256b800bcedbcbb2aaa91c820e330b875-3840x5760-jpg
+[76/1072] costa-rica/6RML8453.jpg …   ⚠  vision:6RML8453.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML8453.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 6RML8453.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-a4e7da8e53556bceafcfa5ea213e181280cc8a9c-4554x3840-jpg
+[77/1072] costa-rica/6RML8454.jpg …   ⚠  vision:6RML8454.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML8454.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 6RML8454.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-c66261688d6d46a165c02a00020e69dafc39c8e1-5760x3840-jpg
+[78/1072] costa-rica/6RML8456.jpg … ✓ image-c8ad233ded593ec23831a054c76251f082177852-5760x3840-jpg
+[79/1072] costa-rica/6RML8488.jpg … ✓ image-9a3e67389fca42c8731be087767271f5a2bd4acf-3840x5760-jpg
+[80/1072] costa-rica/6RML8572.jpg …   ⚠  vision:6RML8572.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-43bbc837691568f5a629c9c7ec77a174c4358789-5760x3840-jpg
+[81/1072] costa-rica/6RML8573.jpg …   ⚠  vision:6RML8573.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML8573.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 6RML8573.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-320c1f615010c7b5c404287543314cc6e5ae63ba-5760x3840-jpg
+[82/1072] costa-rica/6RML8599.jpg … ✓ image-86a1463071fe265018a208f65d132e993b1d665a-3840x5760-jpg
+[83/1072] costa-rica/6RML8629.jpg …   ⚠  vision:6RML8629.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML8629.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 6RML8629.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-f8bd2c6711732d13c4ee6f935556aa207cbbb28e-5760x3840-jpg
+[84/1072] costa-rica/6RML8709.jpg … ✓ image-fc3f0527cd0d31bf6924c661a547d0dcdbd897cc-3840x5760-jpg
+[85/1072] costa-rica/6RML8830.jpg … ✓ image-9fa4e81028fdd9ed1566e87555a1557b2cc4e9df-3840x5760-jpg
+[86/1072] costa-rica/6RML8836.jpg … ✓ image-747622a654af1056ac3a1ed528b92c98b000229b-3840x5760-jpg
+[87/1072] costa-rica/6RML8842.jpg … ✓ image-230bd27485dc7a528816f117af427cbd7f12a8e3-5760x3840-jpg
+[88/1072] costa-rica/6RML8881.jpg … ✓ image-b1340b1669640b2a1b1d792b1c8220d4fe403d6a-3840x5760-jpg
+[89/1072] costa-rica/6RML8886.jpg … ✓ image-e0e6db7aaa33a0a74d4a969b5ab225a65829f1c4-5760x3840-jpg
+[90/1072] costa-rica/6RML9941.jpg … ✓ image-33233bd5ef269390f654247496f38685a538878a-3840x5760-jpg
+[91/1072] sicily/6RML3941.jpg … ✓ image-b385c19160555a2463bd975cc706f7ee03a8f0ac-3840x5760-jpg
+[92/1072] sicily/6RML3974.jpg … ✓ image-165164a5985cf5f47e148ca294cb62c92a1468d9-5760x3840-jpg
+[93/1072] sicily/6RML4194.jpg … ✓ image-7f9f213422a990e045323606127072669b874223-3840x5760-jpg
+[94/1072] sicily/6RML4250.jpg …   ⚠  vision:6RML4250.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML4250.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-60a96f2da46bf031e62ff75b0cc16db9ba13020e-2443x3271-jpg
+[95/1072] sicily/6RML4306.jpg … ✓ image-464759ad46e9bb81e16af43b4b22e1fb1e330c84-3840x5760-jpg
+[96/1072] sicily/6RML4310.jpg …   ⚠  vision:6RML4310.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-d5db71e40570825144f4ed87f66ec5b4bfedc40c-3840x5101-jpg
+[97/1072] sicily/6RML4354.jpg …   ⚠  vision:6RML4354.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-81286f620f51a4f5fb57a5bd7ecb1d22643107e3-5760x3840-jpg
+[98/1072] sicily/6RML4370.jpg …   ⚠  vision:6RML4370.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-59c952301351ddb2ef8e0b739e70788705f59a59-3781x5671-jpg
+[99/1072] sicily/6RML4418.jpg … ✓ image-bc6665e80ccb161975d4eef0ac4e26140d67f954-3840x5760-jpg
+[100/1072] sicily/6RML4468.jpg … ✓ image-1bc5b271bec728ac360aabadf650b011fcc19828-3840x5760-jpg
+[101/1072] sicily/6RML4590.jpg …   ⚠  vision:6RML4590.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML4590.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 6RML4590.jpg: Unexpected token 'A', ..."altText": A group ph"... is not valid JSON
+✓ image-916addcc971ee21dc284ff5e4d970a09a62eb77b-5760x3840-jpg
+[102/1072] sicily/6RML4762.jpg … ✓ image-c4984b97eb72f6b5a4fcb1e285d1be255f7205c8-5760x3840-jpg
+[103/1072] sicily/6RML4813.jpg … ✓ image-df3e1065f35e1daa459c157996a7da15de8e86c9-5760x3840-jpg
+[104/1072] sicily/6RML4907.jpg … ✓ image-6ec88f44d438a4608e93bcb80d9025abe2c8dc7c-3840x5760-jpg
+[105/1072] sicily/6RML5126.jpg … ✓ image-ec2438283ce878e9b8dfcca66b4268db45c45a33-3840x5760-jpg
+[106/1072] sicily/6RML5203.jpg … ✓ image-d3b2eb00ba49aaf399e75dc1d6ddada6a913eb3a-5760x3840-jpg
+[107/1072] sicily/6RML5249.jpg …   ⚠  vision:6RML5249.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-6077bc7a097221be67104520bd45cb16ca1ada6f-5760x3840-jpg
+[108/1072] sicily/6RML5379.jpg …   ⚠  vision:6RML5379.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML5379.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-d2fe032e2b10dec463761234322187de90f66681-5760x3840-jpg
+[109/1072] sicily/6RML5506.jpg … ✓ image-f4a1f02d351babfc860c428326d44b9e57c9941e-3840x5760-jpg
+[110/1072] sicily/6RML5577.jpg …   ⚠  vision:6RML5577.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-c1839977b2fd4c032a1aefe1f586383453d3f9d7-5760x3840-jpg
+[111/1072] sicily/6RML5717.jpg … ✓ image-e0a47fb8d4e44785f0fc0b3fad760fdd8b772da3-5760x3840-jpg
+[112/1072] sicily/6RML5775.jpg … ✓ image-70c4f172e89d3369f375afc9b83ed7cd2e9ec841-5760x3840-jpg
+[113/1072] sicily/6RML5841.jpg … ✓ image-b9b6e48aaa41d111b3363c0d44bb3ed5acbfa131-5760x3840-jpg
+[114/1072] sicily/6RML5987.jpg …   ⚠  vision:6RML5987.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-620d84fcbc9c87fd83d7cb5f196c0976e9965bdd-3840x5760-jpg
+[115/1072] sicily/6RML5994.jpg … ✓ image-fcb3d0ffc82fc9d4924bec9b92cdc0b38e1397e2-3840x5760-jpg
+[116/1072] sicily/6RML6113.jpg … ✓ image-b64c6487b9cfc12f54da66d74d1d1cc6d1754593-5760x3840-jpg
+[117/1072] sicily/6RML6120.jpg … ✓ image-6f77ac0dfd8143381bd1cdc698124591f9a994e5-5760x3840-jpg
+[118/1072] sicily/6RML6143.jpg … ✓ image-fe07dc9f0eb100f333b11b73cae3682f15ba2af5-3840x5760-jpg
+[119/1072] sicily/6RML6274.jpg … ✓ image-d0f1af26c2748b9f5a1a6b98114b49ad695daf29-5760x3840-jpg
+[120/1072] sicily/6RML6571.jpg … ✓ image-1d57672f38fd2a5461ecd132e797200c519e3ff4-3649x5274-jpg
+[121/1072] sicily/6RML6917.jpg … ✓ image-5a3fa6f763bbf1862ba9086fb83c8c72e199e214-3840x5760-jpg
+[122/1072] sicily/6RML7934.jpg … ✓ image-cb43e6d8408d7a291c758b6340b71fe590bbde88-3840x5760-jpg
+[123/1072] sicily/6RML7967.jpg … ✓ image-01238e804e674118e0a321292d51fb70e695fc0d-5760x3840-jpg
+[124/1072] sicily/6RML8060-Edit.jpg …   ⚠  vision:6RML8060-Edit.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-b66f88c146ca348606bb9940feba4d086c5659c6-3840x5760-jpg
+[125/1072] sicily/6RML8171.jpg …   ⚠  vision:6RML8171.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML8171.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 6RML8171.jpg: Unexpected token 'T', ..."altText": Tattooed m"... is not valid JSON
+✓ image-abc783048e91021af66595c68169e97b50594a8f-3840x5760-jpg
+[126/1072] sicily/6RML8197.jpg …   ⚠  vision:6RML8197.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:6RML8197.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 6RML8197.jpg: Unexpected token 'G', ..."altText": Group of p"... is not valid JSON
+✓ image-6ffcaa0352ad31e07ffec07c8f595b08e6c014e1-5760x3840-jpg
+[127/1072] sicily/6RML8210.jpg …   ⚠  vision:6RML8210.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-e0033e806c05defab985fcf614e53035b315fdb4-3840x5760-jpg
+[128/1072] sicily/6RML8239.jpg … ✓ image-25672866c5192e2b9171fd2db7b70cf1ac17e6a3-3840x5760-jpg
+[129/1072] sicily/6RML8512.jpg … ✓ image-18560ea0e19c7d6b09d4643fa9c264983736c355-5760x3840-jpg
+[130/1072] sicily/6RML8514.jpg … ✓ image-4a9898cba792f50ad15e4749b11c094926d86e93-5760x3840-jpg
+[131/1072] sicily/6RML8568.jpg … ✓ image-55e7d04ef03b86f5494c98f5081af87bf14db76b-3840x5760-jpg
+[132/1072] sicily/6RML8592.jpg … ✓ image-21eb2e9d7e7cbdf6d6b0637cf2e3020d89425956-3840x5760-jpg
+[133/1072] sicily/6RML8649.jpg …   ⚠  vision:6RML8649.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-4ba1016f12f2b6457819b6c1b722a53f273b6040-3840x5760-jpg
+[134/1072] sicily/6RML8651.jpg … ✓ image-49a75968a0996251f025e51e4ad3dae033af67e8-3840x5760-jpg
+[135/1072] sicily/Day 1/425A1289.jpg … ✓ image-b140868f25d45692b9a4d3a67825d855d5c2ef77-5760x3840-jpg
+[136/1072] sicily/Day 1/425A1298.jpg … ✓ image-ff792c0f96686e182ec89a1735c1becb02a6d34c-5760x3840-jpg
+[137/1072] sicily/Day 1/425A1303.jpg … ✓ image-b59a2911d46a70f8b9086d9e0929bde40c735c73-5760x3840-jpg
+[138/1072] sicily/Day 1/425A1339.jpg … ✓ image-b7b982e3f11569a96d08658ec05227e4b6ca7cd9-3840x5760-jpg
+[139/1072] sicily/Day 1/425A1340.jpg … ✓ image-1c9764f277ac26380c91c2357283ae03c48809a8-3840x5760-jpg
+[140/1072] sicily/Day 1/425A1350.jpg … ✓ image-0065c1f07268940e9759c29bab26c51b6af6c781-5760x3840-jpg
+[141/1072] sicily/Day 1/425A1351.jpg … ✓ image-87236912677cd6f1e3f254c744ea5d391729b099-5760x3840-jpg
+[142/1072] sicily/Day 1/425A1363.jpg … ✓ image-09ede17e1f2f3a6e34a3b59e11bd450a95ea621d-5760x3840-jpg
+[143/1072] sicily/Day 1/425A1368.jpg …   ⚠  vision:425A1368.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-495228050738785e0ad5ec3a5b5bbabfe8a67893-5760x3840-jpg
+[144/1072] sicily/Day 1/425A1369.jpg … ✓ image-d2b02e087b55c4b0e9439bbcd70260fd6bb680cc-3840x5760-jpg
+[145/1072] sicily/Day 1/425A1380.jpg … ✓ image-816801397d4b488d5e1501a71dbcc98aa6ab6f3a-5760x3840-jpg
+[146/1072] sicily/Day 1/425A1393.jpg …   ⚠  vision:425A1393.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-e1691335378139fdd55dcbbfc0d1f69f0c2ca82e-5760x3840-jpg
+[147/1072] sicily/Day 1/425A1401.jpg … ✓ image-1e190a7a21ad64abf34ba2bf5e93b7dc5658274d-3840x5760-jpg
+[148/1072] sicily/Day 1/425A1402.jpg …   ⚠  vision:425A1402.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A1402.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A1402.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-806658c4515bd3dcb2de322aef2ff8aa73576992-3840x5760-jpg
+[149/1072] sicily/Day 1/425A1403.jpg … ✓ image-3c93de72a1650786d1f46f560f7f36643604660a-3840x5760-jpg
+[150/1072] sicily/Day 1/425A1404.jpg … ✓ image-22e47841a45159b5d2647b909274dcbde9b64341-3840x5760-jpg
+[151/1072] sicily/Day 1/425A1406.jpg …   ⚠  vision:425A1406.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-a67bbcd01fe54e7e8b65f8d39ba49cb0be0ba778-3840x5760-jpg
+[152/1072] sicily/Day 1/425A1407.jpg … ✓ image-a85de0eb8f001533e7c37a894226c4ec81d6af7a-3840x5760-jpg
+[153/1072] sicily/Day 1/425A1408.jpg … ✓ image-a51d7128928174a4817ec37a996779d06f72596f-5760x3840-jpg
+[154/1072] sicily/Day 1/425A1411.jpg … ✓ image-25f3c57f565fb10714b5a56b9a43e66699d18827-5760x3840-jpg
+[155/1072] sicily/Day 1/425A1413.jpg … ✓ image-47858ccd2e6b142430ef7be5daacbebaecf426d2-5760x3840-jpg
+[156/1072] sicily/Day 1/425A1417.jpg … ✓ image-74bc9c1c2c7ab43441a43d656348ce5b8b2c74c0-5760x3840-jpg
+[157/1072] sicily/Day 1/425A1426.jpg …   ⚠  vision:425A1426.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A1426.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A1426.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-3777c8e949285e9a2f9271b77ed5c7d1aa095c16-5760x3840-jpg
+[158/1072] sicily/Day 1/425A1428.jpg … ✓ image-a7421f056fcdb19115c087e0a4eea357edd61b39-3840x5760-jpg
+[159/1072] sicily/Day 1/425A1429.jpg …   ⚠  vision:425A1429.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-9e55649cc7d7291956f58336d44d59dfd4d3b560-3840x5760-jpg
+[160/1072] sicily/Day 1/425A1430.jpg … ✓ image-f7f522756b9579c78cb60a1cb245954acd238fd8-3840x5760-jpg
+[161/1072] sicily/Day 1/425A1431.jpg … ✓ image-261920b99364c35b53bd123302b2126415bac0ab-5760x3840-jpg
+[162/1072] sicily/Day 1/425A1437.jpg … ✓ image-924df28b3a83b369f3b8b2d1afaef0578559e851-3840x5760-jpg
+[163/1072] sicily/Day 1/425A1441.jpg … ✓ image-4309eccef53525a887471dbd108ddb89855f089e-5760x3840-jpg
+[164/1072] sicily/Day 1/425A1444.jpg … ✓ image-802eae3f5f48d91fc0b6f159bddfd9ff8cf59ca3-5760x3840-jpg
+[165/1072] sicily/Day 1/425A1456.jpg …   ⚠  vision:425A1456.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A1456.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-ef9c4b3642ecab27d8d3e5120452e234e77424a2-5760x3840-jpg
+[166/1072] sicily/Day 1/425A1458.jpg …   ⚠  vision:425A1458.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-b8a1efd8a30c89645a4a472e499447ae4f42635f-5760x3840-jpg
+[167/1072] sicily/Day 1/425A1460.jpg … ✓ image-232c5285b28613559cb1f3d0b815f47c72a1161c-5760x3840-jpg
+[168/1072] sicily/Day 1/425A1461.jpg … ✓ image-bbef21536e8fbee9766c3b2f13a0f1e939df2a5c-5760x3840-jpg
+[169/1072] sicily/Day 1/425A1467.jpg … ✓ image-b69d38f8bc3cd67014414703e4a424d0b763dc82-3840x5760-jpg
+[170/1072] sicily/Day 1/425A1483.jpg … ✓ image-c4e1cc1fc81b315b4c73755ae215381e7e39eeb3-3840x5760-jpg
+[171/1072] sicily/Day 1/425A1484.jpg … ✓ image-221ad0284cbf8c014de175f609fe7203c80339e6-3840x5760-jpg
+[172/1072] sicily/Day 1/425A1489.jpg … ✓ image-b49c113b66f8bc2902237c6571847ead32f8a318-3840x5760-jpg
+[173/1072] sicily/Day 1/425A1492.jpg … ✓ image-6c4bac9a858e6c6397d76eeefb3fc8bfb1c0a06c-3840x5760-jpg
+[174/1072] sicily/Day 1/425A1496.jpg … ✓ image-f46bcd0be707b70451c92068efeb0406c512d8ad-3840x5760-jpg
+[175/1072] sicily/Day 1/425A1500.jpg … ✓ image-e86055181fb55cacca0a239b64b892e9ac9b49f0-3840x5760-jpg
+[176/1072] sicily/Day 1/425A1502.jpg … ✓ image-4a90b7c479b3f432b1bf1ee87ff1fe77fa496408-3840x5760-jpg
+[177/1072] sicily/Day 1/425A1504.jpg … ✓ image-2b4617ed80ef752d355beb79f4733eba4f712368-3840x5760-jpg
+[178/1072] sicily/Day 1/425A1508.jpg … ✓ image-644da25eb6f27d14242f305f2a0c0db77f1d02fb-3840x5760-jpg
+[179/1072] sicily/Day 1/425A1511.jpg …   ⚠  vision:425A1511.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A1511.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A1511.jpg: Unexpected token 'A', ..."altText": A lush, ve"... is not valid JSON
+✓ image-7daef105279c3248613883da66fcb944f7ae45e5-3840x5760-jpg
+[180/1072] sicily/Day 1/425A1517.jpg … ✓ image-fa6ac4e6075062b85ec8c452569660aac877c0db-5760x3840-jpg
+[181/1072] sicily/Day 1/425A1520.jpg … ✓ image-429ec23f467ba32f849d6441edabbe5a4a5db5e6-5760x3840-jpg
+[182/1072] sicily/Day 1/425A1523.jpg … ✓ image-23aa7607086582b7210d4f258cb84e482b3a4fc5-3840x5760-jpg
+[183/1072] sicily/Day 1/425A1525.jpg … ✓ image-d18510801e1cd8a9174e95ed0cbea937d63ef341-3840x4225-jpg
+[184/1072] sicily/Day 1/425A1529.jpg … ✓ image-6572494190e3d4f7fc8367448271f3435412f51d-3840x5760-jpg
+[185/1072] sicily/Day 1/425A1531.jpg … ✓ image-c82097c535a196586f6c52415b1dfba25de922c1-5760x3840-jpg
+[186/1072] sicily/Day 1/425A1534.jpg … ✓ image-630ac81ca77417bcacaee1ee57065a101f6a5c7b-5760x3840-jpg
+[187/1072] sicily/Day 1/425A1535.jpg …   ⚠  vision:425A1535.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-98e8ad3efa65bbe4d949cdbf402c2391605e2ef6-5760x3840-jpg
+[188/1072] sicily/Day 1/425A1545.jpg … ✓ image-4c878d3900aa4fb76d0036a715a262ed9323d8b5-3840x5760-jpg
+[189/1072] sicily/Day 1/425A1546.jpg … ✓ image-4eafa2914524650d6dbdd5e665d31d8208a74164-3840x5760-jpg
+[190/1072] sicily/Day 1/425A1552.jpg … ✓ image-57c1e7e9825e5f4d002bf1f86f53428018afc8fc-5760x3840-jpg
+[191/1072] sicily/Day 1/425A1554.jpg … ✓ image-808dae0a7d287c0e251b0bb6a8515fabb44bbb49-5760x3840-jpg
+[192/1072] sicily/Day 1/425A1557.jpg … ✓ image-dcc7855914adcde42f0896136ae56a671565871b-5760x3840-jpg
+[193/1072] sicily/Day 1/425A1558.jpg … ✓ image-cb06e92300372657c5aab98400d5a58ba36ac187-5760x3840-jpg
+[194/1072] sicily/Day 1/425A1564.jpg …   ⚠  vision:425A1564.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-1671b63ed908c63d75fa02f0da6f5d8fafbcfdd4-5760x3840-jpg
+[195/1072] sicily/Day 1/425A1565.jpg … ✓ image-989b1b46a524a5fcee3e550884e9296e09d6aaf6-3840x5760-jpg
+[196/1072] sicily/Day 1/425A1571.jpg … ✓ image-61b50b0231732bc24aa15e13b0ae3ed423c52611-3840x5760-jpg
+[197/1072] sicily/Day 1/425A1574.jpg … ✓ image-0c245a7e812d2306c60dcfe317417515927528f1-5760x3840-jpg
+[198/1072] sicily/Day 1/425A1575.jpg … ✓ image-0a00c9e46de1db5ed81c61d70003e95b0186530c-5760x3840-jpg
+[199/1072] sicily/Day 1/425A1578.jpg … ✓ image-344c9a3fec7866d215f09149561b17ab264be3c6-5760x3840-jpg
+[200/1072] sicily/Day 1/425A1580.jpg … ✓ image-153327fb9c8a262a413be320ba97860340b083a7-5760x3840-jpg
+[201/1072] sicily/Day 1/425A1581.jpg … ✓ image-f48b9d2c0e091728dcddd47ff06ead2ee524453b-5760x3840-jpg
+[202/1072] sicily/Day 1/425A1582.jpg … ✓ image-32b6a4ca6284acc90c55897383d1fb2816e92e0a-5760x3840-jpg
+[203/1072] sicily/Day 1/425A1583.jpg … ✓ image-055394513eb9c438e97c9120b88f787e7aebb8a2-3840x5760-jpg
+[204/1072] sicily/Day 1/425A1588.jpg … ✓ image-7670f53724d2df2f2fe9e62198258c234cd83f6b-5760x3840-jpg
+[205/1072] sicily/Day 1/425A1589.jpg … ✓ image-09d8f39aedacd58555d72230229ee6e874abeabc-5760x3840-jpg
+[206/1072] sicily/Day 1/425A1593.jpg … ✓ image-c59b813dca0baae4af57d01c258d9aff7876be14-5760x3840-jpg
+[207/1072] sicily/Day 1/425A1600.jpg … ✓ image-156ef425760dd843e53a06ed8b8682b7c4908152-5760x3840-jpg
+[208/1072] sicily/Day 1/425A1605.jpg … ✓ image-eff2709a1c3f4318b4c57168c83dab90a8a946c0-5760x3840-jpg
+[209/1072] sicily/Day 1/425A1608.jpg … ✓ image-849e6215c71be5fe5c1e51b493d2c3920164c004-5760x3840-jpg
+[210/1072] sicily/Day 1/425A1618.jpg … ✓ image-796fbf2b82ca7bb00991550f1c3796504c866005-3840x5760-jpg
+[211/1072] sicily/Day 1/425A1620.jpg … ✓ image-48b38b810fa69f787df97bc1b106749a541c180f-3840x5760-jpg
+[212/1072] sicily/Day 1/425A1630.jpg … ✓ image-41474f0db79f0f17393a0ea54106b0aedb9cf789-5760x3840-jpg
+[213/1072] sicily/Day 1/425A1631.jpg … ✓ image-0f85004a9a46329fecde6cf12d8823a5e7917e95-5760x3840-jpg
+[214/1072] sicily/Day 1/425A1632.jpg … ✓ image-a8be98bfa2eb53630f091008ca7560d6bc21e2b1-5760x3840-jpg
+[215/1072] sicily/Day 1/425A1633.jpg … ✓ image-12af717fb76286dfd36357c1a9ac605fb212a6f9-5760x3840-jpg
+[216/1072] sicily/Day 1/425A1634.jpg …   ⚠  vision:425A1634.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-cf020cc846b4c0d47e56bd79cf017a9aa7cf952e-5760x3840-jpg
+[217/1072] sicily/Day 1/425A1635.jpg … ✓ image-2a1966e63dda41844192b06ed6089d6b8013af97-5760x3840-jpg
+[218/1072] sicily/Day 1/425A1636.jpg … ✓ image-d4d81b2246fdce4d07e57b0855937a14d27f569d-5760x3840-jpg
+[219/1072] sicily/Day 1/425A1637.jpg … ✓ image-70da319ba0752bc43b1b1098d18ee9baeb307611-5760x3840-jpg
+[220/1072] sicily/Day 1/425A1638.jpg … ✓ image-7de59a4e6f103c3568a8e788451af723a05b113a-5760x3840-jpg
+[221/1072] sicily/Day 1/425A1639.jpg … ✓ image-7cef14f816571b059d734326a396430051697152-5760x3840-jpg
+[222/1072] sicily/Day 1/425A1640.jpg … ✓ image-ed54477c27d26016dc951ded229d826df7265cf9-5760x3840-jpg
+[223/1072] sicily/Day 1/425A1641.jpg … ✓ image-9d714b5ea51bcff3543753030e57694897d523f5-5760x3840-jpg
+[224/1072] sicily/Day 1/425A1649.jpg … ✓ image-0c01f28b18439b36b03e82b95b068c9c686b7be0-5760x3840-jpg
+[225/1072] sicily/Day 1/425A1650.jpg … ✓ image-3590970a6313c5ce576d67a17ef4cbba6636b0e2-5760x3840-jpg
+[226/1072] sicily/Day 1/425A1653.jpg …   ⚠  vision:425A1653.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-185e45e6b0b3ece768df6edc3ecf0777383816ca-5760x3840-jpg
+[227/1072] sicily/Day 1/425A1656.jpg … ✓ image-baa8f4a9599bdeb2bc0565740847d0c256e250e7-5760x3840-jpg
+[228/1072] sicily/Day 1/425A1659.jpg … ✓ image-ec9293cfd659f794ff3cd33c30d730deb65b8316-5760x3840-jpg
+[229/1072] sicily/Day 1/425A1663.jpg … ✓ image-f98133bba32b6ced2cd63337df14d5e0a75f4429-5760x3840-jpg
+[230/1072] sicily/Day 1/425A1665.jpg … ✓ image-317474469036acb61248f84d0c2959a7f1511788-5760x3840-jpg
+[231/1072] sicily/Day 1/425A1666.jpg … ✓ image-5dbd333a5c8d3b095a69a1d123208255b6921129-5760x3840-jpg
+[232/1072] sicily/Day 1/425A1667.jpg … ✓ image-b1ce77ec3e9efe7e7f92358083acb8d0e6cb9b12-5760x3840-jpg
+[233/1072] sicily/Day 1/425A1669.jpg … ✓ image-83edffa6b88de074d6b357ed966865c7e522d9a7-5760x3840-jpg
+[234/1072] sicily/Day 1/425A1677.jpg … ✓ image-66b76103b97184e45c763fd6e6b39a592b102b79-5760x3840-jpg
+[235/1072] sicily/Day 1/425A1679.jpg …   ⚠  vision:425A1679.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A1679.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-1d4788e7809e6721fd1a7474a3aa26d607b19a69-5760x3840-jpg
+[236/1072] sicily/Day 1/425A1683.jpg … ✓ image-1383d2db8c74b02a84d268b75daccc995d3b2178-5760x3840-jpg
+[237/1072] sicily/Day 1/425A1685.jpg … ✓ image-8ff07225005a58ba2e3f717fa07977233adeeb8f-5760x3840-jpg
+[238/1072] sicily/Day 1/425A1687.jpg … ✓ image-592850bd76a4d25c7ac95e0692450cda07f2ebd7-5760x3840-jpg
+[239/1072] sicily/Day 1/425A1689.jpg …   ⚠  vision:425A1689.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-9801df423f1fcc785fc6c9b8733227c0bbacd8c8-5760x3840-jpg
+[240/1072] sicily/Day 1/425A1690.jpg … ✓ image-f431fb3174113c9e5dd99f8250834604cd07c6f9-5760x3840-jpg
+[241/1072] sicily/Day 1/425A1693.jpg … ✓ image-c641779aa2b2389247fdc877a1f5f148997b141a-5760x3840-jpg
+[242/1072] sicily/Day 1/425A1694.jpg …   ⚠  vision:425A1694.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A1694.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-5234f05f5a59a82dbba2c18c233f96b5f7471a91-5760x3840-jpg
+[243/1072] sicily/Day 1/425A1696.jpg …   ⚠  vision:425A1696.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A1696.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-4dd6026f0eeae91908f9f527a6ba5ecd44138b04-5760x3840-jpg
+[244/1072] sicily/Day 1/425A1698.jpg … ✓ image-ad0a5081ade59b6f77c0c9a54e3e97d348f35837-3840x5760-jpg
+[245/1072] sicily/Day 1/425A1700.jpg … ✓ image-3e0202679db03c196a1cab40d8017ceb75af7173-5760x3840-jpg
+[246/1072] sicily/Day 1/425A1701.jpg …   ⚠  vision:425A1701.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-00e5af84eaa290e98d8ad897e0ab80e3fdd0fab0-5760x3840-jpg
+[247/1072] sicily/Day 1/425A1702.jpg … ✓ image-d47559e9c375612e1112e809f52cded19b926781-5760x3840-jpg
+[248/1072] sicily/Day 1/425A1703.jpg … ✓ image-522f204de261cc19fc5889f5f2e34a4564771dc1-5760x3840-jpg
+[249/1072] sicily/Day 1/425A1704.jpg … ✓ image-15328579ca0f88ddf601c728972f2994a0e0ec89-5760x3840-jpg
+[250/1072] sicily/Day 1/425A1705.jpg … ✓ image-3091669450ce03aec760c9e0737ec8a375ee96e1-5760x3840-jpg
+[251/1072] sicily/Day 1/425A1706.jpg … ✓ image-7015504452edb2f81e7f3ca4162a1ce10c04d50c-5760x3840-jpg
+[252/1072] sicily/Day 1/425A1708.jpg …   ⚠  vision:425A1708.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A1708.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-10b1df68c1e4817f7b1567f7f8f7c51c49367c53-5760x3840-jpg
+[253/1072] sicily/Day 1/425A1709.jpg … ✓ image-0f1fa5e40d6e7a70e4c8eb201c3d19b76fd5b96a-5760x3840-jpg
+[254/1072] sicily/Day 1/425A1710.jpg … ✓ image-e65dce5659a34d2e14b912d72ea8f99f1af9d3cd-5760x3840-jpg
+[255/1072] sicily/Day 1/425A1711.jpg … ✓ image-b258438e9a5f0c04fdd76596bfa691dcf263f331-5760x3840-jpg
+[256/1072] sicily/Day 1/425A1718.jpg … ✓ image-0c5f9f780da7316a9b1badd4c868a7e00c7a3a1f-5760x3840-jpg
+[257/1072] sicily/Day 1/425A1719.jpg … ✓ image-f5305191eea12c560a4caa861ff85522216d3762-5760x3840-jpg
+[258/1072] sicily/Day 1/425A1723.jpg … ✓ image-a1a92eb61ba99261f41aa1dd9388d94a41fbb721-5760x3840-jpg
+[259/1072] sicily/Day 1/425A1724.jpg … ✓ image-d253849d1fbfbc71583b4043e7f238ec29d1ef4f-5760x3840-jpg
+[260/1072] sicily/Day 1/425A1725.jpg …   ⚠  vision:425A1725.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-7471cebfabb0ea588d560c087cfc60358c269539-5760x3840-jpg
+[261/1072] sicily/Day 1/425A1727.jpg … ✓ image-410d9348c297cc6060960a591b411e5b0597bf39-5760x3840-jpg
+[262/1072] sicily/Day 1/425A1733.jpg …   ⚠  vision:425A1733.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-3c35e3913fc16a9ddfe30e926157780cebec3706-3840x5760-jpg
+[263/1072] sicily/Day 1/425A1742.jpg … ✓ image-99e9f2127afd1f45e0b2cac74e040f1f560314e1-3840x5760-jpg
+[264/1072] sicily/Day 1/425A1743.jpg … ✓ image-fd317882a230e2fe8324f73b03073b2f3ec1ceb5-3840x5760-jpg
+[265/1072] sicily/Day 1/425A1744.jpg … ✓ image-96468f1caa0bd38b0963d75f2439d1d389c167ff-3840x5760-jpg
+[266/1072] sicily/Day 1/425A1758.jpg … ✓ image-59e5c133a985fb582d86d987ebbbdf20f933d52c-5760x3840-jpg
+[267/1072] sicily/Day 1/425A1760.jpg … ✓ image-18c0d579fe840c2990e847b0ac2796b2e824be03-5760x3840-jpg
+[268/1072] sicily/Day 1/425A1761.jpg … ✓ image-6947fb4aa00858b45fa19e82f5e690d115b37b45-5760x3840-jpg
+[269/1072] sicily/Day 1/425A1766.jpg …   ⚠  vision:425A1766.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A1766.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A1766.jpg: Unexpected token 'D', ..."altText": Dramatic s"... is not valid JSON
+✓ image-3e72b1591771a43d008ef1c8f1d6e2352785c9d5-5760x3840-jpg
+[270/1072] sicily/Day 1/425A1768.jpg … ✓ image-c81a5c2243c093f1262cf9f4bed0d1d9636038ce-5760x3840-jpg
+[271/1072] sicily/Day 1/425A1787.jpg …   ⚠  vision:425A1787.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-45fe1a9d66df061bc9c0e0032dbb88f6e4d70335-5760x3840-jpg
+[272/1072] sicily/Day 1/425A1788.jpg … ✓ image-be0d4f738c71a9b6b7ef560b937f3c53fdfcdfb4-5760x3840-jpg
+[273/1072] sicily/Day 1/425A1791.jpg …   ⚠  vision:425A1791.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-30ef875320e53d82de2017f80329452892c89681-5760x3840-jpg
+[274/1072] sicily/Day 1/425A1792.jpg … ✓ image-91b3b00c6a24de97b76900953529a93e24c827ae-5760x3840-jpg
+[275/1072] sicily/Day 1/425A1803.jpg …   ⚠  vision:425A1803.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-25aa5cb568bd86a8d351705abfcd78b18505296c-3840x5760-jpg
+[276/1072] sicily/Day 1/425A1806.jpg …   ⚠  vision:425A1806.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A1806.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A1806.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-c98fdf907630002b084b87e51691c2c785e2293a-3840x5760-jpg
+[277/1072] sicily/Day 1/425A1813.jpg …   ⚠  vision:425A1813.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A1813.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A1813.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-b68be8cf412179db00a4b0763ae733e717bb1900-3840x5760-jpg
+[278/1072] sicily/Day 1/425A1816.jpg … ✓ image-f3d80096cbfecf65bc2099816e6806f7c9db027f-3840x5760-jpg
+[279/1072] sicily/Day 1/425A1822.jpg …   ⚠  vision:425A1822.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-28d61189012794923d75f15d77c6a856ca298a59-5760x3840-jpg
+[280/1072] sicily/Day 1/425A1823.jpg … ✓ image-e250e357680d91381da66c86f024ffdfa15d6088-5760x3840-jpg
+[281/1072] sicily/Day 1/425A1833.jpg … ✓ image-9c58953b97c298c3ac52ba784df9d3521796274c-5760x3840-jpg
+[282/1072] sicily/Day 1/425A1834.jpg … ✓ image-f6d2268ef2854a7f652cd9f115fd12c635cf95c2-5760x3840-jpg
+[283/1072] sicily/Day 1/425A1840.jpg …   ⚠  vision:425A1840.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-4ec61f5f4f00a87d3386077df968667688cf12fc-5760x3840-jpg
+[284/1072] sicily/Day 1/425A1841.jpg … ✓ image-0366e74bdc34bb618ee59c67a69d78c2675e015a-5760x3840-jpg
+[285/1072] sicily/Day 1/425A1844.jpg … ✓ image-8cc4661b662e5145c4c0e5441199f9d9c1dae7d7-5760x3840-jpg
+[286/1072] sicily/Day 1/425A1846.jpg … ✓ image-2c684c1fdcb122b3bff44dcccb06bf231f2cad7b-5760x3840-jpg
+[287/1072] sicily/Day 1/425A1847.jpg … ✓ image-f7f20122c57d4df9c477f63f84388e68b4c10598-5760x3840-jpg
+[288/1072] sicily/Day 1/425A1849.jpg … ✓ image-0378b5daf463e8f68d2ae74ebba8fe2a21e41b79-5760x3840-jpg
+[289/1072] sicily/Day 1/425A1851.jpg … ✓ image-c19741197b6c2d71c946ce3c638ef203a36c17a9-5760x3840-jpg
+[290/1072] sicily/Day 1/425A1858.jpg …   ⚠  vision:425A1858.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-662b304814c31f260a0aef1b988f6436428647a4-5760x3840-jpg
+[291/1072] sicily/Day 1/425A1862.jpg … ✓ image-bcff7ffac965c9a21328e316ae068d650a03d2dc-5760x3840-jpg
+[292/1072] sicily/Day 1/425A1866.jpg …   ⚠  vision:425A1866.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-9f65a5098c4dc103ca33cab9fc9488b565147a59-5760x3840-jpg
+[293/1072] sicily/Day 1/425A1869.jpg …   ⚠  vision:425A1869.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-0c5bc726cda9891585882169cc6a7c28eda1c6e8-5760x3840-jpg
+[294/1072] sicily/Day 1/425A1871.jpg … ✓ image-c60f72a092370dd020843d81049433475ec18717-5760x3840-jpg
+[295/1072] sicily/Day 1/425A1872.jpg … ✓ image-54159cc06c201177afbf87decd820d113a74ac07-5760x3840-jpg
+[296/1072] sicily/Day 1/425A1876.jpg … ✓ image-70e64dcb7b593b8965bafeaa117e9e5af30cf01d-5760x3840-jpg
+[297/1072] sicily/Day 1/425A1877.jpg …   ⚠  vision:425A1877.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-76512ea6ad46289b52bd61ac95651c2f74a802a6-5760x3840-jpg
+[298/1072] sicily/Day 1/425A1880.jpg … ✓ image-288dcd5e1b7f457684b88504c57110f62e3f54b5-5760x3840-jpg
+[299/1072] sicily/Day 1/425A1882.jpg … ✓ image-0c59068e55fdf0665f563271dc0706d9c6491b2b-5760x3840-jpg
+[300/1072] sicily/Day 1/425A1883.jpg … ✓ image-b005627ea3b030464d498cd406652b214a175f71-5760x3840-jpg
+[301/1072] sicily/Day 1/425A1885.jpg … ✓ image-8f593c5ebca9286116ea49a0f369f05d90867510-5760x3840-jpg
+[302/1072] sicily/Day 1/425A1886.jpg … ✓ image-8c96ffa6d36c1045bd32a72721feb22818841299-5760x3840-jpg
+[303/1072] sicily/Day 1/425A1893.jpg … ✓ image-b781b2b9cfe5f9c613bd7c120a243d5490d0b5b1-5760x3840-jpg
+[304/1072] sicily/Day 1/425A1894.jpg …   ⚠  vision:425A1894.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-cad947f986f970a6f248d762c56ecb708204eecd-5760x3840-jpg
+[305/1072] sicily/Day 1/425A1895.jpg … ✓ image-28afe48c4150f6fb30e90654e4f32e2b37001ee4-5760x3840-jpg
+[306/1072] sicily/Day 1/425A1898.jpg … ✓ image-3fb6d60af6bed54d13f2aa71d6d2b6c7a3982ec3-5760x3840-jpg
+[307/1072] sicily/Day 1/425A1899.jpg … ✓ image-70ff300fd401ab21d834a7fcb2b3d7e979de42df-5760x3840-jpg
+[308/1072] sicily/Day 1/425A1904.jpg … ✓ image-6c62ac6c2ba355f6a9bf30f6bc9782375e02e1c3-5760x3840-jpg
+[309/1072] sicily/Day 1/425A1909.jpg …   ⚠  vision:425A1909.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-844facd242c39c73cc65e1e2a4a7a5f1b47b115b-5760x3840-jpg
+[310/1072] sicily/Day 1/425A1910.jpg … ✓ image-18b4661bfe1b2ca54d296649c2b60e0767fe03cb-5760x3840-jpg
+[311/1072] sicily/Day 1/425A1912.jpg … ✓ image-76523f5fa37df280011a3c04442470713c35a691-5760x3840-jpg
+[312/1072] sicily/Day 1/425A1914.jpg … ✓ image-77ba2bbec5c43cfd45f9e7bed0ae9b598260fa7f-5760x3840-jpg
+[313/1072] sicily/Day 1/425A1915.jpg … ✓ image-8ad1fd5d1d3cbab60e7ee309a3d93b1efe53f362-5760x3840-jpg
+[314/1072] sicily/Day 1/425A1916.jpg … ✓ image-b94ef980c80314a28b60fb4e2e04cd6cd4020d01-5760x3840-jpg
+[315/1072] sicily/Day 1/425A1918.jpg … ✓ image-585d969a2084eb33da31f51792646e5ff6f5d0d1-5760x3840-jpg
+[316/1072] sicily/Day 1/425A1923.jpg … ✓ image-67de256c89b163259b83c93002396a56564978fd-5760x3840-jpg
+[317/1072] sicily/Day 1/425A1928.jpg …   ⚠  vision:425A1928.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A1928.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A1928.jpg: VipsJpeg: premature end of JPEG image
+  ⚠  upload:425A1928.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  upload:425A1928.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Failed: Bad Request - Invalid image, could not read metadata
+[318/1072] sicily/Day 1/425A1930.jpg … ✓ image-a7a30420677e64e6e333d6528e0972d62309eb2f-5760x3840-jpg
+[319/1072] sicily/Day 1/IMG_5214.jpg … ✓ image-355c534633267dee9400a29a23c66b0ce0793a54-2334x2710-jpg
+[320/1072] sicily/Day 1/IMG_5221.jpg …   ⚠  vision:IMG_5221.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-95b57c0d0a99e094a1595121761eeef30e0dcf86-3648x5472-jpg
+[321/1072] sicily/Day 1/IMG_5231.jpg … ✓ image-5109ca2bd51e3bbba98d3f0134df424f5c395dd2-5472x3648-jpg
+[322/1072] sicily/Day 1/IMG_5235.jpg …   ⚠  vision:IMG_5235.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-b87d2fa462d4e5bac94dc53e53f2047f0fe9da04-5472x3648-jpg
+[323/1072] sicily/Day 1/IMG_5240.jpg … ✓ image-0ef37ae3791b01e62530883308e2948074e7e4c6-5472x3648-jpg
+[324/1072] sicily/Day 1/IMG_5243.jpg …   ⚠  vision:IMG_5243.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-702b5c8af446b2969b8e71e4d50c5b779e931399-3648x5472-jpg
+[325/1072] sicily/Day 1/IMG_5257.jpg … ✓ image-fc3a28e3290ed7a9471fa5f0f4a5b6ae8c69d29e-3648x5472-jpg
+[326/1072] sicily/Day 1/IMG_5267.jpg …   ⚠  vision:IMG_5267.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:IMG_5267.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for IMG_5267.jpg: Unexpected token 'A', ..."altText": A smiling "... is not valid JSON
+✓ image-47ff45af0018fc1a4fc2432a720389fbe83cb299-5472x3648-jpg
+[327/1072] sicily/Day 1/IMG_5272.jpg … ✓ image-d8aae19b527579a9e6491d55d88f1c3fa8bd6fb4-3648x5472-jpg
+[328/1072] sicily/Day 1/IMG_5284.jpg … ✓ image-027c5e4b24d0b02f44f29429668bd5fe925ceead-3648x5472-jpg
+[329/1072] sicily/Day 1/IMG_5288.jpg …   ⚠  vision:IMG_5288.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:IMG_5288.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-dce85be8595302037516d70bf1c6648d909a2003-3648x5472-jpg
+[330/1072] sicily/Day 1/IMG_5297.jpg … ✓ image-4638418b4c9db64b7f494b08b69b8572f2c5c9fb-5472x3648-jpg
+[331/1072] sicily/Day 1/IMG_5300.jpg … ✓ image-b642b41c97f6a32d2ad7a476c063460dfde511ac-5472x3648-jpg
+[332/1072] sicily/Day 1/IMG_5303.jpg … ✓ image-65ccbc5c5f08c5f30fd9c3971c3bc75c344e448f-3648x5472-jpg
+[333/1072] sicily/Day 1/IMG_5306.jpg … ✓ image-da7b8ccddb2cee1f0489cd72750338f2c8e138e5-3648x5472-jpg
+[334/1072] sicily/Day 1/IMG_5309.jpg … ✓ image-dd839acbc553536bf175553fca4b29b81f3d84f9-3648x5472-jpg
+[335/1072] sicily/Day 1/IMG_5316.jpg … ✓ image-5d3756f2837cc15c1fbcc9f099e3586f090b1fc7-3648x5472-jpg
+[336/1072] sicily/Day 1/IMG_5318.jpg … ✓ image-10fdd2e953a4529e87191310abb15450ab1bc836-5472x3648-jpg
+[337/1072] sicily/Day 1/IMG_5325.jpg …   ⚠  vision:IMG_5325.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-4554165de15ef08702a953e76f475fdd3f30d92e-3648x5472-jpg
+[338/1072] sicily/Day 1/IMG_5333.jpg … ✓ image-98255a7d6f34053626dab6f0294618f6e5548911-5472x3648-jpg
+[339/1072] sicily/Day 1/IMG_5341.jpg …   ⚠  vision:IMG_5341.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-09824d9293c6d9236b9471e99e0d653326190ae2-3648x5472-jpg
+[340/1072] sicily/Day 1/IMG_5347.jpg … ✓ image-5e427fb42caf12d6c9902d4e892fb47b5937dc93-3648x5472-jpg
+[341/1072] sicily/Day 1/IMG_5352.jpg … ✓ image-81490768a2926376fbe2a5f4fcfea3ae6a9c1e27-3648x5472-jpg
+[342/1072] sicily/Day 1/IMG_5366.jpg …   ⚠  vision:IMG_5366.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-41bd4563409c3eb5f6086bdf8299bc85cc5a5fd6-3648x5472-jpg
+[343/1072] sicily/Day 1/IMG_5373.jpg … ✓ image-1e7c8368ffd22db7dd8dd542ead35dd94f5b1b16-3648x5472-jpg
+[344/1072] sicily/Day 1/IMG_5376.jpg … ✓ image-7d6da581dee559c129236938e3a90bc2358496b4-3648x5472-jpg
+[345/1072] sicily/Day 1/IMG_5385.jpg … ✓ image-76bdfe21fc971814521c4ad7cd7d31317bc42f09-3648x5472-jpg
+[346/1072] sicily/Day 1/IMG_5386.jpg … ✓ image-7c1227b2daeeeac6fdcabb4b59cd6ad71e4d454d-3648x5472-jpg
+[347/1072] sicily/Day 1/IMG_5391.jpg … ✓ image-49daff3f948970bb8e6f9468bd989c6e73298e0e-3648x5472-jpg
+[348/1072] sicily/Day 1/IMG_5404.jpg … ✓ image-4c9e0f511d04f5f0e7d8f7241850902ab88b8e47-3648x5472-jpg
+[349/1072] sicily/Day 1/IMG_5408.jpg …   ⚠  vision:IMG_5408.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-39c7e8b6442c1e182984299c83b9523b41d6b3cb-3648x5472-jpg
+[350/1072] sicily/Day 1/IMG_5413.jpg … ✓ image-8f833a4937ee1461e30db6a74e63718c01328ef1-3648x5472-jpg
+[351/1072] sicily/Day 1/IMG_5416.jpg … ✓ image-2cba46c002e76552b2dfcc0b1c2d9125376f2292-3648x5472-jpg
+[352/1072] sicily/Day 1/IMG_5418.jpg … ✓ image-87b2e02620f1cb10499960a75c93ae92b211df79-3648x5472-jpg
+[353/1072] sicily/Day 1/IMG_5422.jpg … ✓ image-cef7e4500084823a6a00c26c728d604fbc8af498-3648x5472-jpg
+[354/1072] sicily/Day 1/IMG_5433.jpg … ✓ image-36e267595d989c8f75367d8340799d1ec6a2e810-3648x5472-jpg
+[355/1072] sicily/Day 1/IMG_5435.jpg … ✓ image-1d9ad28aecb647df747f6fe2a8c9048bc9308904-3648x5472-jpg
+[356/1072] sicily/Day 1/IMG_5439.jpg … ✓ image-c1e102e283118bd8cfa02aa016e666a9c5b977af-3648x5472-jpg
+[357/1072] sicily/Day 1/IMG_5443.jpg … ✓ image-64ead185c2f043185258fc899f8f1f2ffc976343-5472x3648-jpg
+[358/1072] sicily/Day 1/IMG_5446.jpg … ✓ image-7d521979ee135d7d60159a7224136c269dd14b7e-3648x5472-jpg
+[359/1072] sicily/Day 1/IMG_5447.jpg … ✓ image-e0a35ff8e09e854fb702d5333745ed30d255de16-3648x5472-jpg
+[360/1072] sicily/Day 1/IMG_5450.jpg …   ⚠  vision:IMG_5450.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-f500b6f90ae5696f324baa72168e980d35c2af50-3648x5472-jpg
+[361/1072] sicily/Day 1/IMG_5455.jpg … ✓ image-0410d69eac2153f8a9a2d52c75a98a7e9169c184-5472x3648-jpg
+[362/1072] sicily/Day 1/IMG_5460.jpg …   ⚠  vision:IMG_5460.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-dfc45c7322ab4f85ac80831ceba5f57925aa8bfb-3648x5472-jpg
+[363/1072] sicily/Day 1/IMG_5462.jpg … ✓ image-b5a4b38164d0331ca7d29f1cef9ab43015c9597f-3648x5472-jpg
+[364/1072] sicily/Day 1/IMG_5466.jpg … ✓ image-e47136f7f517a8ebd2558b177257ba272d005856-3648x5472-jpg
+[365/1072] sicily/Day 1/IMG_5468.jpg … ✓ image-3a46fbe47f8d4c251753773f09182a8ae9a6943b-3648x5472-jpg
+[366/1072] sicily/Day 1/IMG_5470.jpg …   ⚠  vision:IMG_5470.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-a46c81742b9ef4a7ebff750160359113012600b1-3648x5472-jpg
+[367/1072] sicily/Day 1/IMG_5476.jpg … ✓ image-6ef649941e0163cd4c64926966c09fa04722f677-3648x5472-jpg
+[368/1072] sicily/Day 1/IMG_5483.jpg …   ⚠  vision:IMG_5483.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:IMG_5483.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for IMG_5483.jpg: Unexpected token 'T', ..."altText": Two women "... is not valid JSON
+✓ image-731f0a5a2ebb6ad5dcc08d5673557be542f98d7e-3648x5472-jpg
+[369/1072] sicily/Day 1/IMG_5484.jpg … ✓ image-8cc5533434036542740525fc3c00e69a973e6d51-3648x5472-jpg
+[370/1072] sicily/Day 1/IMG_5491.jpg … ✓ image-8cb29a2356f7d6b6d44a509883f1f385e0f2ae99-3648x5472-jpg
+[371/1072] sicily/Day 1/IMG_5493.jpg …   ⚠  vision:IMG_5493.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-8d06d07957cc6339b7c71b48af680bf0efc7fb07-3648x5472-jpg
+[372/1072] sicily/Day 2/425A1947.jpg … ✓ image-5fac27ea6608c2d6d71865aa38e118971585cad3-3840x5760-jpg
+[373/1072] sicily/Day 2/425A1948.jpg … ✓ image-348f83e8fd71543dd18dd58df811dbe2a33f9256-3840x5760-jpg
+[374/1072] sicily/Day 2/425A1955.jpg … ✓ image-aa6deaf35322e70dc76f83336e9de2828bf84c5f-3840x5760-jpg
+[375/1072] sicily/Day 2/425A1956.jpg … ✓ image-8205360d93352e765685858b91a6efed0b74bab8-3840x5760-jpg
+[376/1072] sicily/Day 2/425A1959.jpg …   ⚠  upload:425A1959.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-a16661544d4867aea1b1fa07112bcf77b50eb47b-3840x5760-jpg
+[377/1072] sicily/Day 2/425A1961.jpg … ✓ image-0f3887a4e183a074aa757ed999e134377a787e0f-3840x5760-jpg
+[378/1072] sicily/Day 2/425A1963.jpg … ✓ image-a42d7f6840390d6d49e8c11e09dc8ce7b510de74-3840x5760-jpg
+[379/1072] sicily/Day 2/425A1964.jpg … ✓ image-218fff0ea9c461a81dbd649ba141cbf1804f2c72-3840x5760-jpg
+[380/1072] sicily/Day 2/425A1970.jpg … ✓ image-11262c680a6d74dba5015af7c2d859c51a8277e2-3840x5760-jpg
+[381/1072] sicily/Day 2/425A1973.jpg …   ⚠  vision:425A1973.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-e31a05ec3e327a56611d7279d8a3ec0439668fa4-3840x5760-jpg
+[382/1072] sicily/Day 2/425A1977.jpg … ✓ image-8ec33b6bf1029993701a021d22e9ca6db5a9e4cc-3840x5760-jpg
+[383/1072] sicily/Day 2/425A1980.jpg … ✓ image-3e6517cdc4d9163620e483ddaeed85f2af428009-3840x5760-jpg
+[384/1072] sicily/Day 2/425A1986.jpg … ✓ image-265ab138c087eebb100811e824daac363fc2aec9-5760x3840-jpg
+[385/1072] sicily/Day 2/425A1995.jpg … ✓ image-c10277164a6c9515c45a1cfe6e992058ce363420-5760x3840-jpg
+[386/1072] sicily/Day 2/425A2005.jpg …   ⚠  vision:425A2005.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-3b924daa6fdbbcb96fe1a560304c8e25ea3b0f76-5760x3840-jpg
+[387/1072] sicily/Day 2/425A2042.jpg … ✓ image-b39bf731e3aa93f1549fe12b45f05448b2c6cabc-5760x3840-jpg
+[388/1072] sicily/Day 2/425A2045.jpg … ✓ image-47df5092a941996bdecf9fdf2b4fb63627d35d28-5760x3840-jpg
+[389/1072] sicily/Day 2/425A2055.jpg … ✓ image-aa2993b4b8cd005d61915ecd43402af733c8f922-5760x3840-jpg
+[390/1072] sicily/Day 2/425A2056.jpg … ✓ image-e113804c384c2c7f96407916e53e286958651d88-5760x3840-jpg
+[391/1072] sicily/Day 2/425A2061.jpg …   ⚠  vision:425A2061.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-cb769d0531d44dbda2154fb04847ccb72ea7e9cf-5760x3840-jpg
+[392/1072] sicily/Day 2/425A2070.jpg … ✓ image-3e79d726f64ad7856ab155ab118861c99d576164-3840x5760-jpg
+[393/1072] sicily/Day 2/425A2077.jpg …   ⚠  vision:425A2077.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-9a395b76e9d2eee2bb671ba689ddf89583181591-5760x3840-jpg
+[394/1072] sicily/Day 2/425A2079.jpg …   ⚠  vision:425A2079.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-11175204e30640e75e3a1aea63c6ceee7af479d6-3840x5760-jpg
+[395/1072] sicily/Day 2/425A2080.jpg … ✓ image-024bdbc8306917b33e1e82548d809320d208411f-5760x3840-jpg
+[396/1072] sicily/Day 2/425A2086.jpg …   ⚠  vision:425A2086.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-89427689eb0b44de042194133314a77c5bad43d5-3840x5760-jpg
+[397/1072] sicily/Day 2/425A2088.jpg … ✓ image-2b4275ff2f2889148b52a5671f707d66964ad3fe-3840x5760-jpg
+[398/1072] sicily/Day 2/425A2090.jpg … ✓ image-d2774b64c62f702d54342de81c2f34ad43c343bc-3840x5760-jpg
+[399/1072] sicily/Day 2/425A2095.jpg …   ⚠  vision:425A2095.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A2095.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A2095.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-0a27fa151bd1c8b0259aa032938917c55794ddf3-5760x3840-jpg
+[400/1072] sicily/Day 2/425A2096.jpg …   ⚠  vision:425A2096.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-972988d61ecb8e361ac37abe8ab5ee8c86eca3a0-5760x3840-jpg
+[401/1072] sicily/Day 2/425A2097.jpg …   ⚠  vision:425A2097.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A2097.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A2097.jpg: Unexpected token 'T', ..."altText": Three shir"... is not valid JSON
+✓ image-b27f516be4ba9c0ded16d9310064c9ed83ddde4d-5760x3840-jpg
+[402/1072] sicily/Day 2/425A2101.jpg … ✓ image-b3965a6ebe1099465b42038437e0cd1f54a5b496-3840x5760-jpg
+[403/1072] sicily/Day 2/425A2102.jpg … ✓ image-3fbba0139161986150930f1ff5babcf27533d20b-3840x5760-jpg
+[404/1072] sicily/Day 2/425A2104.jpg …   ⚠  vision:425A2104.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A2104.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-ccdab0ebd74596da3f5c93ba461be73074090d12-3840x5760-jpg
+[405/1072] sicily/Day 2/425A2110.jpg …   ⚠  vision:425A2110.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A2110.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A2110.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-e04865a55a6bb5a180d273fa6208c832a90d7737-5760x3840-jpg
+[406/1072] sicily/Day 2/425A2121.jpg … ✓ image-83f95c03b5514eb567d8c636937e02c362512171-5760x3840-jpg
+[407/1072] sicily/Day 2/425A2138.jpg …   ⚠  vision:425A2138.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-9ca2531b56e5073f47524d6ae575edada2b28755-5760x3840-jpg
+[408/1072] sicily/Day 2/425A2150.jpg … ✓ image-0b134d5dbf59b8585b6ff465fbdb61d8d6d81bc1-5760x3840-jpg
+[409/1072] sicily/Day 2/425A2152.jpg … ✓ image-e4288360d98e45594374d01b51fde205d8a62540-5760x3840-jpg
+[410/1072] sicily/Day 2/425A2155.jpg …   ⚠  vision:425A2155.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A2155.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-9e91520a4819379e965a90bb701c171f2e4e79ea-3840x5760-jpg
+[411/1072] sicily/Day 2/425A2159.jpg … ✓ image-b3a11d875bf0396d0449f6a7b4511729e51c68c0-5760x3840-jpg
+[412/1072] sicily/Day 2/425A2178.jpg … ✓ image-41afdc28c2a22ab2f5fe0447058841081e1c1871-5760x3840-jpg
+[413/1072] sicily/Day 2/IMG_5503.jpg … ✓ image-f3ef250ce1a2d8c3c9809aad0426c304742a8b80-3648x5472-jpg
+[414/1072] sicily/Day 2/IMG_5506.jpg … ✓ image-7fca9800957308d7efa12a2d0742907dd0c70469-3648x5472-jpg
+[415/1072] sicily/Day 2/IMG_5510.jpg … ✓ image-05d44afddf61c99331e5f9b2dfcb3c8d7e823daf-3648x5472-jpg
+[416/1072] sicily/Day 2/IMG_5515.jpg … ✓ image-b13b1f38e46e87030714f52a40992feed8c8b5fb-3648x5472-jpg
+[417/1072] sicily/Day 2/IMG_5523.jpg … ✓ image-d242170dce1e96c496a345b36d6be7f31e742026-3648x5472-jpg
+[418/1072] sicily/Day 2/IMG_5524.jpg … ✓ image-7011cb1265a61d5add13a52a2bad51c1a5588315-3648x5472-jpg
+[419/1072] sicily/Day 2/IMG_5529.jpg … ✓ image-d172732e84adaf2dd9eab32db0e89b6e5784f30b-3648x5472-jpg
+[420/1072] sicily/Day 2/IMG_5540.jpg … ✓ image-a85dd28262bb5c1b305bad15eb08d413c7b9fde3-5472x3648-jpg
+[421/1072] sicily/Day 2/IMG_5566.jpg … ✓ image-f17e00b53ddf90624a3edd7e3315bf45bed6c789-5472x3648-jpg
+[422/1072] sicily/Day 2/IMG_5569.jpg … ✓ image-952c2830cdc110a627fe99640faea248a5f834f7-5472x3648-jpg
+[423/1072] sicily/Day 2/IMG_5570.jpg … ✓ image-2a8e836e0a91095e507f2736fd2011cb04440714-5472x3648-jpg
+[424/1072] sicily/Day 2/IMG_5577.jpg … ✓ image-e7fd19edf543ca908765fa9cbea63d1f98692b6a-5472x3648-jpg
+[425/1072] sicily/Day 2/IMG_5578.jpg … ✓ image-6a7a2bc38b6224f6807c87bc1399ef58d946c440-5472x3648-jpg
+[426/1072] sicily/Day 2/IMG_5583.jpg … ✓ image-f92022e5012e5bb75f4f30a913b4588e44809fda-5472x3648-jpg
+[427/1072] sicily/Day 2/IMG_5584.jpg … ✓ image-243bf257acb531ef4f7279e73edd928df795819c-5472x3648-jpg
+[428/1072] sicily/Day 2/IMG_5589.jpg … ✓ image-3f555c01308eda8291cfb0fa47aa88a49604c001-3648x5472-jpg
+[429/1072] sicily/Day 2/IMG_5595.jpg … ✓ image-d678b202b06527f17d7fbf3dae2e42abadcabeb6-3648x5472-jpg
+[430/1072] sicily/Day 2/IMG_5598.jpg … ✓ image-c7b67bd468c5ee9aaed4a97a5b67e0789744d31c-3648x5472-jpg
+[431/1072] sicily/Day 2/IMG_5599.jpg … ✓ image-ff05385483eca8a18274ead4e6c9ebcdad47bdef-3648x5472-jpg
+[432/1072] sicily/Day 2/IMG_5601.jpg … ✓ image-af2ebe4f5c3cc7be97897853784ab8b7d14d6f4b-3648x5472-jpg
+[433/1072] sicily/Day 2/IMG_5604.jpg … ✓ image-4dc00ac94e88e55fb970fb13a8e1e5ea8951ac2e-3648x5472-jpg
+[434/1072] sicily/Day 2/IMG_5608.jpg … ✓ image-f61a2174e3a4006d8924a8fc58a6d1e8d53975c8-3648x5472-jpg
+[435/1072] sicily/Day 2/IMG_5612.jpg … ✓ image-794ffdaaa77c544433a14892f85aee4fce267837-3648x5472-jpg
+[436/1072] sicily/Day 2/IMG_5621.jpg … ✓ image-cbd69e80e16686d484c6576d33a57eda613c03cb-5472x3648-jpg
+[437/1072] sicily/Day 2/IMG_5630.jpg …   ⚠  vision:IMG_5630.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-701deee10b8b9f0a1d124712973bfab51988ed58-3648x5472-jpg
+[438/1072] sicily/Day 2/IMG_5634.jpg … ✓ image-1bde89b74bc597b8141354b94205504f174dfcb1-5472x3648-jpg
+[439/1072] sicily/Day 2/IMG_5636.jpg … ✓ image-a912c2be4ffe52d3a0fccb481e8402ada26d6d74-5472x3648-jpg
+[440/1072] sicily/Day 2/IMG_5637.jpg … ✓ image-6e75a3182d8086c71777afc5c7e3ad6b5439a512-5472x3648-jpg
+[441/1072] sicily/Day 2/IMG_5640.jpg … ✓ image-3938cda414575247bbe38ff917e71488a0a96452-5472x3648-jpg
+[442/1072] sicily/Day 2/IMG_5642.jpg … ✓ image-9015ce4babc7093a480b27133487d15bf67acdae-5472x3648-jpg
+[443/1072] sicily/Day 2/IMG_5651.jpg … ✓ image-14e9154117c83eeea6a26c8ae6d5b50fca84564a-3648x5472-jpg
+[444/1072] sicily/Day 2/IMG_5652.jpg … ✓ image-357974f912dad40487f0bedb60f719c6d02f1178-3648x5472-jpg
+[445/1072] sicily/Day 2/IMG_5656.jpg …   ⚠  vision:IMG_5656.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-3452acca8cacd3c35c3aef3e9d048f1ded6d3b66-3648x5472-jpg
+[446/1072] sicily/Day 2/IMG_5666.jpg … ✓ image-f9ae079d23a758b7b6acde8dedbadd6f03ef9dd8-5472x3648-jpg
+[447/1072] sicily/Day 2/IMG_5668-2.jpg … ✓ image-90e4ad6e2d98045ceae687839a0dbd93ac399d94-5472x3648-jpg
+[448/1072] sicily/Day 2/IMG_5678.jpg … ✓ image-994b05683f1e3c4a3f3d04fd8bd5de9b34923582-3648x5472-jpg
+[449/1072] sicily/Day 2/IMG_5679.jpg … ✓ image-7d691cc3f335d702871ba79bae0ea4fcc9d353a1-5472x3648-jpg
+[450/1072] sicily/Day 2/IMG_5682.jpg … ✓ image-435bce7bf7dc69d89e4d2241101fc5d26aa90cea-3648x5472-jpg
+[451/1072] sicily/Day 2/IMG_5687.jpg … ✓ image-e8d72ebc8f17dc7bbbdd321b0c7cd1eb08311ea2-5472x3648-jpg
+[452/1072] sicily/Day 2/IMG_5691.jpg … ✓ image-849cfb6a0eff737a96a5fda7e72c084394e014f6-3648x5472-jpg
+[453/1072] sicily/Day 2/IMG_5693.jpg … ✓ image-b93e33ba73c4f5c03772230bb0083f1f5fca5458-5472x3648-jpg
+[454/1072] sicily/Day 2/IMG_5696.jpg … ✓ image-174b9384404a2d07847d3ef4e7b7fe565f0cd81d-3648x5472-jpg
+[455/1072] sicily/Day 2/IMG_5717.jpg …   ⚠  vision:IMG_5717.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-b534de2e6bc7c5e79beb7727c36434591c6414a5-5472x3648-jpg
+[456/1072] sicily/Day 3/425A2622.jpg …   ⚠  vision:425A2622.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A2622.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A2622.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-55b302479976d71a8570303c2f606df33659842f-3840x5760-jpg
+[457/1072] sicily/Day 3/425A2632.jpg … ✓ image-65e94f4f1d6e8befbe8fb99b031c37a68cb78fb8-3840x5760-jpg
+[458/1072] sicily/Day 3/425A2634.jpg … ✓ image-ea17b74dbeee3796e59eea39ae9c57b940c60f13-3840x5760-jpg
+[459/1072] sicily/Day 3/425A2637.jpg … ✓ image-205de91bf8cb93cefba04978dbd19a87304bbf9d-3840x5760-jpg
+[460/1072] sicily/Day 3/425A2639.jpg … ✓ image-f7d7e678f5a27db2563805de9a4cad98f11f70b3-3840x5760-jpg
+[461/1072] sicily/Day 3/425A2642.jpg … ✓ image-bcc1d64304721c31b1a36e4256559ca9f287fe88-3840x5760-jpg
+[462/1072] sicily/Day 3/425A2664.jpg … ✓ image-4c5c902f240077d9d1d91e3f7a6a18b17935c4c2-5760x3840-jpg
+[463/1072] sicily/Day 3/425A2674.jpg … ✓ image-bbae7f39d1b1d1d04471a09ba4582bd6d157d6e7-3840x5760-jpg
+[464/1072] sicily/Day 3/425A2705.jpg … ✓ image-81986d125258c3c92a51fcdb8e661cb6ab67f029-3840x5760-jpg
+[465/1072] sicily/Day 3/425A2714.jpg … ✓ image-697542e0c5bb599842c4ca99ff11982aaea4432a-3840x5760-jpg
+[466/1072] sicily/Day 3/IMG_6172.jpg … ✓ image-f2ed9194d9be568786c995d1ea358f0c5a4e0825-3648x5472-jpg
+[467/1072] sicily/Day 3/IMG_6173.jpg … ✓ image-eeb53610ec07a05a3c2930e63444dac24aa38f21-3648x5472-jpg
+[468/1072] sicily/Day 3/IMG_6176.jpg … ✓ image-40327beba68e3d29c2d165ff2bed99ea5d9548b9-3648x5472-jpg
+[469/1072] sicily/Day 3/IMG_6189.jpg … ✓ image-7e94a9cb405f7ea1cdb172ed492d15aa4d3d090d-5472x3648-jpg
+[470/1072] sicily/Day 3/IMG_6190.jpg … ✓ image-8b549590a81bca924ba48182ce7e43c9ef9ceabc-5472x3648-jpg
+[471/1072] sicily/Day 3/IMG_6192.jpg … ✓ image-3d71fac869d3dab2ba94dd1ab898d67519a6b6cf-5472x3648-jpg
+[472/1072] sicily/Day 3/IMG_6194.jpg … ✓ image-bb79b26edd9e395e304eb96d5a038b32641a7767-5472x3648-jpg
+[473/1072] sicily/Day 3/IMG_6205.jpg … ✓ image-8df4ae26eb54f8c7fd55e4be6718f81196ee727b-3648x5472-jpg
+[474/1072] sicily/Day 3/IMG_6214.jpg … ✓ image-a277f62a97d72b6e79ce0e02e6ae90d50e41fd19-3648x5472-jpg
+[475/1072] sicily/Day 3/IMG_6218.jpg … ✓ image-c2c2d9f8216de743c1b664b9c43871d22f3474c6-3648x5472-jpg
+[476/1072] sicily/Day 3/IMG_6230.jpg … ✓ image-bcf9e818c5437bd9d19fa7897515f3c358a3f6f8-3648x5472-jpg
+[477/1072] sicily/Day 3/IMG_6231.jpg … ✓ image-27059cf550b0a990251172b3957358a99a584b9b-3648x5472-jpg
+[478/1072] sicily/Day 3/IMG_6247.jpg … ✓ image-c9df2e94169ef12fe1584b1f9194fd507a46aa34-3648x5472-jpg
+[479/1072] sicily/Day 3/IMG_6255.jpg … ✓ image-81a8fa77c4276b6a4916294ca85f5480f0b4fe1f-3648x5472-jpg
+[480/1072] sicily/Day 3/IMG_6264.jpg … ✓ image-11446f1dbdb2106628e851fd0a30677f1564069f-3648x5472-jpg
+[481/1072] sicily/Day 3/IMG_6685.jpg … ✓ image-daed24369be019822742f1d46f197f5ac683e2ee-3648x5472-jpg
+[482/1072] sicily/Day 4/425A2880.jpg … ✓ image-920733e190f4470f0d8ae604c0ff9b401ccbd7f4-5760x3840-jpg
+[483/1072] sicily/Day 4/425A2890.jpg …   ⚠  vision:425A2890.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A2890.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-3024522e4003e5c353ad2fd670f9adc4efe10c02-3840x5760-jpg
+[484/1072] sicily/Day 4/425A2891.jpg … ✓ image-bfbb7a9016f70f6635a979e0d6a130a9ec1a6174-3840x5760-jpg
+[485/1072] sicily/Day 4/425A2894.jpg … ✓ image-1c88f95d19104883978abf8122967ee616ea0934-3840x5760-jpg
+[486/1072] sicily/Day 4/425A2899.jpg …   ⚠  vision:425A2899.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A2899.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-858764d15f14e530fe15763ffa8b104bd98c6895-3840x5760-jpg
+[487/1072] sicily/Day 4/425A2900.jpg … ✓ image-3924d681cd5da90a9d9009d53bbd7a234373db66-3840x5760-jpg
+[488/1072] sicily/Day 4/425A2901.jpg … ✓ image-a83ea26cf2f37a18048f2b98ecb09081d8052a2a-3840x5760-jpg
+[489/1072] sicily/Day 4/425A2903.jpg …   ⚠  vision:425A2903.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-e9bcc89152306bf9073278c2c3b7408ac1dff05b-5760x3840-jpg
+[490/1072] sicily/Day 4/425A2904.jpg … ✓ image-e9f9b1744539627684ce7532f8eac8753a9332b0-5760x3840-jpg
+[491/1072] sicily/Day 4/425A2910.jpg … ✓ image-af6a45c687cd4258186e123225669dfc0909a57b-5760x3840-jpg
+[492/1072] sicily/Day 4/425A2920.jpg … ✓ image-27aa1819a80f2fda0ad45dc54c97d79112aaf57f-3840x5760-jpg
+[493/1072] sicily/Day 4/425A2922.jpg … ✓ image-91e59023da7e51a782a4619afdc3dc9ed24f3004-3840x5760-jpg
+[494/1072] sicily/Day 4/425A2923.jpg … ✓ image-e8736dc69c368e8f9080dedad1e7aa9ac5b445f0-3840x5760-jpg
+[495/1072] sicily/Day 4/425A2924.jpg … ✓ image-33129f2fdeb50465528831b2ce654c08dd03c0a9-3840x5760-jpg
+[496/1072] sicily/Day 4/425A2926.jpg … ✓ image-cec05385d02c6d743f717447cc993cf59ca81df0-3840x5760-jpg
+[497/1072] sicily/Day 4/425A2928.jpg …   ⚠  vision:425A2928.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-5edf2ec9d3b5be4cea0d659f21c92e1c6cb8a2df-5760x3840-jpg
+[498/1072] sicily/Day 4/425A2933.jpg …   ⚠  vision:425A2933.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-bdc1ee098a37b52f9d59cd08152beb9a50422f75-5760x3840-jpg
+[499/1072] sicily/Day 4/425A2935.jpg … ✓ image-f7842ef8b5b4afc841aea848c975e63e297bb7c9-5760x3840-jpg
+[500/1072] sicily/Day 4/425A2937.jpg … ✓ image-23209f9e50d36bd5f229e641d516deb08a58c637-5760x3840-jpg
+[501/1072] sicily/Day 4/425A2938.jpg …   ⚠  vision:425A2938.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-8b94d164db6bcb6734453e52a76666a4b5643c04-5760x3840-jpg
+[502/1072] sicily/Day 4/425A2939.jpg … ✓ image-8afe0d82243f86888ad37204a401cb452965b1e1-5760x3840-jpg
+[503/1072] sicily/Day 4/425A2941.jpg … ✓ image-0052ecfe2932e1dc99b884d04a91ea340fbfb903-5760x3840-jpg
+[504/1072] sicily/Day 4/425A2942.jpg … ✓ image-9314183fd3ad7492edb869b9e3d14cb447961391-5760x3840-jpg
+[505/1072] sicily/Day 4/425A2943.jpg … ✓ image-4221267c4842d66768ad7ee5ac8c1f1de2a79868-5760x3840-jpg
+[506/1072] sicily/Day 4/425A2947.jpg …   ⚠  vision:425A2947.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A2947.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-f2df16c57a3bd59e79ba1a11c92a66c3e34f52d3-5760x3840-jpg
+[507/1072] sicily/Day 4/425A2948.jpg … ✓ image-aee8454495189896eae0d17c90a64f70ac782da0-5760x3840-jpg
+[508/1072] sicily/Day 4/425A2950.jpg … ✓ image-a6bfa86ed41c8805ebe30c2a2b738c93095154a1-5760x3840-jpg
+[509/1072] sicily/Day 4/425A2952.jpg … ✓ image-bb317028ea001335673d1c73cea0780c9ccdf76b-5760x3840-jpg
+[510/1072] sicily/Day 4/425A2954.jpg … ✓ image-5bd8369df104ba6b03d5482a814b82ca3e2d28ca-5760x3840-jpg
+[511/1072] sicily/Day 4/425A2956.jpg …   ⚠  vision:425A2956.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-7aa3f0f3022a184c6df4d8963d5673f2cf8baf16-5760x3840-jpg
+[512/1072] sicily/Day 4/425A2994.jpg … ✓ image-ae72a57ee1e2643739923d666cac0604d61549c3-5760x3840-jpg
+[513/1072] sicily/Day 4/425A2996.jpg … ✓ image-7b7fa720a43a9a5ab271725cd523c84408ed6208-5760x3840-jpg
+[514/1072] sicily/Day 4/425A3002.jpg … ✓ image-fa3c1069d5a752e2eab0cf70d6abb4e851308d4a-5760x3840-jpg
+[515/1072] sicily/Day 4/425A3004.jpg … ✓ image-e011724ea8d513e0ba1c543cb21311dec0814e25-3840x5760-jpg
+[516/1072] sicily/Day 4/425A3005.jpg …   ⚠  vision:425A3005.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-c77447c024861aaf78e74644334c2f036df414f6-5760x3840-jpg
+[517/1072] sicily/Day 4/425A3006.jpg … ✓ image-5b5f65c44b8d8ac84acd631b232c43d928fda823-5760x3840-jpg
+[518/1072] sicily/Day 4/425A3013.jpg … ✓ image-fb9649fe9ba42e1bc4dc762d197bc3f5ae99ef5a-3840x5760-jpg
+[519/1072] sicily/Day 4/425A3014.jpg … ✓ image-5974f0949f64b6d03778ba00301af2c498a6dc5b-5760x3840-jpg
+[520/1072] sicily/Day 4/425A3016.jpg … ✓ image-d3da170b02f63c40a62a154744d9c75ea2c5efd1-5760x3840-jpg
+[521/1072] sicily/Day 4/425A3030.jpg … ✓ image-a937ec4065f08b9b0b1a7419874134026009451b-3840x5760-jpg
+[522/1072] sicily/Day 4/425A3031.jpg … ✓ image-af2d562cc8644b7fbda0ea6d759410c35a32f00e-3840x5760-jpg
+[523/1072] sicily/Day 4/425A3032.jpg …   ⚠  vision:425A3032.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3032.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-919c365ae2211fcfd1d633083714e5aef46601fa-3840x5760-jpg
+[524/1072] sicily/Day 4/425A3034.jpg … ✓ image-eab1de806a8593634b9b0f8776cbf760b287f41b-3840x5760-jpg
+[525/1072] sicily/Day 4/425A3036.jpg … ✓ image-1e25362274f4f0e97e91c58d9a9e755dcef0a2cc-5760x3840-jpg
+[526/1072] sicily/Day 4/425A3038.jpg … ✓ image-dd931f071b6abefe36334ca532de7945dc583176-5760x3840-jpg
+[527/1072] sicily/Day 4/425A3039.jpg …   ⚠  vision:425A3039.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3039.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A3039.jpg: Input file has corrupt header: VipsJpeg: premature end of JPEG image
+  ⚠  upload:425A3039.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  upload:425A3039.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Failed: Bad Request - Invalid image, could not read metadata
+[528/1072] sicily/Day 4/425A3042.jpg … ✓ image-3edf54dcf78f2bbc76818a3231cab35233d212cc-5760x3840-jpg
+[529/1072] sicily/Day 4/425A3049.jpg … ✓ image-a7ecb9a2a756edf3982a3159b7cfbd3bb874d37a-5760x3840-jpg
+[530/1072] sicily/Day 4/425A3051.jpg … ✓ image-473d0df522897ac6c91efcf98c935e0f8f7e4b47-5760x3840-jpg
+[531/1072] sicily/Day 4/425A3052.jpg …   ⚠  vision:425A3052.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-f54f1bbf7986d260a5bbbb8f1d070c2c79af60c2-5760x3840-jpg
+[532/1072] sicily/Day 4/425A3060.jpg … ✓ image-5fed10155b7d534659b8d809ba25cf8a40a0d268-5760x3840-jpg
+[533/1072] sicily/Day 4/425A3062.jpg … ✓ image-7d7dab5bf998be3bdd705550a6c70452adf83956-3840x5760-jpg
+[534/1072] sicily/Day 4/425A3063.jpg … ✓ image-87179a0d572335be1875e8b2c680f6b4ea8ec95a-5760x3840-jpg
+[535/1072] sicily/Day 4/425A3066.jpg … ✓ image-219542fdc826db4c2aa816957f73e6ecfef61df0-5760x3840-jpg
+[536/1072] sicily/Day 4/425A3067.jpg … ✓ image-c042f3784bf521b48c4b0f4318819352f5c0b4db-5760x3840-jpg
+[537/1072] sicily/Day 4/425A3068.jpg …   ⚠  vision:425A3068.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3068.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-a9c17ced764e1d33e0eb73bedeb61acf0491d340-5760x3840-jpg
+[538/1072] sicily/Day 4/425A3069.jpg … ✓ image-e5d2b18ce8268236ac63e231a0d14ada752ad618-5760x3840-jpg
+[539/1072] sicily/Day 4/425A3071.jpg … ✓ image-046bc5f0057446d1304c81848c08b8223602e597-5760x3840-jpg
+[540/1072] sicily/Day 4/425A3075.jpg … ✓ image-f9ac3f29d3e6a8c74333da016ab8da60b6a3d7a0-3840x5760-jpg
+[541/1072] sicily/Day 4/425A3079.jpg … ✓ image-9af59c7091ff796fdaaa94000e62385de7ae3d06-3840x5760-jpg
+[542/1072] sicily/Day 4/425A3085.jpg … ✓ image-8230a87bf58a71b27cc71fe31e5086a43351356d-3840x5760-jpg
+[543/1072] sicily/Day 4/425A3090.jpg … ✓ image-70a43292f54c20fd110c03392673cd6652e51382-3840x5760-jpg
+[544/1072] sicily/Day 4/425A3091.jpg … ✓ image-638eccd0294d1782750cf13647ec48f1df299a10-3840x5760-jpg
+[545/1072] sicily/Day 4/425A3092.jpg … ✓ image-b556fe8b21b2f8a51078c01dcf47a357936fa30a-3840x5760-jpg
+[546/1072] sicily/Day 4/425A3097.jpg …   ⚠  vision:425A3097.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-9cffc93341be95ac015c66683eff20d210a54ccc-5760x3840-jpg
+[547/1072] sicily/Day 4/425A3102.jpg … ✓ image-94d6f3b5c9355174560d605b2846698794b42891-5760x3840-jpg
+[548/1072] sicily/Day 4/425A3103.jpg … ✓ image-1175100cc772190fb485f04788084674fb7179a5-5760x3840-jpg
+[549/1072] sicily/Day 4/425A3105.jpg … ✓ image-9ab1fa49b5bc9197ac3209a75670d232e02f37bc-5760x3840-jpg
+[550/1072] sicily/Day 4/425A3107.jpg … ✓ image-720eae2599403ad9fddcd8f1d275ef77624c7de3-5760x3840-jpg
+[551/1072] sicily/Day 4/425A3119.jpg … ✓ image-493805dc471b2cbcbcf1844dbfec1736c8f1cfd6-5760x3840-jpg
+[552/1072] sicily/Day 4/425A3120.jpg … ✓ image-18a071a61767858f912ffcbbc616fd0191a30808-5760x3840-jpg
+[553/1072] sicily/Day 4/425A3122.jpg … ✓ image-6c0e42f0989eaa14358d56c4b60cc386e5de7984-5760x3840-jpg
+[554/1072] sicily/Day 4/425A3124.jpg … ✓ image-4d191ce1200174406291dfd2c8b45810cd63905f-5760x3840-jpg
+[555/1072] sicily/Day 4/425A3125.jpg … ✓ image-65b091027a242b09d6cf64d7650991963c223268-5760x3840-jpg
+[556/1072] sicily/Day 4/425A3126.jpg … ✓ image-60569261751fd02a32eb1d01d69a281d89cd5384-5760x3840-jpg
+[557/1072] sicily/Day 4/425A3127.jpg …   ⚠  vision:425A3127.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3127.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-bdf551f6d4e959dafa46118c261f6de88457b657-5760x3840-jpg
+[558/1072] sicily/Day 4/425A3132.jpg … ✓ image-df3a631ac4a97785658e9082355e40e79839284d-5760x3840-jpg
+[559/1072] sicily/Day 4/425A3138.jpg … ✓ image-fa743c73b7f40307af238da3d3c26aa404e9afd4-3840x5760-jpg
+[560/1072] sicily/Day 4/425A3140.jpg … ✓ image-1a2585d154a55831c2ead2d46e1a6abdbe15361e-3840x5760-jpg
+[561/1072] sicily/Day 4/425A3142.jpg … ✓ image-619fae47ca3d56c6931da0ca4e49a6d955fad7ef-3840x5760-jpg
+[562/1072] sicily/Day 4/425A3145.jpg … ✓ image-a197a55c90e51b822c8123c372020c5642e72630-3840x5760-jpg
+[563/1072] sicily/Day 4/425A3146.jpg … ✓ image-d91da5d25a9a2f91959577d98fc9be6c2ed768d8-3840x5760-jpg
+[564/1072] sicily/Day 4/425A3147.jpg … ✓ image-4e7516fe5b5e8c0f2d9529e4d6353bc804b15a19-3840x5760-jpg
+[565/1072] sicily/Day 4/425A3150.jpg …   ⚠  vision:425A3150.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-0df452891293f6d2f300a147939fa8f2139e2517-3840x5760-jpg
+[566/1072] sicily/Day 4/425A3151.jpg … ✓ image-e6591dfde031cc3a7129db7648d5f42cca777839-3840x5760-jpg
+[567/1072] sicily/Day 4/425A3152.jpg … ✓ image-1418a5199bf31eb60f3a9f4093c548521d4cded6-3840x5760-jpg
+[568/1072] sicily/Day 4/425A3153.jpg …   ⚠  vision:425A3153.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-d2660db22ac29198001b9b576732ef872e6bc7ae-3840x5760-jpg
+[569/1072] sicily/Day 4/425A3154.jpg … ✓ image-060721ab0ff717cc643362363141ffc1ab022055-3840x5760-jpg
+[570/1072] sicily/Day 4/425A3155.jpg … ✓ image-04f81b2c0ad9348c73ea0e702ea79169bd17d67e-3840x5760-jpg
+[571/1072] sicily/Day 4/425A3158.jpg … ✓ image-ae061d6307207ce62d90a4c6f3e0935c0aa597d5-5760x3840-jpg
+[572/1072] sicily/Day 4/425A3159.jpg … ✓ image-254d0a712a0f08e6e37eef68af0873e5846279c8-3840x5760-jpg
+[573/1072] sicily/Day 4/425A3162.jpg … ✓ image-894e035725fdba3e1d75d16faf9996bd12b6575d-3840x5760-jpg
+[574/1072] sicily/Day 4/425A3163.jpg … ✓ image-887044dcbcf7578e785cb96bf3dc59b2006e7cfe-3840x5760-jpg
+[575/1072] sicily/Day 4/425A3164.jpg … ✓ image-325f7f98597bcea81526ec48cbee5a7408f4c6e8-3840x5760-jpg
+[576/1072] sicily/Day 4/425A3165.jpg … ✓ image-699149bba977644a30cf0aa31e8b9b45c7c66bb9-3840x5760-jpg
+[577/1072] sicily/Day 4/425A3169.jpg … ✓ image-2442a41d67e353a6ec195a98de647cde504c501b-5760x3840-jpg
+[578/1072] sicily/Day 4/425A3170.jpg …   ⚠  vision:425A3170.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-1290ddf830482218405b9d9a5135b5dffc502b95-5760x3840-jpg
+[579/1072] sicily/Day 4/425A3171.jpg … ✓ image-81e50074eb41e201cb87aee13dc09c44e3edf46d-5760x3840-jpg
+[580/1072] sicily/Day 4/425A3175.jpg …   ⚠  vision:425A3175.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3175.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A3175.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-5fd81fff4ac10843e73a02d5ea2a94ebd9b7994d-5760x3840-jpg
+[581/1072] sicily/Day 4/425A3176.jpg … ✓ image-508fdd925d42ac04f79bd0df12dcee9298f4b263-5760x3840-jpg
+[582/1072] sicily/Day 4/425A3178.jpg … ✓ image-2f273b0ed5637d6afe65108a27c77fa2fad35ca5-3840x5760-jpg
+[583/1072] sicily/Day 4/425A3180.jpg … ✓ image-c3cb4207468be1d6b99e8286deb39270cf2d10ac-3840x5760-jpg
+[584/1072] sicily/Day 4/425A3181.jpg … ✓ image-144564fca87f3a058f4698460d84a7d5dd01f805-3840x5760-jpg
+[585/1072] sicily/Day 4/425A3186.jpg … ✓ image-f9a8239b1b2883ea9250ab63c010e3a367b9bf71-3840x5760-jpg
+[586/1072] sicily/Day 4/425A3189-2.jpg … ✓ image-7094f95d948d2c3d1d5119009b10a38592c5b522-3840x5760-jpg
+[587/1072] sicily/Day 4/425A3191.jpg … ✓ image-c22b9995d17dc7846dcd0f0eca36ae6c94164e63-5760x3840-jpg
+[588/1072] sicily/Day 4/425A3193.jpg … ✓ image-a0ba712c9cc6f16eac84026c76edda63990560c4-5760x3840-jpg
+[589/1072] sicily/Day 4/425A3195.jpg … ✓ image-4afb0baff6813c56632b0d33872bf4d2f518324a-5760x3840-jpg
+[590/1072] sicily/Day 4/425A3200.jpg …   ⚠  vision:425A3200.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3200.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A3200.jpg: Unexpected token 'A', ..."altText": A man doin"... is not valid JSON
+✓ image-6647bc25e9defc0876b33e811dc21ad8f4c7b24d-5760x3840-jpg
+[591/1072] sicily/Day 4/425A3201.jpg … ✓ image-0aa3800d2729f8baa37e3ae43fa382ea40bd4fdf-5760x3840-jpg
+[592/1072] sicily/Day 4/425A3203.jpg … ✓ image-9e021d17c0b27e895c86684d6106136c4d644c4d-5760x3840-jpg
+[593/1072] sicily/Day 4/425A3204.jpg … ✓ image-faa959b843072fbc4f3b34f5cbe9f3172f80de44-5760x3840-jpg
+[594/1072] sicily/Day 4/425A3206.jpg … ✓ image-458ab78facacc38df6b9f56ea11613618cf18f55-3840x5760-jpg
+[595/1072] sicily/Day 4/425A3207.jpg …   ⚠  vision:425A3207.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-f92c1662359533e935a8310c4071406aeac79778-3840x5760-jpg
+[596/1072] sicily/Day 4/425A3208.jpg …   ⚠  vision:425A3208.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3208.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-bd6e8738cec9bd7bb54c1c02da05ac00eccb92b4-3840x5760-jpg
+[597/1072] sicily/Day 4/425A3210.jpg … ✓ image-23fbf2a7753891daf9164f6d22dd4484042c551f-5760x3840-jpg
+[598/1072] sicily/Day 4/425A3211.jpg … ✓ image-44e37ea6fa8b7671c7fe25138870f216cfd7eae1-5760x3840-jpg
+[599/1072] sicily/Day 4/425A3218.jpg … ✓ image-d5b1cf782944ee167f0026f1450a7c64d9cde7b1-5760x3840-jpg
+[600/1072] sicily/Day 4/425A3227.jpg … ✓ image-c9e9deb9f5c608c305a38c9540f5b2ec1630a185-5760x3840-jpg
+[601/1072] sicily/Day 4/425A3229.jpg … ✓ image-fbf5d4ff586acf19b39977e9ae5b0b930a0b0cdf-5760x3840-jpg
+[602/1072] sicily/Day 4/425A3233.jpg … ✓ image-0ec4bac0c25245550c351dfd57c82a35c55553f8-5760x3840-jpg
+[603/1072] sicily/Day 4/425A3234.jpg … ✓ image-41d98164bb606f37d27c268a6840aab1d300bf71-5760x3840-jpg
+[604/1072] sicily/Day 4/425A3236.jpg … ✓ image-f9cddf45b01e556c4efe466a7a913856414d7873-5760x3840-jpg
+[605/1072] sicily/Day 4/425A3238.jpg … ✓ image-864da078cffdf80fc903dda007eff285f409644b-5760x3840-jpg
+[606/1072] sicily/Day 4/425A3239.jpg … ✓ image-c71d1a981e447e1e9312671c5c973313142675ad-5760x3840-jpg
+[607/1072] sicily/Day 4/425A3240.jpg … ✓ image-ec4d0d53a6d7f8983cd3a10e98704a789feb4010-5760x3840-jpg
+[608/1072] sicily/Day 4/425A3241.jpg … ✓ image-752e9c1f6387a8c88d408830e5d66e3bfe4fa481-5760x3840-jpg
+[609/1072] sicily/Day 4/425A3242.jpg … ✓ image-fed598b22ee4515465f90ad52e0e0666aa0519ad-5760x3840-jpg
+[610/1072] sicily/Day 4/425A3244.jpg … ✓ image-8d1bfdb8d9675b023ffc399ee5721ce89a6ddf04-5760x3840-jpg
+[611/1072] sicily/Day 4/425A3250.jpg … ✓ image-d6b9a046e5a23dbc12b75b9d86842f3634b47865-3840x5760-jpg
+[612/1072] sicily/Day 4/425A3256.jpg … ✓ image-cd88442e6439cfcb630bc9c6978b0e08a3b358a5-3840x5760-jpg
+[613/1072] sicily/Day 4/425A3259.jpg … ✓ image-9314d8227f199bec06325772dcb736d6cb71edb2-3840x5760-jpg
+[614/1072] sicily/Day 4/425A3275.jpg … ✓ image-91661ab610c850fef96622da9eb6262f1e26ea4b-3840x5760-jpg
+[615/1072] sicily/Day 4/425A3282.jpg …   ⚠  vision:425A3282.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-81d2e8e46a6589b0319ca8b885f663632234d5df-3840x5760-jpg
+[616/1072] sicily/Day 4/425A3283.jpg … ✓ image-d0f8c9554bdd74b8796502863a04c676e4328dca-3840x5760-jpg
+[617/1072] sicily/Day 4/425A3284.jpg … ✓ image-e2f10092c6321f52127f12d76106373e8eae509b-3840x5760-jpg
+[618/1072] sicily/Day 4/425A3285.jpg …   ⚠  vision:425A3285.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-582f8d325a55aa4c4a48376e7944c24cb9d50552-3840x5760-jpg
+[619/1072] sicily/Day 4/425A3288.jpg … ✓ image-1cca9a3e161af8e4042394e1321cf28e1cb03747-3840x5760-jpg
+[620/1072] sicily/Day 4/425A3290.jpg … ✓ image-8dbddbd2711a7d8de604c03d4c06fb9c24f5bb0a-3840x5760-jpg
+[621/1072] sicily/Day 4/425A3296.jpg … ✓ image-4301ccf9836c58f8c932d2692da9bcd18795a88d-3840x5760-jpg
+[622/1072] sicily/Day 4/425A3297.jpg … ✓ image-b77596cab5e141dd83f6ebf8f8124e0f1097df8f-3840x5760-jpg
+[623/1072] sicily/Day 4/425A3300.jpg … ✓ image-aceca19f0059b3cb40d8ee2ba0e3586de30b8615-3840x5760-jpg
+[624/1072] sicily/Day 4/425A3317.jpg …   ⚠  vision:425A3317.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-07f506882ebc0514261457a8a35acb2e9c8797f6-3840x5760-jpg
+[625/1072] sicily/Day 4/425A3318.jpg … ✓ image-a5a848641459d278c084ad134a1f0d081d15b65c-3840x5760-jpg
+[626/1072] sicily/Day 4/425A3320.jpg … ✓ image-f81f9b275e85e2cf367bd74d6167bc873423b7dd-3840x5760-jpg
+[627/1072] sicily/Day 4/425A3328.jpg … ✓ image-87e7d66a2962a8a72cd762ee1f57754cca29f97e-3840x5760-jpg
+[628/1072] sicily/Day 4/425A3331.jpg … ✓ image-e63a152ceed4f537596ca12a6250c3d66793ee96-3840x5760-jpg
+[629/1072] sicily/Day 4/425A3336.jpg … ✓ image-f54f9039a8e7385cc170ec16b21e535ff9cf4f4c-3840x5760-jpg
+[630/1072] sicily/Day 4/425A3340.jpg … ✓ image-90b57bfa4131b0375f68c60949ff6f65ce6bcbbd-3840x5760-jpg
+[631/1072] sicily/Day 4/425A3354.jpg … ✓ image-fcc33c17587873c884edc6ed09c9bbef63012c0e-3840x5760-jpg
+[632/1072] sicily/Day 4/425A3355.jpg …   ⚠  vision:425A3355.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3355.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A3355.jpg: Unexpected token 'A', ..."altText": A man wear"... is not valid JSON
+✓ image-f236db4bf8e5210d0e719fc7b7f4e8e2ce5ed96e-3840x5760-jpg
+[633/1072] sicily/Day 4/425A3360.jpg … ✓ image-e3d2b0e768fbe17dd8890a65b50b45a8a9e1edc2-3840x5760-jpg
+[634/1072] sicily/Day 4/425A3375.jpg … ✓ image-dc1526a8c758c137bd870a377b5bb557adc5d513-3840x5760-jpg
+[635/1072] sicily/Day 4/425A3379.jpg …   ⚠  vision:425A3379.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-b866b74b3afc96cd1a7652247fc72e58de90b5ce-3840x5760-jpg
+[636/1072] sicily/Day 4/425A3384.jpg … ✓ image-1db0d604f4a32345ee707b1709dec7789a16ce1c-3840x5760-jpg
+[637/1072] sicily/Day 4/425A3389.jpg … ✓ image-1979719ee0fbaacebed6d2f0b2292e814f59b138-3840x5760-jpg
+[638/1072] sicily/Day 4/425A3392.jpg …   ⚠  vision:425A3392.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3392.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A3392.jpg: Unexpected token 'A', ..."altText": A bustling"... is not valid JSON
+✓ image-0a6bdc553a243672b96e9906fb5f6b60644fde6c-5760x3840-jpg
+[639/1072] sicily/Day 4/425A3393.jpg …   ⚠  vision:425A3393.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-e101071639747230a3bf61954e7f42eb02e0c0ad-5760x3840-jpg
+[640/1072] sicily/Day 4/425A3394.jpg … ✓ image-fc334a6bc953b5bc13ab0991649fc5f61f873809-5760x3840-jpg
+[641/1072] sicily/Day 4/425A3395.jpg … ✓ image-38440152b9a207db1dd6c254b9832d002daa4dfc-5760x3840-jpg
+[642/1072] sicily/Day 4/425A3396.jpg …   ⚠  vision:425A3396.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-f07b491071ef14eca26b40b01bfdf9a0201e0341-5760x3840-jpg
+[643/1072] sicily/Day 4/425A3398.jpg …   ⚠  vision:425A3398.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-88d50ccfac8cc37ab7665285ce09839443d8dc7e-5760x3840-jpg
+[644/1072] sicily/Day 4/425A3399.jpg … ✓ image-2f972a19987a465098a8d4e6a497e9d7199b9b1a-3840x5760-jpg
+[645/1072] sicily/Day 4/425A3401.jpg … ✓ image-7cbd9da2290070cc8d4b53141ec1fa27067ad6f0-5760x3840-jpg
+[646/1072] sicily/Day 4/425A3402.jpg … ✓ image-895a3394ab903d45b6d0a2cf7a1e78852a54b23c-5760x3840-jpg
+[647/1072] sicily/Day 4/425A3403.jpg … ✓ image-7021fa1e4bb5cafdebcd82673945cf9baeb881ff-5760x3840-jpg
+[648/1072] sicily/Day 4/425A3404.jpg … ✓ image-b4438db9395427fa4572f89a3ada4c19afc1805e-3840x5760-jpg
+[649/1072] sicily/Day 4/425A3405.jpg … ✓ image-0738800c6f89cfe9b11f766a1f531f66f8d54822-3840x5760-jpg
+[650/1072] sicily/Day 4/425A3406.jpg … ✓ image-74f0b92be81bbbd1a79fc8bb139d3897c7cfd216-3840x5760-jpg
+[651/1072] sicily/Day 4/425A3408.jpg … ✓ image-1b8faaf5bc8c18e52a760bf4f6bcc5fcbbe66cc5-3840x5760-jpg
+[652/1072] sicily/Day 4/425A3409.jpg … ✓ image-3f0146c2a0f33800857a393c6529eac0d523503e-3840x5760-jpg
+[653/1072] sicily/Day 4/425A3410.jpg … ✓ image-ab94531a27e7152e91724aeac57129c45ad2fcd7-3840x5760-jpg
+[654/1072] sicily/Day 4/425A3412.jpg … ✓ image-5684fe01dc3adcd6f40fb93ea8a869ff9c008866-3840x5760-jpg
+[655/1072] sicily/Day 4/425A3413.jpg … ✓ image-846f37c641865babf9781bf590670e110c391fb1-3840x5760-jpg
+[656/1072] sicily/Day 4/425A3414.jpg … ✓ image-f17ea32f2dc21c23855d60fa0f1ca3ece32728ec-3840x5760-jpg
+[657/1072] sicily/Day 4/425A3415.jpg … ✓ image-8f48994dbea69635f35b36531b2702f2223ac767-3840x5760-jpg
+[658/1072] sicily/Day 4/425A3416.jpg … ✓ image-03516ee8c0c85fe32d5abd1c831ed7c9c286f9d8-3840x5760-jpg
+[659/1072] sicily/Day 4/425A3417.jpg … ✓ image-a4e7f3e7bb14515a989ed1767d38bca57dd80b84-3840x5760-jpg
+[660/1072] sicily/Day 4/425A3418.jpg … ✓ image-9fcadfa59e2912ed11fa7f229e51f7056a5c3a39-3840x5760-jpg
+[661/1072] sicily/Day 4/425A3425.jpg … ✓ image-97c0e3bce7eeceb377418b4c78046677b4919537-3840x5760-jpg
+[662/1072] sicily/Day 4/425A3428.jpg … ✓ image-426ec7ea792ee9194191a735a7e8f5a337fc20d1-3840x5760-jpg
+[663/1072] sicily/Day 4/425A3429.jpg … ✓ image-648bb1fe528e05c8260283e34f95b2b2643bf001-3840x5760-jpg
+[664/1072] sicily/Day 4/IMG_6727.jpg … ✓ image-1deeda5946ac62e25d8acd637a2d7135f6c87d19-3648x5472-jpg
+[665/1072] sicily/Day 4/IMG_6728.jpg … ✓ image-c4506a5fe12962e93f3a6daf07a73ca4c9f3a106-3648x5472-jpg
+[666/1072] sicily/Day 4/IMG_6729.jpg … ✓ image-649eaf1dcfbebd0be18bd1a173f0a1a53095ca0a-3648x5472-jpg
+[667/1072] sicily/Day 4/IMG_6730.jpg … ✓ image-3453a4640a09f174fe13cb1eca90b3a608e3bd7f-3648x5472-jpg
+[668/1072] sicily/Day 4/IMG_6732.jpg …   ⚠  upload:IMG_6732.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  upload:IMG_6732.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-eeece69962c2f83345f79e08cfcbd723257178cb-3648x5472-jpg
+[669/1072] sicily/Day 4/IMG_6734.jpg …   ⚠  vision:IMG_6734.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-6b48f888c7ab8aa0d928d68d76e8bd250d942537-3648x5472-jpg
+[670/1072] sicily/Day 4/IMG_6735.jpg … ✓ image-4002a16e1c06e1f311a8beeb4d1468135a9b3d4d-3648x5472-jpg
+[671/1072] sicily/Day 4/IMG_6736.jpg … ✓ image-d69adb7b42b6786f44ec8aaa393ee98f1c1e78be-3648x5472-jpg
+[672/1072] sicily/Day 4/IMG_6737.jpg … ✓ image-b1cf7b2ea37e67dd5afb15596c920ab4f3eaf19a-3648x5472-jpg
+[673/1072] sicily/Day 4/IMG_6738.jpg … ✓ image-7cd2fd6b53972952ba2ccf49fff9035a656b63c8-3648x5472-jpg
+[674/1072] sicily/Day 4/IMG_6739.jpg … ✓ image-bd61afe304be24357a67698301c4a68d15bf7211-3648x5472-jpg
+[675/1072] sicily/Day 4/IMG_6740.jpg … ✓ image-b31652235d4ab10bedd8082bff761abdfc4ca38e-3648x5472-jpg
+[676/1072] sicily/Day 4/IMG_6741.jpg … ✓ image-31a862ac10ad591859c428fdd6fbdeab064a8bb7-3648x5472-jpg
+[677/1072] sicily/Day 4/IMG_6742.jpg … ✓ image-42324a2c6b6a828d3f03c623ce9e2a0fc3120d4b-5472x3648-jpg
+[678/1072] sicily/Day 4/IMG_6743.jpg … ✓ image-f9f9e4816a2abf15fac724376029b5a781447c34-5472x3648-jpg
+[679/1072] sicily/Day 4/IMG_6744.jpg … ✓ image-9333b3a85fcea5a12542c29724db858aaf180aaa-5472x3648-jpg
+[680/1072] sicily/Day 4/IMG_6750.jpg … ✓ image-120d37baaf1200f2bac59cca6c2122289884629b-3648x5472-jpg
+[681/1072] sicily/Day 4/IMG_6755.jpg … ✓ image-466a8dd1637b1916b1a054e8d93a574327112298-3648x5472-jpg
+[682/1072] sicily/Day 4/IMG_6756.jpg … ✓ image-3938ffbd7a001f4f098c3c84cfd2837691593f64-3648x5472-jpg
+[683/1072] sicily/Day 4/IMG_6757.jpg … ✓ image-505c84364541fd3f6d35aafcdc768615ea2c4457-3648x5472-jpg
+[684/1072] sicily/Day 4/IMG_6759.jpg … ✓ image-546b9eb55b5fcbfe4304db48c0ca777017c1103c-3648x5472-jpg
+[685/1072] sicily/Day 4/IMG_6761.jpg … ✓ image-cd2b3c1a2a4bccea7ba9b5c2864a41324979d7b4-3648x5472-jpg
+[686/1072] sicily/Day 4/IMG_6763.jpg … ✓ image-f74afbc6b733ef1ed16386d2591ef59fee4bf2a2-3648x5472-jpg
+[687/1072] sicily/Day 4/IMG_6765.jpg … ✓ image-56e7bb2ade98b21ed3de8cdc2fd2b1f817f16afd-3648x5472-jpg
+[688/1072] sicily/Day 4/IMG_6766.jpg … ✓ image-329d40c1ad0544cba5d6db2ec9ead002382a35f7-3648x5472-jpg
+[689/1072] sicily/Day 4/IMG_6767.jpg … ✓ image-8441850d895aea09a0818cd4737610c589261bd4-3648x5472-jpg
+[690/1072] sicily/Day 4/IMG_6768.jpg … ✓ image-2c097549296dc79d65b3e2e4d538d3b2d40bd4eb-3648x5472-jpg
+[691/1072] sicily/Day 4/IMG_6769.jpg … ✓ image-41d933a783eb4974ab3c2e15e2668e73ad83f909-3648x5472-jpg
+[692/1072] sicily/Day 4/IMG_6771.jpg … ✓ image-7ff3a5bf81419f747ca7234236b2e2f13947fda3-3648x5472-jpg
+[693/1072] sicily/Day 4/IMG_6774.jpg … ✓ image-4495f715c347db4e8de478103355576cd348d58c-3648x5472-jpg
+[694/1072] sicily/Day 4/IMG_6775.jpg … ✓ image-101d421d262a78bb0698228bee0801f098abd3ff-3648x5472-jpg
+[695/1072] sicily/Day 4/IMG_6779.jpg … ✓ image-edf4de38a6e197b60efec5e8ddc8612ba6413356-3648x5472-jpg
+[696/1072] sicily/Day 4/IMG_6780.jpg … ✓ image-075cb2f0442e5fa7f2490fb2503f772d3566cb8a-3648x5472-jpg
+[697/1072] sicily/Day 4/IMG_6782.jpg …   ⚠  vision:IMG_6782.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-c09ec1e352e4f6c4fd8cb3f902f5045ea321973c-3648x5472-jpg
+[698/1072] sicily/Day 4/IMG_6783.jpg … ✓ image-28cc5eee2ca4d918eea8f17f6236f7beacb900b2-3648x5472-jpg
+[699/1072] sicily/Day 4/IMG_6784.jpg … ✓ image-e012d41627985645765dbde459ae73dea1c9bb18-3648x5472-jpg
+[700/1072] sicily/Day 4/IMG_6786.jpg …   ⚠  vision:IMG_6786.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:IMG_6786.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for IMG_6786.jpg: Unexpected token 'A', ..."altText": A person i"... is not valid JSON
+✓ image-e4dc4ade393f83a6ce91635073bc91838396ee14-3648x3884-jpg
+[701/1072] sicily/Day 4/IMG_6787.jpg … ✓ image-b8f907cea294fa085b5ee9d0fe977a1166d4307b-3648x5472-jpg
+[702/1072] sicily/Day 4/IMG_6788.jpg …   ⚠  vision:IMG_6788.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-f6943f633da9507fed1f537d213e8a7237dbd3cc-3648x5472-jpg
+[703/1072] sicily/Day 4/IMG_6790.jpg … ✓ image-f2e9dc42fffb09a30b7380097807874d9946e769-3648x5472-jpg
+[704/1072] sicily/Day 4/IMG_6791.jpg … ✓ image-1a08923b3affea4b50d1c44a8ed64bb38bb02dcb-3648x5472-jpg
+[705/1072] sicily/Day 4/IMG_6794.jpg … ✓ image-9e6e948160e6eceaf2c7dda450c7df70f7435cdf-3648x5472-jpg
+[706/1072] sicily/Day 4/IMG_6795.jpg … ✓ image-1562a15fbd1ef0d06e3bdc0b0c933c5a7e7b41ae-3648x5472-jpg
+[707/1072] sicily/Day 4/IMG_6796.jpg … ✓ image-00e796ab4a51e3afd2687fadb50972b3c5c8d5d7-3648x5472-jpg
+[708/1072] sicily/Day 4/IMG_6820.jpg … ✓ image-dd3f1dd845cb4d2fd516944cfd319bdceb946dd7-3648x5472-jpg
+[709/1072] sicily/Day 4/IMG_6821.jpg … ✓ image-a74a919bf2d22881f5f4fcdd3bfb106140101dfd-3648x5472-jpg
+[710/1072] sicily/Day 4/IMG_6822.jpg … ✓ image-1df385b826f6fb4489020ba55314dda075284950-3648x5472-jpg
+[711/1072] sicily/Day 4/IMG_6824.jpg … ✓ image-1c6be13665455370e7abe3c56b155fcb97f4ff2e-3648x5472-jpg
+[712/1072] sicily/Day 4/IMG_6826.jpg … ✓ image-c8908174fe8546fae499cbb504b072933f57cf97-3648x5472-jpg
+[713/1072] sicily/Day 4/IMG_6832.jpg …   ⚠  vision:IMG_6832.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-3dae4f0060ebc04ea83d9ce9d823e67fe27aacce-3648x5472-jpg
+[714/1072] sicily/Day 4/IMG_6834.jpg …   ⚠  vision:IMG_6834.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:IMG_6834.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-61f9fdc9e3f9db2b155df41afb694e14249ff4d6-3648x5472-jpg
+[715/1072] sicily/Day 4/IMG_6835.jpg … ✓ image-b6a0c3281b7aeedf626b27e0c8add37be448af51-3648x5472-jpg
+[716/1072] sicily/Day 4/IMG_6837.jpg … ✓ image-4727545ab33d5159fa3e8f49fde224d2e95d19d6-3648x5472-jpg
+[717/1072] sicily/Day 4/IMG_6838.jpg …   ⚠  vision:IMG_6838.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-dfa63e181b677442020235e1dd5c00302904561a-3648x5472-jpg
+[718/1072] sicily/Day 4/IMG_6840.jpg … ✓ image-19b77a2de08dc9fb538bf29e1680b0a7fa80d5e2-3648x5472-jpg
+[719/1072] sicily/Day 4/IMG_6841.jpg … ✓ image-e7207385c196a22c87a14bd76711fecfc3406e40-3175x4923-jpg
+[720/1072] sicily/Day 4/IMG_6842.jpg … ✓ image-9a4c66b353c8468162950dfdae3047950a8768fb-3648x5472-jpg
+[721/1072] sicily/Day 4/IMG_6843.jpg …   ⚠  vision:IMG_6843.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:IMG_6843.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-8951719e5c752248070f3f450ebfb1b8acbc9d3b-2843x4265-jpg
+[722/1072] sicily/Day 4/IMG_6856.jpg … ✓ image-c59339f8c3ccd51cf3a56ef33ed89f7834431de3-3648x4544-jpg
+[723/1072] sicily/Day 4/IMG_6857.jpg … ✓ image-d656ad2206b7049f8fe73d6e285b688ce2053a2c-3648x5472-jpg
+[724/1072] sicily/Day 4/IMG_6865.jpg … ✓ image-8140c71cc2d741643f4b18fd686552e17f76abe1-3648x5472-jpg
+[725/1072] sicily/Day 4/IMG_6866.jpg … ✓ image-2807a21c1574a3ef6551c0f8bab44b6d7e2e8e01-3648x5472-jpg
+[726/1072] sicily/Day 4/IMG_6867.jpg … ✓ image-1a91f10780e5c7b2be47ea0479aa097c904fa841-5472x3648-jpg
+[727/1072] sicily/Day 4/IMG_6870.jpg … ✓ image-bde2fc152af42a5769d1e478eaf3283a81955d7e-3648x5472-jpg
+[728/1072] sicily/Day 4/IMG_6871.jpg … ✓ image-5da76e8953363e8a8b00a0f2986d47880d17c71b-3648x5472-jpg
+[729/1072] sicily/Day 4/IMG_6877.jpg … ✓ image-a0f7912675f904e3a958b5078d003a9ba8142ab7-3648x5472-jpg
+[730/1072] sicily/Day 4/IMG_6880.jpg … ✓ image-e309be82b5877aa47b85829e44b292a2303a0fee-3648x5472-jpg
+[731/1072] sicily/Day 4/IMG_6882.jpg … ✓ image-b6bb65f8986747381e9189b08c6263c8c6af0a4e-3648x5472-jpg
+[732/1072] sicily/Day 4/IMG_6883.jpg … ✓ image-724b48753aa9015eff22872829a45b46c2ebac5b-3648x5472-jpg
+[733/1072] sicily/Day 4/IMG_6884.jpg … ✓ image-13f943dba9f371488ae0c83e51fd56873a7bcb20-3648x5472-jpg
+[734/1072] sicily/Day 4/IMG_6885.jpg … ✓ image-3f348b4f6e5705b23c7575e97ee9f7a34f98577f-3648x5472-jpg
+[735/1072] sicily/Day 4/IMG_6888.jpg … ✓ image-f35fb844f61b8ccef1693fa58179c37a1fa9b954-3648x5472-jpg
+[736/1072] sicily/Day 4/IMG_6891.jpg … ✓ image-e9385a917d116c6b8cd60ff13da6a5a85dba4b26-3648x5472-jpg
+[737/1072] sicily/Day 4/IMG_6892.jpg …   ⚠  vision:IMG_6892.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:IMG_6892.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-f2457817a6f596a166eb3c4916b861377c54163b-3648x5472-jpg
+[738/1072] sicily/Day 4/IMG_6900.jpg …   ⚠  vision:IMG_6900.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-e5990066c24c6a67e0893189e8ffb38cdc82c34f-3648x5472-jpg
+[739/1072] sicily/Day 4/IMG_6901.jpg … ✓ image-3827c8c9e011fb40407a9f1a61fb75f1c5181f54-3648x5472-jpg
+[740/1072] sicily/Day 4/IMG_6902.jpg … ✓ image-cfb5844a75fb743adfedb9bae69d9d3113453923-3648x5472-jpg
+[741/1072] sicily/Day 4/IMG_6903.jpg … ✓ image-7fc17ef982876e306ddc17bffd4cfe28f608baba-3648x5472-jpg
+[742/1072] sicily/Day 4/IMG_6904.jpg … ✓ image-64a5571feb59ed9d82013088740ad26653795fa5-3648x5472-jpg
+[743/1072] sicily/Day 4/IMG_6906.jpg …   ⚠  vision:IMG_6906.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-ee40290231640c111e40495fd3a2b818d33bbdac-3648x5472-jpg
+[744/1072] sicily/Day 4/IMG_6907.jpg … ✓ image-57f9f1d912d4c4004576f2b0c9e601405ec6e1aa-3648x5472-jpg
+[745/1072] sicily/Day 4/IMG_6909.jpg … ✓ image-caf480b43fcd0b40ed3153b9ab783536a2e1b1f0-3648x5472-jpg
+[746/1072] sicily/Day 4/IMG_6912.jpg … ✓ image-8759e8b32006dad0eae518865966e74e0f844f4c-3648x5472-jpg
+[747/1072] sicily/Day 4/IMG_6913.jpg …   ⚠  vision:IMG_6913.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-c3442135564ba1a151b8fcd57042ab21c46f7579-3648x5472-jpg
+[748/1072] sicily/Day 4/IMG_6916.jpg … ✓ image-0bf039ea1125160e08464a4ba92792f1b0dd1c65-3648x5472-jpg
+[749/1072] sicily/Day 4/IMG_6925.jpg … ✓ image-0e1fdfd3bf76904a976f0421aabf9517bc570317-3648x5472-jpg
+[750/1072] sicily/Day 5/425A3524.jpg … ✓ image-55e0ac172213ccfd5997bab34dd3792ba21a1df4-3840x5760-jpg
+[751/1072] sicily/Day 5/425A3526.jpg … ✓ image-6aa54ed78eecac19db0237c4287b7a6cf49362dd-3840x5760-jpg
+[752/1072] sicily/Day 5/425A3529.jpg … ✓ image-3c1fe3af559857dd5e1746fea79f3493f49f5846-3840x5760-jpg
+[753/1072] sicily/Day 5/425A3532.jpg … ✓ image-efc7f6c44412c16aad3b1cddc5febe650a93dfbd-3840x5760-jpg
+[754/1072] sicily/Day 5/425A3537.jpg … ✓ image-99c439f307d11dbf9eb3d7ef13e51ff36856d28c-5760x3840-jpg
+[755/1072] sicily/Day 5/425A3540.jpg … ✓ image-db2d1ecd873ffcd8953e48e0a2a7c935a913a906-3840x5760-jpg
+[756/1072] sicily/Day 5/425A3543.jpg … ✓ image-88b18801394d0b0f6fbde7cee0f3603ba656e576-3840x5760-jpg
+[757/1072] sicily/Day 5/425A3545.jpg … ✓ image-d81008f39bdb9ac60f2fba89528aca1f6901c53b-3840x5760-jpg
+[758/1072] sicily/Day 5/425A3547.jpg … ✓ image-8fc3629fb92f1ae56d7e93737af05b8316ae6556-3840x5760-jpg
+[759/1072] sicily/Day 5/425A3549.jpg …   ⚠  vision:425A3549.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-e4898ad7c94340653230319abd4b2152ea5f8528-3840x5760-jpg
+[760/1072] sicily/Day 5/425A3550.jpg … ✓ image-a4c9440db66943edd441bb3cb5672cd8fae65c4c-3840x5760-jpg
+[761/1072] sicily/Day 5/425A3551.jpg …   ⚠  vision:425A3551.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3551.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-dbd3e0000e8903609ac9c641e34a48aacc618d8a-3840x5760-jpg
+[762/1072] sicily/Day 5/425A3554.jpg … ✓ image-bcba01f20877ed0b16675bc1b9cbc5ee8d503438-5760x3840-jpg
+[763/1072] sicily/Day 5/425A3556.jpg …   ⚠  vision:425A3556.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-8afb427ca8374f073e35bd6b8e1f002194c2ece3-5760x3840-jpg
+[764/1072] sicily/Day 5/425A3560.jpg … ✓ image-cebf69733afecf85ee0a7c8420511b97f095c13d-3840x5760-jpg
+[765/1072] sicily/Day 5/425A3561.jpg … ✓ image-64b73290358eb8feb7521c658b1d4e3562ee68ad-3840x5760-jpg
+[766/1072] sicily/Day 5/425A3562.jpg …   ⚠  vision:425A3562.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3562.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-79dd8c5f0bdba0f8526e7c02f7d2fa72d18bc690-3840x5760-jpg
+[767/1072] sicily/Day 5/425A3564.jpg …   ⚠  vision:425A3564.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3564.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-682942e3a46423a823253fdc990199eede33fe16-5760x3840-jpg
+[768/1072] sicily/Day 5/425A3565.jpg …   ⚠  vision:425A3565.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3565.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A3565.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-2002723f01651e3a4ba1cf2943db8c7305a20a7c-5760x3840-jpg
+[769/1072] sicily/Day 5/425A3566.jpg …   ⚠  vision:425A3566.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-69f90d077164bd52d8b2cb828dfe5a2f4ec452eb-5760x3840-jpg
+[770/1072] sicily/Day 5/425A3568.jpg … ✓ image-e5da1b1323f5d536b3578adcf30db9d5277e6e26-5760x3840-jpg
+[771/1072] sicily/Day 5/425A3569.jpg … ✓ image-8021dd0ded3b947779185f9241a8e45b117e92a6-5760x3840-jpg
+[772/1072] sicily/Day 5/425A3571.jpg …   ⚠  vision:425A3571.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-e6dbe44c44eeffc69a6042fa385a66b78e159f3c-3840x5760-jpg
+[773/1072] sicily/Day 5/425A3572.jpg … ✓ image-e71745e956422b07b2c56dace27984fbdef43da5-3840x5760-jpg
+[774/1072] sicily/Day 5/425A3573.jpg …   ⚠  vision:425A3573.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-4622846fdf00172d2ea41223f7d097e9b10bdfdd-3840x5760-jpg
+[775/1072] sicily/Day 5/425A3575.jpg …   ⚠  vision:425A3575.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-bbcfb7e81c0a1ba2c5359d28e8ea8bbedcaf1aab-3840x5760-jpg
+[776/1072] sicily/Day 5/425A3577.jpg … ✓ image-de77b97e79e4c8bfdce4f9824cc114b2ecc84eb2-3840x5760-jpg
+[777/1072] sicily/Day 5/425A3578.jpg … ✓ image-af592e5de62432f0fadd702efc38080649af759c-3840x5760-jpg
+[778/1072] sicily/Day 5/425A3581.jpg … ✓ image-d0fe43abe082d687f0fc372ee362681fcec7f18a-3840x5760-jpg
+[779/1072] sicily/Day 5/425A3585.jpg … ✓ image-a8c4cb83cb2a799de215cfb50c11dcd836b95c86-3840x5760-jpg
+[780/1072] sicily/Day 5/425A3593.jpg …   ⚠  vision:425A3593.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-08d479eb5f2138e048306ceba77d9bb4c7b208cf-5760x3840-jpg
+[781/1072] sicily/Day 5/425A3594.jpg …   ⚠  vision:425A3594.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-ce28821d62aa4e06b6194d6d813a9e92353ed17f-5760x3840-jpg
+[782/1072] sicily/Day 5/425A3595.jpg … ✓ image-07449faa280af90ec1beebbf60ec4ef1116d94da-5760x3840-jpg
+[783/1072] sicily/Day 6/425A3703.jpg …   ⚠  vision:425A3703.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3703.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A3703.jpg: Unexpected token 'A', ..."altText": A shirtles"... is not valid JSON
+✓ image-0b9ee6bcfd18043f92a1d025de04d33339d01826-3840x5760-jpg
+[784/1072] sicily/Day 6/425A3706.jpg … ✓ image-d47388553be419a1d1a18d106065a5f802138c20-3840x5760-jpg
+[785/1072] sicily/Day 6/425A3707.jpg … ✓ image-33d6107b06adff7d9b7917c843546e5b9ca80520-3840x5760-jpg
+[786/1072] sicily/Day 6/425A3710.jpg … ✓ image-862ceecfc6d129e05b99f831d2b5cd5411368572-5760x3840-jpg
+[787/1072] sicily/Day 6/425A3715.jpg … ✓ image-cb88d8f4a1eaaae3ee91b56158d3084f386ecb88-5760x3840-jpg
+[788/1072] sicily/Day 6/425A3744.jpg … ✓ image-160395dc242a970f1e6123353eeaf1751d89c474-3840x5760-jpg
+[789/1072] sicily/Day 6/425A3745.jpg …   ⚠  vision:425A3745.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-a6cab45af9a314a863e31efa648534a7e13ba6ec-3840x5760-jpg
+[790/1072] sicily/Day 6/425A3746.jpg … ✓ image-fd412d28bca38628b3c5145544d304bec401bb54-3840x5760-jpg
+[791/1072] sicily/Day 6/425A3747.jpg …   ⚠  vision:425A3747.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-178e8489ff063345395eca2569ede4cfdf24ae87-3840x5760-jpg
+[792/1072] sicily/Day 6/425A3751.jpg …   ⚠  vision:425A3751.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-e71b3d2665ef4acbdd7fe1a40540feeb178be5b2-5760x3840-jpg
+[793/1072] sicily/Day 6/425A3752.jpg … ✓ image-28c3e232fd99f601c3f58aec8d8a2bf18f0865ab-5760x3840-jpg
+[794/1072] sicily/Day 6/425A3754.jpg …   ⚠  vision:425A3754.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-fc2ea010e6e2002637d2d3c51a36fa605d05eeba-5760x3840-jpg
+[795/1072] sicily/Day 6/425A3755.jpg … ✓ image-a4c436001661c2bc7de1724d54e6e112f8874c81-5760x3840-jpg
+[796/1072] sicily/Day 6/425A3759.jpg … ✓ image-d4e851a6a7d60374df4f30af8c4cebccbc34e64d-5760x3840-jpg
+[797/1072] sicily/Day 6/425A3760.jpg … ✓ image-f6d3b194a4ef5f011e7890b2e1053c250f9a8005-5760x3840-jpg
+[798/1072] sicily/Day 6/425A3767.jpg … ✓ image-0c9fc61648a62bd6691db60437eb1d6525bf22c1-5760x3840-jpg
+[799/1072] sicily/Day 6/425A3770.jpg … ✓ image-1c3fca0d0b92ae6ab3455b67201fc099bae03f5d-3840x5760-jpg
+[800/1072] sicily/Day 6/425A3771.jpg … ✓ image-841e251df2252f879a633ea4c5bb177d552c3c43-3840x5760-jpg
+[801/1072] sicily/Day 6/425A3793.jpg … ✓ image-41ae9b09567a9d72bfe5310c89ec10654dcf6833-5760x3840-jpg
+[802/1072] sicily/Day 6/425A3794.jpg …   ⚠  vision:425A3794.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-52fbf6df056d5db71d9fc79e30b7cb369e0ea3d1-5760x3840-jpg
+[803/1072] sicily/Day 6/425A3804.jpg … ✓ image-36c3123e7a06810f9ff2e4cecad1f76cbfd28731-5760x3840-jpg
+[804/1072] sicily/Day 6/425A3816.jpg …   ⚠  vision:425A3816.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3816.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A3816.jpg: Unexpected token 'T', ..."altText": Two people"... is not valid JSON
+✓ image-993e7beb633620cceb1a04967b91ca0f0737ecdc-3840x5760-jpg
+[805/1072] sicily/Day 6/425A3822.jpg …   ⚠  vision:425A3822.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3822.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A3822.jpg: Unexpected token 'T', ..."altText": Two people"... is not valid JSON
+✓ image-1b9fc7a5e9aa8213160233845d8c123161018314-3840x5760-jpg
+[806/1072] sicily/Day 6/425A3824.jpg …   ⚠  vision:425A3824.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A3824.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A3824.jpg: Unexpected token 'T', ..."altText": Two people"... is not valid JSON
+✓ image-377b81b9f444ad8688e89ab0d7e6c650371c605f-5760x3840-jpg
+[807/1072] sicily/Day 6/425A3830.jpg …   ⚠  vision:425A3830.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-e4e8547a0293acf13c5f0cf421129f3376367df7-5760x3840-jpg
+[808/1072] sicily/Day 6/425A3832.jpg … ✓ image-96fbdf03a02881ebc2b94bd2684993219a4caeac-3840x5760-jpg
+[809/1072] sicily/Day 6/425A3837.jpg … ✓ image-baf29a0ac6990b90417258347784767f81522b81-3840x5760-jpg
+[810/1072] sicily/Day 6/425A3843.jpg … ✓ image-6dbe90ea2f344083fdccc9814b8b3edd4bd04354-3840x5760-jpg
+[811/1072] sicily/Day 6/425A3848.jpg … ✓ image-b24249a0994f746ccb8d4279584252cdfda05dfc-3840x5760-jpg
+[812/1072] sicily/Day 6/425A3857.jpg … ✓ image-aa6ce0305f2cd2c7c6dcd67a4592465e58324b04-5760x3840-jpg
+[813/1072] sicily/Day 6/425A3859.jpg … ✓ image-f56b5fb396bf7bcd4895f1eb77633fb7b0ce042f-5760x3840-jpg
+[814/1072] sicily/Day 6/425A3880.jpg … ✓ image-afb376217489ec83c2a95d38a0bf82201d295576-3840x5760-jpg
+[815/1072] sicily/Day 6/425A3888.jpg … ✓ image-286cc4e91e650a4643d16422bd181671f6f69bf1-3840x5760-jpg
+[816/1072] sicily/Day 6/425A3889.jpg … ✓ image-031c942157a6bd579ff537b6fd75bf6bd6def29c-5760x3840-jpg
+[817/1072] sicily/Day 6/425A3941.jpg … ✓ image-75c78122e7c4160000d9a4e86994f8c704b9f116-3840x5760-jpg
+[818/1072] sicily/Day 6/425A4028.jpg … ✓ image-8e752fb11e51825e467a28b1a6eb174e91d79b83-3840x5760-jpg
+[819/1072] sicily/Day 6/425A4033.jpg …   ⚠  vision:425A4033.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-d61ced8d1f96d91ae4b946d1cb4326a0f7072b47-3840x5760-jpg
+[820/1072] sicily/Day 6/425A4034.jpg … ✓ image-f26b30807ff25b39f2ed346b5f4f9121f5bbc17c-3840x5760-jpg
+[821/1072] sicily/Day 6/425A4042.jpg … ✓ image-fd4027d734cabdcc8beaaf0f8aefa98c1db39c63-3840x5760-jpg
+[822/1072] sicily/Day 6/425A4046.jpg …   ⚠  vision:425A4046.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A4046.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-f55b91b70fb29c3e6a9df23652b9ce0202f5ce3a-3840x5760-jpg
+[823/1072] sicily/Day 6/425A4047.jpg …   ⚠  vision:425A4047.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A4047.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A4047.jpg: Unexpected token 'T', ..."altText": Two women "... is not valid JSON
+✓ image-063065b2c84565b62a0de3b02c0dce1e95725f66-3840x5760-jpg
+[824/1072] sicily/Day 6/425A4048.jpg … ✓ image-f461e1270b5aebd042273bf79a7149e7a8ade5e2-3840x5760-jpg
+[825/1072] sicily/Day 6/425A4055.jpg … ✓ image-613b5a214ecf1f5531ff0f5d76042d71e61aeb4d-3840x5760-jpg
+[826/1072] sicily/Day 6/425A4056.jpg … ✓ image-9fac14cbb19dd77bfabbd9a7b562191a114b7f57-3840x5760-jpg
+[827/1072] sicily/Day 6/425A4060.jpg … ✓ image-d21b44f53d4c8ad3fa5bab5abb2abcf58099e4a2-5760x3840-jpg
+[828/1072] sicily/Day 6/425A4062.jpg … ✓ image-083b9cf87375a38cc3f70c12090611c170a11c92-3840x5760-jpg
+[829/1072] sicily/Day 6/425A4063.jpg … ✓ image-44e390a86a878bb1b465096a5bf9bb7255a8220d-3840x5760-jpg
+[830/1072] sicily/Day 6/425A4074.jpg … ✓ image-a05a661784a0f135550594c5d34708839f331e84-3840x5760-jpg
+[831/1072] sicily/Day 6/425A4136.jpg … ✓ image-77b08b51467373c8a48efd0e77f1a9c808554de6-3659x4625-jpg
+[832/1072] sicily/Day 6/425A4137.jpg … ✓ image-a02aebc702479ad1f4c6b68df4b0f6006b6bed3b-3840x5760-jpg
+[833/1072] sicily/Day 6/425A4140.jpg … ✓ image-6daf70c8de38d9af6284ce0050de83257b91b3d6-3840x4766-jpg
+[834/1072] sicily/Day 6/425A4154.jpg … ✓ image-a12a8a1f8979aac88b9d5d9878c41a13b67b99b1-3840x5760-jpg
+[835/1072] sicily/Day 6/425A4162.jpg … ✓ image-25bd7358395f66e764fbb752e4136acc31cb127b-3840x5760-jpg
+[836/1072] sicily/Day 6/425A4173.jpg … ✓ image-029fa156bcf583a65b09a7b4d0112b1ee8b886b3-3840x5760-jpg
+[837/1072] sicily/Day 6/425A4184.jpg …   ⚠  vision:425A4184.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A4184.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A4184.jpg: Unexpected token 'T', ..."altText": Two young "... is not valid JSON
+✓ image-9d7cab0329559272261aed772df555b22f991842-3840x5760-jpg
+[838/1072] sicily/Day 6/425A4188.jpg … ✓ image-77d66190fe7f7792b7bc28ea6be6d7f5495cacc3-3840x5760-jpg
+[839/1072] sicily/Day 6/425A4202.jpg … ✓ image-7debfc575e505f5c3db83b25323be00bcd7c3dee-3840x5760-jpg
+[840/1072] sicily/Day 6/425A4205.jpg … ✓ image-e10b5746969499b4e39f12684deaece29efee0f8-3840x5760-jpg
+[841/1072] sicily/Day 6/425A4221.jpg … ✓ image-0a7f67d53fcd66ddc2feaecdc69af218fdfe7d26-3840x5760-jpg
+[842/1072] sicily/Day 6/425A4234.jpg … ✓ image-4125e67cc0b2106978dd557b2a38f46ac3ef5016-3840x5760-jpg
+[843/1072] sicily/Day 6/425A4244.jpg … ✓ image-3a0741f32f0ac74b75fa8884e17f2148ab93afee-3840x5760-jpg
+[844/1072] sicily/Day 6/425A4262.jpg … ✓ image-9f7d6142cb33c99ce453cc7d0590e747847c0f9f-3840x5760-jpg
+[845/1072] sicily/Day 6/425A4280.jpg … ✓ image-c3224d09b8796c3d44f9f2d9d2c1926722a57f52-3840x5760-jpg
+[846/1072] sicily/Day 6/425A4291.jpg … ✓ image-87376564f6f0fc922adfe1aebd303468d17cf0bc-3840x5760-jpg
+[847/1072] sicily/Day 6/425A4293.jpg … ✓ image-c7232fffd6ee906100e9e7a9c68da95c1c6dbc30-3840x5760-jpg
+[848/1072] sicily/Day 6/425A4294.jpg …   ⚠  vision:425A4294.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-edaa2fcde26790dbab6981876b7cd627a1ead679-3840x5760-jpg
+[849/1072] sicily/Day 6/425A4295.jpg … ✓ image-696f2fc33cb1118d36a6c572d76a396e55877f2d-3840x5760-jpg
+[850/1072] sicily/Day 6/425A4298.jpg … ✓ image-6a2586525bb15e2704f72c0b14cdc8f3bc0a163f-3840x5760-jpg
+[851/1072] sicily/Day 6/425A4299.jpg … ✓ image-162b0dc683e91f0261e9e047a45b01d6a20004b6-3840x5760-jpg
+[852/1072] sicily/Day 6/425A4301.jpg …   ⚠  vision:425A4301.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A4301.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-7d521d2f978c140ee19ccf116d7986d22e9129f0-5760x3840-jpg
+[853/1072] sicily/Day 6/425A4310.jpg … ✓ image-bc9f44501b79ca933fad98f129fe55bf1914a250-3840x5760-jpg
+[854/1072] sicily/Day 6/425A4313.jpg … ✓ image-83def45870093b2328b78345c646df83ee145fbd-3840x5760-jpg
+[855/1072] sicily/Day 6/425A4316.jpg … ✓ image-5eccde10e0af53df1fff2cd1c7f423299351a88f-3840x5760-jpg
+[856/1072] sicily/Day 6/425A4323.jpg … ✓ image-a94e8379d7772555ef169811b79e9b77a15c0d76-3840x5760-jpg
+[857/1072] sicily/Day 6/425A4325.jpg … ✓ image-f586090ce235ac261360d1bbfbc0c696f3e18a6d-3840x5760-jpg
+[858/1072] sicily/Day 6/425A4328.jpg … ✓ image-850a2de6e9cb4e689c3b8b1957ae34194c3ed484-3840x5760-jpg
+[859/1072] sicily/Day 6/425A4330.jpg … ✓ image-1fb0b5b0a2913ba5cdc0d706239366e5943a56c5-3840x5760-jpg
+[860/1072] sicily/Day 6/425A4331.jpg … ✓ image-a023a87743a1086fc5e1a2c0b57daf19adef3b48-3840x5760-jpg
+[861/1072] sicily/Day 6/425A4332.jpg … ✓ image-6fcd50437904230acd0b61ae49c8222d40188f6f-3840x5760-jpg
+[862/1072] sicily/Day 6/425A4338.jpg … ✓ image-ff714f3119b24564e639f4d3e812357f5c7f5fbc-3840x5760-jpg
+[863/1072] sicily/Day 6/425A4345.jpg … ✓ image-051a37cd0f5b21e2a3453efd1c692a9f4e57c447-3840x5760-jpg
+[864/1072] sicily/Day 6/425A4346.jpg … ✓ image-a1c99e784f662e8e2c3b0e5704f202d9bfe1def6-3840x5760-jpg
+[865/1072] sicily/Day 6/425A4347.jpg … ✓ image-cc3460b352d14d0ee5b639e62e313cefcd1a6d5f-3840x5760-jpg
+[866/1072] sicily/Day 6/425A4349.jpg … ✓ image-7a725a9b4bb81d457d495ba574ef9000ac10432d-3840x5760-jpg
+[867/1072] sicily/Day 6/425A4350.jpg … ✓ image-8e599706b1f207bafda56a59ced5b0a89a7bb3ba-3840x5760-jpg
+[868/1072] sicily/Day 6/425A4351.jpg … ✓ image-13b73bda838479b178354bc7c3ff09c0fcbdf5c5-3840x5760-jpg
+[869/1072] sicily/Day 6/425A4352.jpg … ✓ image-3f7d67f881af787d90bbd552e0fdb3bd271b78e7-3840x5760-jpg
+[870/1072] sicily/Day 6/425A4355.jpg … ✓ image-2150e540117f7ff0a136227c6e52cb44e2479692-3840x5760-jpg
+[871/1072] sicily/Day 6/425A4357.jpg … ✓ image-58e647d288d44fafe87f8c5cd808dfe1f8ed22e3-3840x5760-jpg
+[872/1072] sicily/Day 6/425A4359.jpg … ✓ image-3c69f25c1fe863a5d77f1bb4eb457d5c888369a4-3840x5760-jpg
+[873/1072] sicily/Day 6/425A4360.jpg … ✓ image-74067d06418e159246a453354912ea1e9e8aa0b2-3840x5760-jpg
+[874/1072] sicily/Day 6/425A4362.jpg … ✓ image-fc005a91e5fcc1cf9d8d5ccc47f3dd2a28ad74bb-3840x5760-jpg
+[875/1072] sicily/Day 6/425A4365.jpg … ✓ image-d68e02da7ba0a6ddf2ae7cb0a69b04eab26fca16-3840x5760-jpg
+[876/1072] sicily/Day 6/425A4367.jpg … ✓ image-c4a7939e72dcfcaba39210516d92f7229330db25-3840x5760-jpg
+[877/1072] sicily/Day 6/425A4375.jpg … ✓ image-e1b8d83c0c49fb357329e3da1fc4c260c40083d5-3840x5760-jpg
+[878/1072] sicily/Day 6/425A4376.jpg … ✓ image-f4308473f439a8bd2d4e0c2f760240f87bcd3152-3840x5760-jpg
+[879/1072] sicily/Day 6/425A4377.jpg … ✓ image-f5f856ec6df7966e2209c7c645e389ce21f3d192-3840x5760-jpg
+[880/1072] sicily/Day 6/425A4378.jpg … ✓ image-fcfe2acd38c6b948e2e955a29dd88be46007e52c-3840x5760-jpg
+[881/1072] sicily/Day 6/425A4379.jpg … ✓ image-b04e86a091b2ebdc862b3d07ae7e4f1a76c501a0-3840x5760-jpg
+[882/1072] sicily/Day 6/425A4380.jpg … ✓ image-2a274669331db29017fa819e45a0afa59ddf680a-3840x5760-jpg
+[883/1072] sicily/Day 6/425A4381.jpg … ✓ image-398b5ee5e1e84f475085756adc32315993a5b17c-3840x5760-jpg
+[884/1072] sicily/Day 6/425A4382.jpg …   ⚠  vision:425A4382.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A4382.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-d133f4fa081815425f2f8b902ee63a4491d17bac-3840x5760-jpg
+[885/1072] sicily/Day 6/425A4383.jpg … ✓ image-c6ed8b58e60e0d172926608ba87768c17d80386f-3840x5760-jpg
+[886/1072] sicily/Day 6/425A4384.jpg … ✓ image-84d15816a06b2d2fd99fe04249ecc0f89f6b12b4-3840x5760-jpg
+[887/1072] sicily/Day 6/425A4388.jpg … ✓ image-39a7e612ce84e06a517e59c336bbbd736d9b3071-3840x5760-jpg
+[888/1072] sicily/Day 6/425A4393.jpg … ✓ image-e1b92ec312b24c1ac5f40a942ffc4796cabeff07-3840x5760-jpg
+[889/1072] sicily/Day 6/425A4395.jpg … ✓ image-df9b259433ee17d342998a1818781d78faaadd53-3840x5760-jpg
+[890/1072] sicily/Day 6/425A4396.jpg … ✓ image-6d288879e73163781d440be60aef4579f67532df-3840x5760-jpg
+[891/1072] sicily/Day 6/425A4409.jpg … ✓ image-b536ce377b3cfca5923ea2b59ef63e5afa054831-3840x5760-jpg
+[892/1072] sicily/Day 6/425A4412.jpg …   ⚠  vision:425A4412.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A4412.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A4412.jpg: Unexpected token 'T', ..."altText": Two smilin"... is not valid JSON
+✓ image-9bcc7295febed30203296aa719b0caac04adaba1-3840x5760-jpg
+[893/1072] sicily/Day 6/425A4413.jpg …   ⚠  vision:425A4413.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-a8e1e35fe5ad7ef89d6526152ca3e722f02af80f-3840x5760-jpg
+[894/1072] sicily/Day 6/425A4414.jpg … ✓ image-de0ab2dcdebbec9d7b5431de085c5955b71387e5-3840x5760-jpg
+[895/1072] sicily/Day 6/425A4418.jpg …   ⚠  vision:425A4418.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-aa58f9d17e25395eab2062624c776c849f972ac4-3840x5760-jpg
+[896/1072] sicily/Day 6/425A4419.jpg …   ⚠  vision:425A4419.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-392e339106d00f7ff1565f85298cdf5ee7a6275b-3840x5760-jpg
+[897/1072] sicily/Day 6/425A4421.jpg …   ⚠  vision:425A4421.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-9d99260bf71149bb65d6cced4594df0772a41ba5-3840x5760-jpg
+[898/1072] sicily/Day 6/425A4426.jpg … ✓ image-11ed43092522b3c4c932f2452dffa377a557631f-3840x5760-jpg
+[899/1072] sicily/Day 6/425A4428.jpg … ✓ image-567a1294fdb66241c3cb674b371fd1a183383d7b-3840x5760-jpg
+[900/1072] sicily/Day 6/425A4429.jpg … ✓ image-f3e3667a15f688337a8a80cace56f7c2cacc9c6f-3840x5760-jpg
+[901/1072] sicily/Day 6/425A4430.jpg … ✓ image-ea2270d313ab4d77ca543775cdeead81fc548eba-3840x5760-jpg
+[902/1072] sicily/Day 6/425A4431.jpg … ✓ image-5590167eb3b4dbab9a4268c822e5967ca3caa206-3840x5760-jpg
+[903/1072] sicily/Day 6/425A4434.jpg … ✓ image-15a9ee65fccb21bd51985b35080ab506360c6d7e-3840x5760-jpg
+[904/1072] sicily/Day 6/425A4442-2.jpg … ✓ image-8046f0b8ff7d4768244f151f3648e07f48e84b9f-5760x3840-jpg
+[905/1072] sicily/Day 6/425A4443.jpg … ✓ image-b824c4354c50bb7a98747e22d4da12ecfb4cac84-5760x3840-jpg
+[906/1072] sicily/Day 6/425A4476.jpg … ✓ image-44f59904c2d14586376f773f43f84dae0a76c413-5760x3840-jpg
+[907/1072] sicily/Day 6/425A4477.jpg … ✓ image-f32d0f8df259aaf3a9296c7bc4e5af89458f403d-5760x3840-jpg
+[908/1072] sicily/Day 6/425A4497.jpg … ✓ image-12fc3e0cf090ab5946b49ff353fdd0730487046c-3840x5760-jpg
+[909/1072] sicily/Day 6/425A4502.jpg … ✓ image-17865128f486ae9cb641f1cb3516761be6aed5d1-3840x5760-jpg
+[910/1072] sicily/Day 6/425A4508.jpg … ✓ image-810b3b239adf1ffd9a2327fa4a67cb437f9572a8-3840x5760-jpg
+[911/1072] sicily/Day 6/425A4509.jpg …   ⚠  vision:425A4509.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-43c9ddf117329a10e4301b261b963af094a7675d-3840x5760-jpg
+[912/1072] sicily/Day 6/425A4510.jpg … ✓ image-4d511e8682be2e3d2acf1fb9f903d08f3c7554d0-3840x5760-jpg
+[913/1072] sicily/Day 6/425A4511.jpg … ✓ image-5be4710a94f9ef4c643b58b05b158a0f5a4b79f1-3840x5760-jpg
+[914/1072] sicily/Day 6/425A4512.jpg …   ⚠  vision:425A4512.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-5dcef021c592fa221559ff1bc178991059232e9b-3840x5760-jpg
+[915/1072] sicily/Day 6/425A4515.jpg …   ⚠  vision:425A4515.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-de77fc9cc1fb63623c0eaad78803bfc669cba663-3840x5760-jpg
+[916/1072] sicily/Day 6/425A4516.jpg … ✓ image-467f21721a16a49b2470fca0528de3630c6bc3bb-3840x5760-jpg
+[917/1072] sicily/Day 6/425A4517.jpg … ✓ image-b9a325b8040e4c4ad66c59e51d2156a357cafdf8-3840x5760-jpg
+[918/1072] sicily/Day 6/425A4520.jpg … ✓ image-cbe278ada6e83a6c82e768a89a2eb9da1c774ac0-3840x5760-jpg
+[919/1072] sicily/Day 6/425A4522.jpg … ✓ image-0ace257ad5e16069cc2d74d922955239c4e29758-3840x5760-jpg
+[920/1072] sicily/Day 6/425A4524.jpg …   ⚠  vision:425A4524.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-cee7915cc234a15f6f9878e706ce44d9e5482348-3840x5760-jpg
+[921/1072] sicily/Day 6/425A4525.jpg … ✓ image-63e3df91dbb7b84bc20582712fd00cfc0c8360db-3840x5760-jpg
+[922/1072] sicily/Day 6/425A4527.jpg …   ⚠  vision:425A4527.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-882c1ce3dcb5313c5a53d4b2ba1160a68da75da3-3840x5760-jpg
+[923/1072] sicily/Day 6/425A4528.jpg … ✓ image-8ffb8b612639740ddf8cabcffdbfb51ffb67ad8e-3840x5760-jpg
+[924/1072] sicily/Day 6/425A4529.jpg … ✓ image-acef7f68cd100e69ef7aa12f7bdd72d063a2f90d-3840x5760-jpg
+[925/1072] sicily/Day 6/425A4531.jpg … ✓ image-bc6fd6adb55f4112bce4ca61bdb8f2b5d58adaef-3840x5760-jpg
+[926/1072] sicily/Day 6/425A4533.jpg …   ⚠  vision:425A4533.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-e0e4e9c38d6d0884492444daa78eada3b4bc080c-3840x5760-jpg
+[927/1072] sicily/Day 6/425A4535.jpg … ✓ image-7c8b991ba653c5c6924b043b6c2ddbede2804ca6-3840x5760-jpg
+[928/1072] sicily/Day 6/425A4536.jpg …   ⚠  vision:425A4536.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-ba317b1d5e404228cbf07d9cba30c42c01f8ed7f-3840x5760-jpg
+[929/1072] sicily/Day 6/425A4540.jpg …   ⚠  vision:425A4540.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-27b8f0107e8237cc162d75f52abf48abb0f89796-3840x5760-jpg
+[930/1072] sicily/Day 6/425A4541.jpg …   ⚠  vision:425A4541.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-5e9c4fb5c0f51a3c73818fc4fd7a4d517b574047-3840x5760-jpg
+[931/1072] sicily/Day 6/425A4551.jpg … ✓ image-251674452da8907da1c6b570ad7e2c39e5888af1-3840x5760-jpg
+[932/1072] sicily/Day 6/425A4552.jpg … ✓ image-619be256205fe0c502c4dbb658e60e93b3803516-3840x5760-jpg
+[933/1072] sicily/Day 6/425A4556.jpg … ✓ image-f13d4b8ba5bfcbba2a714a23fe4f882d13319f8d-3840x5760-jpg
+[934/1072] sicily/Day 6/425A4563.jpg …   ⚠  vision:425A4563.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-b921f74b4af293a8c53cf4bc178a5c3ec20732d8-5760x3840-jpg
+[935/1072] sicily/Day 6/425A4565.jpg … ✓ image-69c251b7bf523c718364ed38444adfc5b28859cc-5760x3840-jpg
+[936/1072] sicily/Day 6/425A4569.jpg … ✓ image-8d0c2f1049dbf15a8c53c2aacf039a8a8d0a95a7-5760x3840-jpg
+[937/1072] sicily/Day 6/425A4570.jpg … ✓ image-c371b81acbb7c9c4c1e93aa4caa93e1081ee1378-5760x3840-jpg
+[938/1072] sicily/Day 6/425A4575.jpg … ✓ image-69a967564878fb76e4f28bc25df2c4b37686ef56-5760x3840-jpg
+[939/1072] sicily/Day 6/425A4577.jpg … ✓ image-0e22030f77c529e73f80ce9473a4d203171eb608-5760x3840-jpg
+[940/1072] sicily/Day 6/425A4584.jpg … ✓ image-4c858d04236d2ee1b23bb4e3afbb6d99a143fd13-3840x5760-jpg
+[941/1072] sicily/Day 6/425A4585.jpg … ✓ image-2aebfd181e94923baeb198f404b2fcdfd0e2298e-3840x5760-jpg
+[942/1072] sicily/Day 6/425A4586.jpg … ✓ image-03b30197a5e1d0d34ae164a77fa03342d814d775-3840x5760-jpg
+[943/1072] sicily/Day 6/425A4587.jpg …   ⚠  vision:425A4587.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-c2a417b2b2b948fbe4258635fc0f8fcc92f7cc34-3840x5760-jpg
+[944/1072] sicily/Day 6/425A4591.jpg … ✓ image-a71072053660ab16c7affa5cb91e51bd1736b6fa-3840x5760-jpg
+[945/1072] sicily/Day 6/425A4593.jpg … ✓ image-3fec21ae0d957428e8b510e7b748c85e9e0cd106-3840x5760-jpg
+[946/1072] sicily/Day 6/425A4594.jpg … ✓ image-65eba319db303cf540a432c6a7d341697659e73e-3840x5760-jpg
+[947/1072] sicily/Day 6/425A4600.jpg … ✓ image-51b8ee9f5490228426d1268671b2045461d728f6-3840x5760-jpg
+[948/1072] sicily/Day 6/425A4609.jpg … ✓ image-4c6826ba61f1fd26297ce51a1a8bba6716279708-3840x5760-jpg
+[949/1072] sicily/Day 6/425A4610.jpg … ✓ image-2a31ede4815f34990cd54e1089485b9c36dbec29-3840x5760-jpg
+[950/1072] sicily/Day 6/425A4612.jpg … ✓ image-bb49f641a8e4d0b59dcb770c7d0730362de5712a-3840x5760-jpg
+[951/1072] sicily/Day 6/425A4614.jpg … ✓ image-0f037fbd302ec87e9ed1722b819f96cce857d8a2-3840x5760-jpg
+[952/1072] sicily/Day 6/425A4615.jpg … ✓ image-6284f4bbf46a53094dbe699c290ef19029f437b1-3840x5760-jpg
+[953/1072] sicily/Day 6/425A4616.jpg … ✓ image-30329bba0fd4aab29ce34d5ae32a9b14960dd996-3840x5760-jpg
+[954/1072] sicily/Day 6/425A4617.jpg … ✓ image-65b80fc5eb98b3367eba22a939175bbe485b8ea7-3840x5760-jpg
+[955/1072] sicily/Day 6/425A4618.jpg …   ⚠  vision:425A4618.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-07e183317aabecc3e41f4f626335063c60c62cf1-3840x5760-jpg
+[956/1072] sicily/Day 6/425A4620.jpg … ✓ image-420d87073e14ece5e2311daf54f20b0823fcde18-5760x3840-jpg
+[957/1072] sicily/Day 6/425A4621.jpg … ✓ image-cd4f55043dc73025e5559b354d3632ecbc95e560-3840x5760-jpg
+[958/1072] sicily/Day 6/425A4622.jpg … ✓ image-3bedf1d79c37e1ca6f4b31d9fe3698fb1c95c668-3840x5760-jpg
+[959/1072] sicily/Day 6/425A4623.jpg … ✓ image-2eb22874623d75deab2d5f1862a8a755cb158d92-3840x5760-jpg
+[960/1072] sicily/Day 6/425A4625.jpg … ✓ image-0302c307250c13b697f8eac9cfeb07e5aeaa3fcf-3840x5760-jpg
+[961/1072] sicily/Day 6/425A4626.jpg … ✓ image-791475eefdd1bfee37281c0e116c8980d0ae95e9-3840x5760-jpg
+[962/1072] sicily/Day 6/425A4628.jpg … ✓ image-56970f0c61d3071ff0e15245d9b795d7735db856-5760x3840-jpg
+[963/1072] sicily/Day 6/425A4632.jpg … ✓ image-39b04a7a4f98c44e9fd34011c526ec1e70601f1c-3840x5760-jpg
+[964/1072] sicily/Day 6/425A4634.jpg … ✓ image-4bbd72a49c734bc5ed327bb220645043007ea0ee-3840x5760-jpg
+[965/1072] sicily/Day 6/425A4635.jpg … ✓ image-a3ed458a3f8f9a90c2178e79f2c8af096537efd4-3840x5760-jpg
+[966/1072] sicily/Day 6/425A4637.jpg … ✓ image-51cd6cf1762eae4bbc5aee052bf7cdc8b4b08b39-3840x5760-jpg
+[967/1072] sicily/Day 6/425A4640.jpg … ✓ image-c3abb1c096e3d59f4c93931f92b36d6d9b33e0ef-3840x5760-jpg
+[968/1072] sicily/Day 6/425A4641.jpg … ✓ image-2acd33f7cf8a0ec8559c08a2e90aa19caa2a810b-3840x5760-jpg
+[969/1072] sicily/Day 6/425A4643.jpg … ✓ image-7b7b577f35e9e2afce90273a17c6b190b267b35f-3840x5760-jpg
+[970/1072] sicily/Day 6/425A4644.jpg … ✓ image-e35d2a0db174c8d14076d4d43a6f93a9bc8850e0-3840x5760-jpg
+[971/1072] sicily/Day 6/425A4649.jpg …   ⚠  vision:425A4649.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A4649.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-f6a28217a89b0ae81649dc8f761261a55574bb3a-3840x5760-jpg
+[972/1072] sicily/Day 6/425A4656.jpg … ✓ image-93562992c61e48317099cdbce879ad158c0e9faf-3840x5760-jpg
+[973/1072] sicily/Day 6/425A4659.jpg … ✓ image-b5ccd03008e57cbed3f44e0a69b435169684ca24-3840x5760-jpg
+[974/1072] sicily/Day 6/425A4660.jpg … ✓ image-92ae54a54c3009a9388c697d279aa939b4f19627-3840x5760-jpg
+[975/1072] sicily/Day 6/425A4661.jpg … ✓ image-32816d5f309c5aba02c7918e24206b4ad0338e0e-3840x5760-jpg
+[976/1072] sicily/Day 6/425A4664.jpg … ✓ image-10d74bbef2f8e582863c20ccff5946bbff144bd1-3840x5760-jpg
+[977/1072] sicily/Day 6/425A4672.jpg … ✓ image-cbeb83a81185aab76db19fdcfa13560e7d487706-3840x5760-jpg
+[978/1072] sicily/Day 6/425A4674.jpg … ✓ image-5f0167e73bf573bbc8b404f13de86b160f94bf1a-3840x5760-jpg
+[979/1072] sicily/Day 6/425A4681.jpg … ✓ image-f5ab83f0635dd50524feaa28635910eadc7e7201-3840x5760-jpg
+[980/1072] sicily/Day 6/425A4689.jpg … ✓ image-b335140ee66652bd40afea81b6cd850c69a09f25-3840x5760-jpg
+[981/1072] sicily/Day 6/425A4695.jpg …   ⚠  vision:425A4695.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A4695.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A4695.jpg: VipsJpeg: premature end of JPEG image
+  ⚠  upload:425A4695.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  upload:425A4695.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Failed: Bad Request - Invalid image, could not read metadata
+[982/1072] sicily/Day 6/425A4696.jpg … ✓ image-dfe124786450b7f0c60c63fb81fd44df3aa07d3f-3840x5760-jpg
+[983/1072] sicily/Day 6/425A4701.jpg … ✓ image-87f0481eb1d66381c2b2b93ba9788b72ff132e50-3840x5760-jpg
+[984/1072] sicily/Day 6/425A4702.jpg …   ⚠  vision:425A4702.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-79c0900e29acf4bd6526936ef7268ba20fcd08fe-3840x5760-jpg
+[985/1072] sicily/Day 6/425A4719.jpg … ✓ image-e869b00ddfe045c1164d9492429d74a7ab5598f0-3840x5760-jpg
+[986/1072] sicily/Day 6/425A4720.jpg … ✓ image-5d063f31f8177e3ac3c2116a961fc1ae0869e243-3840x5760-jpg
+[987/1072] sicily/Day 6/425A4724.jpg …   ⚠  vision:425A4724.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-92513353c0ebce52767a3a21590105de6a30015a-3840x5760-jpg
+[988/1072] sicily/Day 6/425A4734.jpg …   ⚠  vision:425A4734.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-bc163e0f6db1fef941592ab215bf7ea701b90121-3840x5760-jpg
+[989/1072] sicily/Day 6/425A4736.jpg … ✓ image-e346bc6917a19d3bcf94371f51dd7d2dc839313d-3840x5760-jpg
+[990/1072] sicily/Day 6/425A4740.jpg … ✓ image-fdacc02091bdc9c73f77757f3c16d5a286423f61-3840x5760-jpg
+[991/1072] sicily/Day 6/425A4744.jpg … ✓ image-c9d24322bee276d7a77cfd86ae4282d66793bc4d-3840x5760-jpg
+[992/1072] sicily/Day 6/425A4747-2.jpg … ✓ image-1f9c4cd64aae10269a2ac8eda2cfccfa9b1d666c-3840x5760-jpg
+[993/1072] sicily/Day 6/425A4749-2.jpg … ✓ image-8df25a1b85ab83b14712686d040868f274150617-3840x5760-jpg
+[994/1072] sicily/Day 6/425A4752.jpg … ✓ image-0f01cca5fb0c9f2ea9562d10d95f9f7d02cbb9f4-5760x3840-jpg
+[995/1072] sicily/Day 6/425A4757-2.jpg … ✓ image-fb629aa19e3b915a6874ecaca2a8bec9f2892d5d-3840x5760-jpg
+[996/1072] sicily/Day 6/425A4767.jpg … ✓ image-75eb05e331937e4afd09abd82fecdd0150cbb693-3840x5760-jpg
+[997/1072] sicily/Day 6/425A4780.jpg … ✓ image-775b24b7554524a43999a3a793b5f18ea87d4ac8-3840x5760-jpg
+[998/1072] sicily/Day 6/425A4783.jpg … ✓ image-bdea69dec9925471a85d17b558e350e1dee41ba1-3840x5760-jpg
+[999/1072] sicily/Day 6/425A4786.jpg … ✓ image-b6cf3405a1d712a9b33ad0c7efb9cc1552e00334-3840x5760-jpg
+[1000/1072] sicily/Day 6/425A4787.jpg … ✓ image-381553b48d45e5788da129e952bf3be379e981fd-3840x5760-jpg
+[1001/1072] sicily/Day 6/425A4788.jpg … ✓ image-e0b4a692a819417f3bcb56b9a6b1ce20cde770b8-3840x5760-jpg
+[1002/1072] sicily/Day 6/425A4789.jpg … ✓ image-fe56a180af6877f41602bbb9ae6e98962572e5f6-3840x5760-jpg
+[1003/1072] sicily/Day 6/425A4790.jpg …   ⚠  vision:425A4790.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-a09fee7cbcef20f17b2f6ec1903ab2bbbd42d0dc-5760x3840-jpg
+[1004/1072] sicily/Day 6/425A4791.jpg … ✓ image-8d790426b5341b683d90ad8c7dc7661c5c3643ad-5760x3840-jpg
+[1005/1072] sicily/Day 6/425A4793.jpg … ✓ image-42fa5abb4312430f64d9cf08bd6d4392feffd043-3840x5760-jpg
+[1006/1072] sicily/Day 6/425A4794.jpg … ✓ image-2c72b292dacbd2adff69044d4982f4d943396645-3840x5760-jpg
+[1007/1072] sicily/Day 6/425A4795.jpg … ✓ image-220409d23834dd9ac5a4523f3e71ed456e27bbe2-3840x5760-jpg
+[1008/1072] sicily/Day 6/425A4796.jpg … ✓ image-42efca9dc7cfe7b06c5bebd87b23fbb9bc3b75c0-5760x3840-jpg
+[1009/1072] sicily/Day 6/425A4797.jpg … ✓ image-9c3ef34ce77c20b5c504ead806ded0e97ac8ab72-5760x3840-jpg
+[1010/1072] sicily/Day 6/425A4798.jpg … ✓ image-eed2fd48df9408e981dd2cfff709d7086b17577a-5760x3840-jpg
+[1011/1072] sicily/Day 6/425A4799.jpg … ✓ image-89b9dd6dc99673831bebaa94319f758c8ba3ed38-5760x3840-jpg
+[1012/1072] sicily/Day 6/425A4800.jpg …   ⚠  vision:425A4800.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-b2db42818947b9cf82aab3d5f6d46bc3a3aba604-5760x3840-jpg
+[1013/1072] sicily/Day 6/425A4801.jpg … ✓ image-5b46b71fef12146c783353ef0374cf83a308c0cf-3840x5760-jpg
+[1014/1072] sicily/Day 6/425A4806.jpg … ✓ image-8ab8bde2795c49ff73525968f47a6003c34ac460-3840x5760-jpg
+[1015/1072] sicily/Day 6/425A4807.jpg … ✓ image-e9e005e76f6b53d1f79b74f1dc26e692e4396c08-3840x5760-jpg
+[1016/1072] sicily/Day 6/425A4808.jpg … ✓ image-01b3dccb7b0335cb57fff4758b895206ae25a045-3840x5760-jpg
+[1017/1072] sicily/Day 6/425A4809.jpg …   ⚠  vision:425A4809.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A4809.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-50c605a7489f71dd75ef73b91cbd2b6f86a7fdb2-3840x5760-jpg
+[1018/1072] sicily/Day 6/425A4811.jpg … ✓ image-7aac887a5972a5a1e20b51b1d9d99365f1da72e7-3840x5760-jpg
+[1019/1072] sicily/Day 6/425A4812.jpg … ✓ image-284cd876b5561c5e468d1ec58d4c2455dd4b7e09-3840x5760-jpg
+[1020/1072] sicily/Day 6/425A4814.jpg …   ⚠  vision:425A4814.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-791d53d25fc62376db8bdd3aa3b9dcae94acd74a-3840x5760-jpg
+[1021/1072] sicily/Day 6/425A4815.jpg …   ⚠  vision:425A4815.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-e9479b1b082bde8514f6e0af4867cd49627128a3-3840x5760-jpg
+[1022/1072] sicily/Day 6/425A4817.jpg … ✓ image-ce733a6f7f15d5a8388aab3d48bc361c6ead378a-3840x5760-jpg
+[1023/1072] sicily/Day 6/425A4827.jpg … ✓ image-fcf5846041976e9157ed4a4a19c3df317658966b-3840x5760-jpg
+[1024/1072] sicily/Day 6/425A4829.jpg … ✓ image-930db45cac877203a762d20252fed61d1e89679e-3840x5760-jpg
+[1025/1072] sicily/Day 6/IMG_6937.jpg … ✓ image-7859dc0cfc3999603b0ec33e67fe9108b855498e-3648x5472-jpg
+[1026/1072] sicily/Day 6/IMG_6941.jpg … ✓ image-ec79950f0e6fedab946d47e908020765f6b7d0e9-3648x5472-jpg
+[1027/1072] sicily/Day 6/IMG_6955.jpg …   ⚠  vision:IMG_6955.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-99a4681fb80ae7938348f293311dcae06119b5d8-3648x5472-jpg
+[1028/1072] sicily/Day 6/IMG_6957.jpg … ✓ image-67aeb7b7fbc38366f919692b2761fbe61cd4d320-3648x5472-jpg
+[1029/1072] sicily/Day 6/IMG_6983.jpg …   ⚠  vision:IMG_6983.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-37361ed0a50aa25bf96c37dbc4131f4a138d8c2f-3648x5472-jpg
+[1030/1072] sicily/Day 6/IMG_6994.jpg … ✓ image-1d5c0696d270e0fd6230ddc0daf5a5c7f90bccbb-3648x5472-jpg
+[1031/1072] sicily/Day 6/IMG_6995.jpg …   ⚠  vision:IMG_6995.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:IMG_6995.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for IMG_6995.jpg: Unexpected token 'A', ..."altText": A bald man"... is not valid JSON
+✓ image-ee4b1334bced779dcf33598ff4f715a1aaa1e5e9-3648x5472-jpg
+[1032/1072] sicily/Day 6/IMG_6996.jpg … ✓ image-8e332ae28f61a5b644f0d84c1fb079b5f5728085-3648x5472-jpg
+[1033/1072] sicily/Day 7/425A5314.jpg … ✓ image-1a5b14820adbd8cdeb3ae044ffaa6eca39afca52-3840x5760-jpg
+[1034/1072] sicily/Day 7/425A5325.jpg … ✓ image-6371295179c44e712e47ea391cf769d528394e2c-5760x3840-jpg
+[1035/1072] sicily/Day 7/425A5347.jpg … ✓ image-ea1493ae5369bb3b5a69bb0cf99273c4f7e5a3b6-3840x5760-jpg
+[1036/1072] sicily/Day 7/425A5355.jpg …   ⚠  vision:425A5355.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-f8b171f6ea061a9676be26690eb847ae75e3b553-3840x5760-jpg
+[1037/1072] sicily/Day 7/425A5364.jpg …   ⚠  vision:425A5364.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-0898c1c9bff99628f91eff1db5ba62394210c0d4-3840x5760-jpg
+[1038/1072] sicily/Day 7/425A5365.jpg …   ⚠  vision:425A5365.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A5365.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-993e17c26967e216751b1991ae7271aa2e0f7011-3840x5760-jpg
+[1039/1072] sicily/Day 7/425A5369.jpg … ✓ image-7ac75000108cf70e43ab9e7a268be19559c0bc0e-5760x3840-jpg
+[1040/1072] sicily/Day 7/425A5370.jpg … ✓ image-45b8f6e0d71ffeca22d32750958546aca7122ad8-5760x3840-jpg
+[1041/1072] sicily/Day 7/425A5373.jpg … ✓ image-6c6feb2e220c2cd067f0e48d9ef72016f6dea025-5760x3840-jpg
+[1042/1072] sicily/Day 7/425A5377.jpg … ✓ image-5f97cb859b8007329c2f3a2efe1e58ea358ca01f-5760x3840-jpg
+[1043/1072] sicily/Day 7/425A5378.jpg …   ⚠  vision:425A5378.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A5378.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A5378.jpg: Unexpected token 'F', ..."altText": Four frien"... is not valid JSON
+✓ image-62400c725506e1b91a451138ddac5e03157ad989-5760x3840-jpg
+[1044/1072] sicily/Day 7/425A5380.jpg …   ⚠  vision:425A5380.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A5380.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A5380.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-8637c6ef88ed2d0d420ec1a6907abb58441e1b37-5760x3840-jpg
+[1045/1072] sicily/Day 7/425A5381.jpg …   ⚠  vision:425A5381.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A5381.jpg failed (attempt 2/3), retrying in 4s…
+✓ image-f6a676e0d353a7a873b58afb515151c66415d697-5760x3840-jpg
+[1046/1072] sicily/Day 7/425A5383.jpg …   ⚠  vision:425A5383.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:425A5383.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for 425A5383.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-c7befc19081d58154d0da56870bf6e57997b1908-5760x3840-jpg
+[1047/1072] sicily/Day 7/425A5386.jpg … ✓ image-e2acf859ee9459e63d2b0e36e19d2cb1d8091596-5760x3840-jpg
+[1048/1072] sicily/Day 7/425A5389.jpg … ✓ image-6cf49f895a20162c337ce4e5add025c04f849750-5760x3840-jpg
+[1049/1072] sicily/Day 7/425A5405.jpg … ✓ image-5d54dd28cd6fa57aa3b35a58b09e5379f713d0c7-3840x5760-jpg
+[1050/1072] sicily/Day 7/425A5412.jpg … ✓ image-1d4cee33cf40450a92253e1f94ebee21eac59417-5760x3840-jpg
+[1051/1072] sicily/Day 7/425A5419.jpg …   ⚠  vision:425A5419.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-d7d52276b99bf8c420ed7053c1c3899a4d63517f-5760x3840-jpg
+[1052/1072] sicily/Day 7/425A5420.jpg … ✓ image-ceacd3a00780f5305321a975e665c777be55e432-5760x3840-jpg
+[1053/1072] sicily/Day 7/425A5421.jpg … ✓ image-a52d3ecc92d72b148827d569148023290989bea1-5760x3840-jpg
+[1054/1072] sicily/Day 7/425A5422.jpg … ✓ image-7a0e13d550b91126ba527321141831955a73a1a3-5760x3840-jpg
+[1055/1072] sicily/Day 7/425A5426.jpg … ✓ image-2e70b73118ecd09c2c527d0a9c1381de36ce6edc-5760x3840-jpg
+[1056/1072] sicily/Day 7/IMG_7066.jpg …   ⚠  vision:IMG_7066.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-8a908e4b11b1489446899528d96707bc52c33987-3648x5472-jpg
+[1057/1072] sicily/IMG_3685.jpg … ✓ image-13aa477d6e6647f06a4f342090afd5742081fd5c-5472x3648-jpg
+[1058/1072] sicily/IMG_3860.jpg … ✓ image-eb72b12fc8ea6523ba98cc52d185a58d6bf27b6c-5414x3609-jpg
+[1059/1072] sicily/IMG_3958.jpg … ✓ image-cb08102d09e82d1af6925cc622ef9d0ffc2a5a79-3648x5472-jpg
+[1060/1072] sicily/IMG_4220.jpg … ✓ image-04cce4dea244a3dd7ec2e2005347795fe2959da7-3648x5472-jpg
+[1061/1072] sicily/IMG_4326.jpg … ✓ image-15c1fe82aad2c3662df0261bfd92162a19b4b2d0-3648x5472-jpg
+[1062/1072] sicily/IMG_4334.jpg …   ⚠  vision:IMG_4334.jpg failed (attempt 1/3), retrying in 2s…
+  ⚠  vision:IMG_4334.jpg failed (attempt 2/3), retrying in 4s…
+
+  ✗ Vision failed for IMG_4334.jpg: Unexpected token 'A', ..."altText": A group of"... is not valid JSON
+✓ image-678094683f4a7036c8dea275793f0c52a2577d11-5472x3648-jpg
+[1063/1072] sicily/IMG_4522.jpg … ✓ image-43c6b065a4d90ff2f8d8240800b375c8d44be0ad-5472x3648-jpg
+[1064/1072] sicily/IMG_4540.jpg … ✓ image-cd22243f5892844f92a0dd6c00909e97438c5705-5472x3648-jpg
+[1065/1072] sicily/IMG_4567.jpg …   ⚠  vision:IMG_4567.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-339bac802a3326e5ad18a23bcdf0650dc5c2e6ea-5472x3648-jpg
+[1066/1072] sicily/IMG_4579.jpg … ✓ image-7a7b31dd97b995576ad6788e973acfce29044dce-5472x3648-jpg
+[1067/1072] sicily/IMG_4590.jpg … ✓ image-3c6a3aeaff95844a1c06ebc4190ef4777dca9081-3648x5472-jpg
+[1068/1072] sicily/IMG_4614.jpg … ✓ image-c29aa16416f7196e714fa8708006cbe2e222e1ff-3648x5472-jpg
+[1069/1072] sicily/IMG_4669.jpg … ✓ image-357242957583b74e267bdd2da8fd236a8e817216-5472x3648-jpg
+[1070/1072] sicily/IMG_4670.jpg …   ⚠  vision:IMG_4670.jpg failed (attempt 1/3), retrying in 2s…
+✓ image-19af37b5e580dfa3aa1528f57cd3d15ba90c1740-5472x3648-jpg
+[1071/1072] sicily/IMG_4718.jpg … ✓ image-6ea61cd0c9aaf52d7ffa57e2b26c8d422fd1b3e2-5472x3648-jpg
+[1072/1072] sicily/IMG_4766.jpg … ✓ image-6153dc7a692fb07ef49f03c4111fe60577d85e87-5472x3648-jpg
+
+──────────────────────────────────────
+Done. 1069/1072 uploaded successfully.
+
+Failed (3):
+  ✗ sicily/Day 1/425A1928.jpg: Bad Request - Invalid image, could not read metadata
+  ✗ sicily/Day 4/425A3039.jpg: Bad Request - Invalid image, could not read metadata
+  ✗ sicily/Day 6/425A4695.jpg: Bad Request - Invalid image, could not read metadata
+
+Results written to: scripts/upload-results.json
+Vision cache:       scripts/.vision-cache.json

@@ -198,6 +198,7 @@ export const allFaqCategoriesQuery = groq`
     _id,
     name,
     "slug": slug.current,
+    description,
     questions
   }
 `;
@@ -362,5 +363,90 @@ export const siteSettingsQuery = groq`
     socialProofQuotes,
     defaultOgImage,
     seoDescription
+  }
+`;
+
+// ── Landmark Queries ──
+
+/** Published landmarks for a specific retreat (by retreat slug) */
+export const landmarksByRetreatSlugQuery = groq`
+  *[_type == "saltyLandmark" && isPublished == true && destination->slug.current == $slug] | order(sortOrder asc) {
+    _id,
+    name,
+    category,
+    tags,
+    "destination": destination->slug.current,
+    "destinationId": destination->_id,
+    coordinates,
+    heroImage,
+    googlePlaceId,
+    saltyNote,
+    saltyNoteAuthor,
+    socialEmbeds[] {
+      _key,
+      platform,
+      url,
+      caption
+    },
+    sortOrder,
+    isPublished
+  }
+`;
+
+/** Published landmarks for a retreat, filtered by category */
+export const landmarksByRetreatAndCategoryQuery = groq`
+  *[_type == "saltyLandmark" && isPublished == true && destination->slug.current == $slug && category == $category] | order(sortOrder asc) {
+    _id,
+    name,
+    category,
+    tags,
+    "destination": destination->slug.current,
+    "destinationId": destination->_id,
+    coordinates,
+    heroImage,
+    googlePlaceId,
+    saltyNote,
+    saltyNoteAuthor,
+    socialEmbeds[] {
+      _key,
+      platform,
+      url,
+      caption
+    },
+    sortOrder,
+    isPublished
+  }
+`;
+
+/** Published landmarks for a retreat, filtered by tag */
+export const landmarksByRetreatAndTagQuery = groq`
+  *[_type == "saltyLandmark" && isPublished == true && destination->slug.current == $slug && $tag in tags] | order(sortOrder asc) {
+    _id,
+    name,
+    category,
+    tags,
+    "destination": destination->slug.current,
+    "destinationId": destination->_id,
+    coordinates,
+    heroImage,
+    googlePlaceId,
+    saltyNote,
+    saltyNoteAuthor,
+    socialEmbeds[] {
+      _key,
+      platform,
+      url,
+      caption
+    },
+    sortOrder,
+    isPublished
+  }
+`;
+
+/** Landmark counts for a retreat (admin/overview utility) */
+export const landmarkCountByRetreatQuery = groq`
+  {
+    "total": count(*[_type == "saltyLandmark" && destination->slug.current == $slug]),
+    "published": count(*[_type == "saltyLandmark" && destination->slug.current == $slug && isPublished == true])
   }
 `;

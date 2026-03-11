@@ -194,6 +194,7 @@ export type FAQCategory = {
   _id: string;
   name: string;
   slug: string;
+  description?: string;
   questions: FAQQuestion[];
 };
 
@@ -260,3 +261,7 @@ export type SiteSettings = {
   defaultOgImage?: SanityImage;
   seoDescription: string;
 };
+
+// ── Landmarks ──
+
+export type { SaltyLandmark, LandmarkCategory, LandmarkTag, SocialEmbed } from './landmark';

@@ -2,6 +2,9 @@
   "name": "salty-website",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=22.0.0 <23.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,6 +18,8 @@
     "next-sanity": "^12.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-player": "^3.4.0",
+    "react-zoom-pan-pinch": "^3.7.0",
     "sanity": "^3.75.0",
     "sharp": "^0.34.5",
     "styled-components": "^6.3.11"
@@ -22,12 +27,15 @@
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
     "@tailwindcss/postcss": "^4.0.0",
+    "@testing-library/jest-dom": "^6.9.1",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.1.4",
     "eslint": "^9.0.0",
     "eslint-config-next": "^15.1.0",
     "tailwindcss": "^4.0.0",
-    "typescript": "^5.7.0"
+    "typescript": "^5.7.0",
+    "vitest": "~3.2.4"
   }
 }

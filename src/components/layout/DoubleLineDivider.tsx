@@ -10,7 +10,7 @@ export default function DoubleLineDivider({
   className = '',
 }: DoubleLineDividerProps) {
   return (
-    <div className={`flex flex-col items-center gap-1 py-6 ${className}`}>
+    <div className={`flex flex-col items-center gap-1 pt-6 ${className}`}>
       <div className="w-full h-1.5 rounded-full" style={{ backgroundColor: topColor }} />
       <div className="w-full h-1.5 rounded-full" style={{ backgroundColor: bottomColor }} />
     </div>

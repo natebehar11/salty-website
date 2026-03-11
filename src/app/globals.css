@@ -198,6 +198,11 @@ body {
 ::-webkit-scrollbar-thumb { background: var(--color-teal); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--color-surface-dark-raised); }
 
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+
 h1, h2, h3, h4, h5 { font-family: var(--font-display); }
 
 .text-hero { font-size: clamp(2.5rem, 7vw, 4.5rem); line-height: 1.1; }

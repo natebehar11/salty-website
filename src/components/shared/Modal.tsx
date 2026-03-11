@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useCallback, ReactNode } from 'react';
+import { useEffect, useCallback, useRef, ReactNode } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 
 interface ModalProps {
@@ -9,6 +9,7 @@ interface ModalProps {
   children: ReactNode;
   className?: string;
   mobileDrawer?: boolean;
+  ariaLabel?: string;
 }
 
 export default function Modal({
@@ -17,23 +18,69 @@ export default function Modal({
   children,
   className = '',
   mobileDrawer = true,
+  ariaLabel,
 }: ModalProps) {
   const shouldReduceMotion = useReducedMotion();
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLElement | null>(null);
 
   const handleKeyDown = useCallback((e: KeyboardEvent) => {
-    if (e.key === 'Escape') onClose();
+    if (e.key === 'Escape') {
+      onClose();
+      return;
+    }
+
+    // Focus trap: cycle Tab within the dialog
+    if (e.key === 'Tab' && dialogRef.current) {
+      const focusable = dialogRef.current.querySelectorAll<HTMLElement>(
+        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+      );
+      if (focusable.length === 0) return;
+
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+
+      if (e.shiftKey) {
+        if (document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        }
+      } else {
+        if (document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    }
   }, [onClose]);
 
   useEffect(() => {
     if (isOpen) {
+      // Save the element that had focus before opening
+      triggerRef.current = document.activeElement as HTMLElement;
+
       document.addEventListener('keydown', handleKeyDown);
       document.body.style.overflow = 'hidden';
+
+      // Set initial focus inside the dialog
+      requestAnimationFrame(() => {
+        const closeBtn = dialogRef.current?.querySelector<HTMLElement>('button[aria-label="Close modal"]');
+        closeBtn?.focus();
+      });
     }
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
       document.body.style.overflow = '';
     };
   }, [isOpen, handleKeyDown]);
+
+  // Restore focus to trigger on close
+  useEffect(() => {
+    if (!isOpen && triggerRef.current) {
+      triggerRef.current.focus();
+      triggerRef.current = null;
+    }
+  }, [isOpen]);
 
   return (
     <AnimatePresence>
@@ -48,6 +95,10 @@ export default function Modal({
             onClick={onClose}
           />
           <motion.div
+            ref={dialogRef}
+            role="dialog"
+            aria-modal="true"
+            aria-label={ariaLabel}
             className={`relative z-10 w-full max-h-[90vh] overflow-y-auto
               ${mobileDrawer
                 ? 'fixed bottom-0 md:relative md:bottom-auto md:max-w-2xl md:mx-4 rounded-t-3xl md:rounded-3xl'
@@ -80,7 +131,7 @@ export default function Modal({
           >
             <button
               onClick={onClose}
-              className="absolute top-4 right-4 w-10 h-10 rounded-full flex items-center justify-center transition-colors duration-200 cursor-pointer z-10"
+              className="absolute top-4 right-4 min-w-11 min-h-11 w-11 h-11 rounded-full flex items-center justify-center transition-colors duration-200 cursor-pointer z-10"
               style={{ backgroundColor: '#F0E8DB', color: '#0E3A2D' }}
               aria-label="Close modal"
             >

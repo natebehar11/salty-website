@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import MobileMenu from './MobileMenu';
 import Button from '../shared/Button';
 
@@ -83,16 +84,14 @@ export default function Navbar({ retreatDark, retreatAccent, retreats = [] }: Na
         <nav className="mx-auto flex items-center justify-between px-6 py-4" style={{ maxWidth: 'var(--space-container-max)' }}>
           {/* Logo */}
           <Link href="/" className="shrink-0" aria-label="SALTY Retreats home">
-            <span
-              className="uppercase tracking-wider"
-              style={{
-                fontFamily: 'var(--font-display)',
-                fontSize: '24px',
-                color: 'var(--color-paper-white)',
-              }}
-            >
-              SALTY
-            </span>
+            <Image
+              src="/images/salty-wordmark-white.png"
+              alt="SALTY Retreats"
+              width={120}
+              height={32}
+              className="h-8 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Nav */}

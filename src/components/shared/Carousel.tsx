@@ -9,6 +9,12 @@ interface CarouselProps {
   showDots?: boolean;
   showArrows?: boolean;
   gap?: number;
+  /** Accessible label for the carousel container (e.g. "SALTY Meter comparison") */
+  ariaLabel?: string;
+  /** When true, each slide takes full container width — 1 large photo visible at a time */
+  fullWidthSlides?: boolean;
+  /** When true, dot navigation visible on all screen sizes (default: mobile only) */
+  dotsOnDesktop?: boolean;
 }
 
 export default function Carousel({
@@ -18,6 +24,9 @@ export default function Carousel({
   showDots = true,
   showArrows = true,
   gap = 24,
+  fullWidthSlides = false,
+  dotsOnDesktop = false,
+  ariaLabel,
 }: CarouselProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -57,10 +66,16 @@ export default function Carousel({
       <div
         ref={scrollRef}
         className={`flex overflow-x-auto ${snap ? 'snap-x snap-mandatory' : ''}`}
-        style={{ gap, scrollbarWidth: 'none' }}
+        style={{ gap, scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' }}
+        role="region"
+        aria-label={ariaLabel}
       >
         {children.map((child, i) => (
-          <div key={i} className={`shrink-0 ${snap ? 'snap-start' : ''}`}>
+          <div
+            key={i}
+            className={`shrink-0 ${snap ? 'snap-start' : ''}`}
+            style={fullWidthSlides ? { flex: '0 0 100%' } : undefined}
+          >
             {child}
           </div>
         ))}
@@ -71,7 +86,7 @@ export default function Carousel({
           <button
             onClick={() => scroll('left')}
             disabled={!canScrollLeft}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 w-10 h-10 rounded-full flex items-center justify-center transition-all duration-200 cursor-pointer disabled:opacity-30 disabled:cursor-default"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 min-w-11 min-h-11 w-11 h-11 rounded-full flex items-center justify-center transition-all duration-200 cursor-pointer disabled:opacity-30 disabled:cursor-default"
             style={{ backgroundColor: '#F7F4ED', color: '#0E3A2D', boxShadow: '0 4px 12px rgba(30,25,20,0.08)' }}
             aria-label="Previous"
           >
@@ -82,7 +97,7 @@ export default function Carousel({
           <button
             onClick={() => scroll('right')}
             disabled={!canScrollRight}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 w-10 h-10 rounded-full flex items-center justify-center transition-all duration-200 cursor-pointer disabled:opacity-30 disabled:cursor-default"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 min-w-11 min-h-11 w-11 h-11 rounded-full flex items-center justify-center transition-all duration-200 cursor-pointer disabled:opacity-30 disabled:cursor-default"
             style={{ backgroundColor: '#F7F4ED', color: '#0E3A2D', boxShadow: '0 4px 12px rgba(30,25,20,0.08)' }}
             aria-label="Next"
           >
@@ -94,17 +109,30 @@ export default function Carousel({
       )}
 
       {showDots && children.length > 1 && (
-        <div className="flex justify-center gap-2 mt-4 md:hidden">
+        <div className={`flex justify-center gap-2 mt-4 ${dotsOnDesktop ? '' : 'md:hidden'}`}>
           {children.map((_, i) => (
             <button
               key={i}
-              className="w-2 h-2 rounded-full transition-all duration-200 cursor-pointer"
+              className="min-w-11 min-h-11 p-3 rounded-full flex items-center justify-center transition-all duration-200 cursor-pointer"
               style={{
-                backgroundColor: i === activeIndex ? '#F75A3D' : '#0E3A2D',
-                opacity: i === activeIndex ? 1 : 0.3,
+                backgroundColor: 'transparent',
               }}
               aria-label={`Go to slide ${i + 1}`}
-            />
+              onClick={() => {
+                const el = scrollRef.current;
+                if (el && el.children[i]) {
+                  (el.children[i] as HTMLElement).scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+                }
+              }}
+            >
+              <span
+                className="w-2 h-2 rounded-full block"
+                style={{
+                  backgroundColor: i === activeIndex ? '#F75A3D' : '#0E3A2D',
+                  opacity: i === activeIndex ? 1 : 0.3,
+                }}
+              />
+            </button>
           ))}
         </div>
       )}

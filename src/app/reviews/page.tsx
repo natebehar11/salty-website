@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { client } from '@/lib/sanity/client';
 import {
-  featuredTestimonialsQuery,
   videoTestimonialsQuery,
   siteSettingsQuery,
 } from '@/lib/sanity/queries';
@@ -21,13 +20,11 @@ export const metadata: Metadata = {
 };
 
 export default async function ReviewsPage() {
-  let testimonials: Testimonial[] = [];
   let videoTestimonials: Testimonial[] = [];
   let settings: SiteSettings | null = null;
 
   try {
-    [testimonials, videoTestimonials, settings] = await Promise.all([
-      client.fetch<Testimonial[]>(featuredTestimonialsQuery),
+    [videoTestimonials, settings] = await Promise.all([
       client.fetch<Testimonial[]>(videoTestimonialsQuery),
       client.fetch<SiteSettings>(siteSettingsQuery),
     ]);
@@ -37,7 +34,6 @@ export default async function ReviewsPage() {
 
   return (
     <ReviewsClient
-      testimonials={testimonials || []}
       videoTestimonials={videoTestimonials || []}
       settings={settings}
     />

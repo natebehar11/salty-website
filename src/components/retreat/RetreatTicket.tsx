@@ -7,6 +7,7 @@ interface RetreatTicketProps {
   name: string;
   dates: string;
   startingPrice: number;
+  depositAmount?: number;
   totalDays: number;
   bookingUrl?: string | null;
   onBookNow: () => void;
@@ -23,6 +24,7 @@ export default function RetreatTicket({
   name,
   dates,
   startingPrice,
+  depositAmount,
   totalDays,
   bookingUrl,
   onBookNow,
@@ -31,12 +33,12 @@ export default function RetreatTicket({
 }: RetreatTicketProps) {
   return (
     <div
-      className={`rounded-2xl p-6 flex flex-col gap-4 ${className}`}
+      className={`rounded-2xl p-6 flex flex-col gap-5 ${className}`}
       style={{
         backgroundColor: 'var(--color-paper-white)',
         boxShadow: 'var(--shadow-lg)',
         borderRadius: 'var(--radius-card)',
-        border: 'var(--border-thin) solid var(--color-sand)',
+        border: '2px solid var(--color-teal)',
       }}
     >
       <h3
@@ -59,14 +61,27 @@ export default function RetreatTicket({
       >
         {dates} · {totalDays} days
       </p>
-      <div className="flex items-baseline gap-2">
-        <PriceDisplay
-          priceUSD={startingPrice}
-          totalDays={totalDays}
-          format="card"
-          showCurrencyToggle={false}
-          className="text-xl"
-        />
+      <div className="flex flex-col gap-1">
+        <div className="flex items-baseline gap-2">
+          <PriceDisplay
+            priceUSD={startingPrice}
+            totalDays={totalDays}
+            format="card"
+            showCurrencyToggle={false}
+            className="text-xl"
+          />
+        </div>
+        {depositAmount != null && depositAmount > 0 && (
+          <p
+            style={{
+              fontFamily: 'var(--font-body)',
+              fontSize: '13px',
+              color: 'var(--color-slate-grey)',
+            }}
+          >
+            ${depositAmount} deposit to secure your spot
+          </p>
+        )}
       </div>
       <Button
         variant="retreat"

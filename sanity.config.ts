@@ -37,6 +37,7 @@ export default defineConfig({
             // Content
             S.documentTypeListItem('blogPost').title('Blog Posts'),
             S.documentTypeListItem('destination').title('Destination Guides'),
+            S.documentTypeListItem('saltyLandmark').title('SALTY Landmarks'),
             S.documentTypeListItem('faqCategory').title('FAQ Categories'),
             S.divider(),
 

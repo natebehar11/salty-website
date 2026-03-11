@@ -2,16 +2,20 @@ import type { Metadata } from 'next';
 import { client } from '@/lib/sanity/client';
 import { allFaqCategoriesQuery } from '@/lib/sanity/queries';
 import type { FAQCategory } from '@/types/sanity';
+import { generateFAQSchema, FAQ_CATEGORIES, FAQ_CATEGORIES_FOR_CLIENT } from '@/lib/faq-data';
 import FAQClient from './FAQClient';
 
+/** Revalidate FAQ page at most every hour when using Sanity */
+export const revalidate = 3600;
+
 export const metadata: Metadata = {
-  title: 'Fitness Retreat Questions Answered | SALTY Retreats FAQ',
+  title: 'FAQ - Wellness Retreat Questions Answered | SALTY Retreats',
   description:
-    'Everything you need to know about SALTY fitness retreats — booking, payment plans, solo travel, what\'s included, fitness levels, destinations, and logistics.',
+    "Get answers about SALTY retreats: solo travel, fitness requirements, pricing, what's included, and how to book. Real answers from real humans.",
   openGraph: {
-    title: 'SALTY Retreats FAQ',
+    title: 'FAQ - Wellness Retreat Questions Answered | SALTY Retreats',
     description:
-      'Got questions about fitness retreats? We\'ve got answers. Everything from booking to packing to what to expect.',
+      "Get answers about SALTY retreats: solo travel, fitness requirements, pricing, what's included, and how to book. Real answers from real humans.",
     url: '/faq',
   },
 };
@@ -25,5 +29,20 @@ export default async function FAQPage() {
     // Sanity not configured yet
   }
 
-  return <FAQClient categories={categories} />;
+  const displayCategories = categories.length > 0 ? categories : FAQ_CATEGORIES_FOR_CLIENT;
+  const faqSchema = generateFAQSchema(
+    categories.length > 0
+      ? categories.flatMap((c) => c.questions || [])
+      : FAQ_CATEGORIES
+  );
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <FAQClient categories={displayCategories} />
+    </>
+  );
 }

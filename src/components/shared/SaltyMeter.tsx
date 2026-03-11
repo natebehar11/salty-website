@@ -15,6 +15,7 @@ interface SaltyMeterProps {
   onClose?: () => void;
   className?: string;
   onDark?: boolean;
+  hideTitle?: boolean;
 }
 
 const DIMENSIONS: { key: Dimension; label: string; legacyKey?: string }[] = [
@@ -70,52 +71,57 @@ export default function SaltyMeter({
   accentColor,
   onClose,
   className = '',
+  onDark = false,
+  hideTitle = false,
 }: SaltyMeterProps) {
   const shouldReduceMotion = useReducedMotion();
   const color = fillColor || accentColor || 'var(--color-coral)';
   const scaleLabels = GRID_STEPS.slice().reverse().concat([0]);
+  const labelColor = onDark ? 'var(--color-paper-white)' : 'var(--color-teal)';
+  const labelOpacity = onDark ? '0.75' : '0.6';
 
   return (
     <div className={`flex flex-col items-center ${className}`}>
-      <div className="flex items-center justify-between w-full mb-1">
-        <div />
-        <p
-          className="uppercase text-center"
-          style={{
-            fontFamily: 'var(--font-display)',
-            fontSize: '28px',
-            color: 'var(--color-teal)',
-            lineHeight: 1,
-          }}
-        >
-          SALTY METER
-        </p>
-        {onClose ? (
-          <button
-            onClick={onClose}
-            className="cursor-pointer"
-            style={{
-              fontFamily: 'var(--font-body)',
-              fontSize: '18px',
-              color: 'var(--color-teal)',
-              opacity: 0.6,
-              background: 'none',
-              border: 'none',
-            }}
-            aria-label="Close SALTY Meter"
-          >
-            x
-          </button>
-        ) : (
+      {!hideTitle && (
+        <div className="flex items-center justify-between w-full mb-1">
           <div />
-        )}
-      </div>
+          <p
+            className="uppercase text-center"
+            style={{
+              fontFamily: 'var(--font-display)',
+              fontSize: 'clamp(20px, 5vw, 28px)',
+              color: labelColor,
+              lineHeight: 1,
+            }}
+          >
+            SALTY METER
+          </p>
+          {onClose ? (
+            <button
+              onClick={onClose}
+              className="cursor-pointer"
+              style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: '18px',
+                color: labelColor,
+                opacity: 0.6,
+                background: 'none',
+                border: 'none',
+              }}
+              aria-label="Close SALTY Meter"
+            >
+              x
+            </button>
+          ) : (
+            <div />
+          )}
+        </div>
+      )}
 
       <svg
         viewBox="-10 -10 340 340"
-        width="335"
-        height="280"
-        style={{ overflow: 'visible' }}
+        className="w-full max-w-[335px]"
+        style={{ overflow: 'visible', height: 'auto' }}
       >
         {GRID_STEPS.map((step) => (
           <path
@@ -189,8 +195,8 @@ export default function SaltyMeter({
               x={x}
               y={y + 4}
               textAnchor={anchor}
-              fill="var(--color-teal)"
-              fillOpacity="0.6"
+              fill={labelColor}
+              fillOpacity={labelOpacity}
               style={{
                 fontFamily: 'var(--font-display)',
                 fontSize: '12px',

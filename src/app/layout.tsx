@@ -31,6 +31,10 @@ export const metadata: Metadata = {
 
 const STATIC_RETREATS = [
   { name: 'Panama', officialName: 'City to Sea', slug: 'panama-fitness-retreat' },
+  { name: 'Morocco', officialName: 'Atlas to Atlantic', slug: 'morocco-fitness-retreat' },
+  { name: 'Sicily', officialName: 'Limone', slug: 'sicily-fitness-retreat' },
+  { name: 'El Salvador', officialName: 'Hustl+Flow', slug: 'el-salvador-fitness-retreat' },
+  { name: 'Costa Rica', officialName: 'Surf Sweat Flow', slug: 'costa-rica-fitness-retreat' },
 ];
 
 export default function RootLayout({

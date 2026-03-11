@@ -1,5 +1,6 @@
 import { client } from '@/lib/sanity/client';
 import { allRetreatsQuery, featuredTestimonialsQuery, siteSettingsQuery } from '@/lib/sanity/queries';
+import { generateFAQSchema, HOMEPAGE_FAQS } from '@/lib/faq-data';
 import HomepageClient from './HomepageClient';
 
 export default async function Home() {
@@ -9,11 +10,19 @@ export default async function Home() {
     client.fetch(siteSettingsQuery).catch(() => null),
   ]);
 
+  const faqSchema = generateFAQSchema(HOMEPAGE_FAQS);
+
   return (
-    <HomepageClient
-      retreats={retreats}
-      testimonials={testimonials}
-      settings={settings}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <HomepageClient
+        retreats={retreats}
+        testimonials={testimonials}
+        settings={settings}
+      />
+    </>
   );
 }

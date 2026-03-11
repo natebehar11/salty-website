@@ -1,111 +1,102 @@
 'use client';
 
 import ScrollReveal from '@/components/shared/ScrollReveal';
+import VideoBackground from '@/components/shared/VideoBackground';
 import Button from '@/components/shared/Button';
+import WhatsAppButton from '@/components/shared/WhatsAppButton';
+import { theme } from './retreat-theme';
+import type { RetreatData } from './retreat-data';
 
 interface FinalCTAProps {
-  destination: string;
-  dates?: string;
-  priceFrom?: number;
-  spotsRemaining?: number;
-  onBookNow?: () => void;
-  onAskQuestion?: () => void;
-  className?: string;
+  retreat: RetreatData;
+  onBookNow: () => void;
 }
 
-export default function FinalCTA({
-  destination,
-  dates,
-  priceFrom,
-  spotsRemaining,
-  onBookNow,
-  onAskQuestion,
-  className = '',
-}: FinalCTAProps) {
+export default function FinalCTA({ retreat, onBookNow }: FinalCTAProps) {
+  const videoId = retreat.youtubeVideoIds?.[0];
+
   return (
-    <div className={className}>
-      <div className="max-w-3xl mx-auto text-center">
+    <section
+      id="retreat-final-cta"
+      className="relative overflow-hidden"
+      style={{
+        padding: 'var(--space-section-y) var(--space-section-x)',
+        backgroundColor: theme.dark,
+        textAlign: 'center',
+      }}
+    >
+      {/* Video background with heavy overlay */}
+      {videoId && (
+        <VideoBackground
+          videoId={videoId}
+          fallbackImageUrl={retreat.heroImageUrl}
+          overlayGradient={`linear-gradient(to bottom, rgba(11,49,38,0.88) 0%, rgba(11,49,38,0.92) 50%, rgba(11,49,38,0.95) 100%)`}
+          deferMs={2500}
+        />
+      )}
+
+      <div className="relative z-10" style={{ maxWidth: 600, margin: '0 auto' }}>
         <ScrollReveal>
-          <h2
-            className="uppercase mb-4"
+          <p
             style={{
               fontFamily: 'var(--font-display)',
-              fontSize: 'var(--type-h2)',
-              color: 'var(--color-paper-white)',
-              letterSpacing: '-0.03em',
+              fontSize: 11,
+              letterSpacing: '0.2em',
+              textTransform: 'uppercase',
+              color: theme.accent,
+              marginBottom: 12,
             }}
           >
-            Ready for {destination}?
+            {retreat.spotsRemaining} Spots Remaining
+          </p>
+          <h2
+            style={{
+              fontFamily: 'var(--font-display)',
+              fontSize: 'var(--type-display)',
+              textTransform: 'uppercase',
+              color: 'var(--color-paper-white)',
+              lineHeight: 1,
+              marginBottom: 16,
+            }}
+          >
+            Ready for {retreat.destination}?
           </h2>
-
-          {(dates || priceFrom) && (
-            <p
-              className="mb-2"
-              style={{
-                fontFamily: 'var(--font-body)',
-                fontSize: 'var(--type-body-lg)',
-                color: 'var(--color-sand)',
-              }}
-            >
-              {dates && <span>{dates}</span>}
-              {dates && priceFrom && <span> · </span>}
-              {priceFrom && <span>From ${priceFrom.toLocaleString()} USD</span>}
-            </p>
-          )}
-
-          {spotsRemaining !== undefined && (
-            <p
-              className="mb-6 text-sm font-semibold"
-              style={{ color: 'var(--color-bright-coral)' }}
-            >
-              {spotsRemaining} spots remaining
-            </p>
-          )}
-
           <p
-            className="mb-8 leading-relaxed"
             style={{
               fontFamily: 'var(--font-body)',
-              fontSize: 'var(--type-body)',
+              fontSize: 'var(--type-body-lg)',
               color: 'var(--color-sand)',
+              lineHeight: 1.65,
+              marginBottom: 32,
+              opacity: 0.85,
             }}
           >
-            Secure yours now or reach out with questions — we&apos;re always happy to chat.
+            Reserve with a ${retreat.depositAmount} deposit. {retreat.soloTravelerPercent}% of guests travel solo.
           </p>
-        </ScrollReveal>
-
-        <ScrollReveal delay={0.1}>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Button variant="primary" size="lg" onClick={onBookNow}>
-              Book Now
-            </Button>
+          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 16, marginBottom: 20 }}>
             <Button
               variant="retreat"
               size="lg"
-              retreatAccent="var(--color-sky)"
-              retreatSecondary="transparent"
-              invertText
-              onClick={onAskQuestion}
-              style={{ border: '2px solid var(--color-paper-white)' }}
+              retreatAccent={theme.accent}
+              retreatSecondary={theme.secondary}
+              onClick={onBookNow}
             >
-              Ask a Question
+              Claim My Spot &mdash; ${retreat.depositAmount} Deposit
             </Button>
+            <WhatsAppButton message={`Hi! I'm interested in the SALTY ${retreat.destination} retreat.`} />
           </div>
-        </ScrollReveal>
-
-        <ScrollReveal delay={0.15}>
           <p
-            className="mt-10 text-xs"
             style={{
               fontFamily: 'var(--font-body)',
+              fontSize: 12,
               color: 'var(--color-sand)',
-              opacity: 0.7,
+              opacity: 0.45,
             }}
           >
-            SALTY partners with Movement Travel, a TICO-licensed travel agency.
+            Full refund 90+ days before departure.
           </p>
         </ScrollReveal>
       </div>
-    </div>
+    </section>
   );
 }

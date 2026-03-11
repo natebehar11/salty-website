@@ -68,6 +68,7 @@ export default function FAQAccordion({ items, className = '', onDark = false, wi
       {items.map((item, i) => {
         const isOpen = openIndex === i;
 
+        const answerId = `faq-answer-${i}`;
         return (
           <div key={i} style={{ borderColor }}>
             <button
@@ -75,8 +76,10 @@ export default function FAQAccordion({ items, className = '', onDark = false, wi
               className="w-full flex items-center justify-between gap-4 py-5 text-left cursor-pointer"
               style={{ color: headingColor }}
               aria-expanded={isOpen}
+              aria-controls={answerId}
             >
               <span
+                id={`faq-question-${i}`}
                 className="text-base font-bold uppercase tracking-wide"
                 style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--type-h4)' }}
               >
@@ -88,6 +91,9 @@ export default function FAQAccordion({ items, className = '', onDark = false, wi
             <AnimatePresence initial={false}>
               {isOpen && (
                 <motion.div
+                  id={answerId}
+                  role="region"
+                  aria-labelledby={`faq-question-${i}`}
                   initial={{ height: 0, opacity: 0 }}
                   animate={{ height: 'auto', opacity: 1 }}
                   exit={{ height: 0, opacity: 0 }}

@@ -153,7 +153,7 @@ export default function TestimonialCard({
         className="text-center"
         style={{
           fontFamily: 'var(--font-body)',
-          fontSize: '30px',
+          fontSize: 'clamp(22px, 6vw, 30px)',
           fontWeight: 700,
           color: config.nameColor,
           lineHeight: 1,
@@ -183,7 +183,7 @@ export default function TestimonialCard({
         className="text-center"
         style={{
           fontFamily: 'var(--font-body)',
-          fontSize: '18px',
+          fontSize: 'clamp(16px, 4vw, 18px)',
           fontWeight: 400,
           color: config.quoteColor,
           lineHeight: 1,
